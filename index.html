@@ -2,10 +2,35 @@
 <html lang="ja">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Spiritual Stock · 公開ダッシュボード</title>
-<body style="font:15px/1.6 system-ui,sans-serif;color:#263444;max-width:720px;margin:48px auto;padding:0 20px">
-<h1>公開ダッシュボード準備中</h1>
-<p>次回のDaily更新で最新の予想ダッシュボードが自動公開されます。</p>
-<p>Canonical data stays in the private repository; only sanitized presentation files are published here.</p>
-</body>
+<title>Spiritual Stock · 予想と実績</title>
+<style>
+:root{color-scheme:light;font:15px/1.6 system-ui,sans-serif;color:#263444;background:#f3f5f8}body{max-width:1200px;margin:auto;padding:32px 20px}h1{font-size:28px;letter-spacing:-.5px;margin:4px 0}h2{font-size:18px;margin:0 0 12px}.eyebrow{font-size:12px;letter-spacing:2px;color:#656b89}header{margin-bottom:24px}p{margin:8px 0}.controls,section{background:white;border:1px solid #dce1e9;border-radius:12px;padding:20px;margin:16px 0}.controls{display:flex;gap:16px;flex-wrap:wrap;align-items:end}label{display:flex;flex-direction:column;gap:4px}select,button{font:inherit;border:1px solid #b8c3d0;border-radius:6px;padding:6px;background:#fff;color:inherit}button{cursor:pointer;background:#eef0fa}#targets{display:flex;flex-direction:column;gap:4px;max-height:220px;overflow:auto;border:1px solid #b8c3d0;border-radius:6px;padding:8px;min-width:280px;max-width:100%;background:#fff}#targets label{display:flex;flex-direction:row;align-items:center;gap:6px;font-size:14px}#related{display:flex;flex-direction:column;gap:4px}#related label{display:flex;flex-direction:row;align-items:center;gap:6px;font-size:14px}fieldset{border:0;padding:0;margin:0;display:flex;gap:14px;flex-wrap:wrap}fieldset label{display:inline-flex;flex-direction:row;align-items:center}legend{font-size:13px;color:#667080}svg{width:100%;height:auto;min-width:600px;display:block}.plot{overflow-x:auto;position:relative}.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px}.legend-static{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;background:#f6f7fb;border:1px solid #e2e6ed;border-radius:8px;padding:10px 12px;margin-top:12px}.swatch{display:inline-block;width:20px;height:3px;vertical-align:middle;margin-right:5px}.swatch.dashed{background:repeating-linear-gradient(90deg,currentColor 0 5px,transparent 5px 9px)!important}.swatch.gap{background:repeating-linear-gradient(90deg,#9aa3b2 0 3px,transparent 3px 7px)!important}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid #e0e5ec;text-align:left;padding:8px}caption{text-align:left;font-weight:600}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}details{margin-top:16px}.muted{color:#657183;font-size:13px}:focus-visible{outline:3px solid #7958b8;outline-offset:3px}[hidden]{display:none!important}.tooltip{position:absolute;pointer-events:none;background:#263444;color:#fff;font-size:12px;padding:6px 8px;border-radius:6px;max-width:420px;z-index:5}#events tr.flash td{background:#fff4d6}.target-buttons{display:flex;gap:8px}
+</style>
+<header><div class="eyebrow">SPIRITUAL STOCK / FORECAST HISTORY</div><h1>予想と実績</h1><p>いつ、どの対象に、どんな経路を予想していたか。横軸は営業日のみ（休場日は空白にしない）。縦軸は基準からの変化率（％）。</p><p id="source" class="muted"></p></header>
+<div class="controls">
+<label>対象種別<select id="kind"><option value="stock">銘柄</option><option value="theme">テーマ</option></select></label>
+<label>表示<select id="mode"><option value="single">単体表示</option><option value="multiple">複数比較</option></select></label>
+<label>実行日 / 予想基準日<select id="run"></select></label>
+<label>予想期間<select id="status"><option value="all">全期間</option><option value="current">予想期間中</option><option value="expired">評価終了</option></select></label>
+<div><span class="muted">表示対象（クリックだけで選択）</span><div id="targets" role="group" aria-label="表示対象"></div><div class="target-buttons"><button id="all" type="button">すべて選択</button><button id="none" type="button">すべて解除</button></div></div>
+<fieldset><legend>シグナル · 大きさは方向性の強度</legend>
+<label><input id="up" type="checkbox" checked>強い上昇</label><label><input id="down" type="checkbox" checked>強い下落</label><label><input id="turn" type="checkbox" checked>転換点</label><label><input id="spiritual" type="checkbox" checked>占術イベント</label></fieldset>
+<fieldset id="theme-options" hidden><legend>テーマ補助線</legend><label><input id="benchmark" type="checkbox">比較指標</label><label><input id="raw" type="checkbox">テーマ構成銘柄</label></fieldset>
+<fieldset id="related-box" hidden><legend>関連テーマ（参考表示）</legend><span class="muted" id="related-note"></span><div id="related"></div></fieldset>
+</div>
+<p id="message" role="status"></p>
+<p class="muted" id="axis-note"></p>
+<p class="muted">● 正式予想（1・5・20営業日）は期間全体を直接予測した正式な予想で、採点・重み更新の対象です。期間予想の破線は途中の強弱・転換を表す疎な別推定で、正式1/5/20とは無理に一致させません（同日の高さが違っても描画ミスではありません）。空白は未予想、未来の実績は空白（補間しません）。占術イベントは下段のイベントレーンに表示し、価格の高さとは無関係です。灰色の接続線は「予想なし区間」（方向予想なし）を表示上つないだもので、横ばい予想ではありません。時間帯予想：現在未対応（日単位の予想のみ）。</p>
+<section id="prediction-panel"><h2 id="prediction-title">予想と実績</h2><div class="plot" id="prediction-chart"></div><div class="legend" id="prediction-legend"></div>
+<div class="legend-static" id="symbol-legend">凡例：<span>● 正式予想（1・5・20営業日・直接予測）</span><span>━━ 期間予想（表示用補間・正式1/5/20とは別推定）</span><span>━━ 実績</span><span>▲ 上昇シグナル</span><span>▼ 下落シグナル</span><span>◆ 転換予想</span><span>✦ 占術イベント</span><span>┄ 灰色線＝予想なし区間（表示のみ接続・方向予想なし）</span></div>
+</section>
+<section id="actual-panel" hidden><h2>実績比較</h2><div class="plot" id="actual-chart"></div><div class="legend" id="actual-legend"></div></section>
+<section id="event-panel"><h2>占術イベント一覧</h2><p class="muted">通常は期間予想の正式イベントのみ表示します。<label style="display:inline-flex;flex-direction:row;align-items:center;gap:4px"><input id="refEvents" type="checkbox">参考イベントも表示</label>発生日時（現地）と市場への影響開始日の違いに注意。図の記号を選択すると対応する行が光ります。一覧の行を選択すると上段チャートの該当営業日に移動します。</p><div style="overflow:auto" id="events"></div></section>
+<section><h2>パス評価結果</h2><p class="muted">固定影響窓の端点評価。○的中 / ×不一致 / －方向評価なし / …未評価。flat / mixed の符号一致は未定義。専門家ウェイトへの投入はありません。</p><div style="overflow:auto" id="results"></div><details><summary>選択した予想・実績・取得可否 / 出典</summary><pre id="evidence"></pre></details><p><a href="chart-data.json" download>派生JSONを保存</a></p></section>
+<script id="chart-data" type="application/json">{
+  "as_of": "2026-09-06T22:18:05.385288+00:00",
+  "runs": [],
+  "schema_version": "public-1.0"
+}</script>
+<script src="dashboard.js"></script>
 </html>
