@@ -28,7 +28,7 @@
 <section id="event-panel"><h2>占術イベント一覧</h2><p class="muted">通常は期間予想の正式イベントのみ表示します。<label style="display:inline-flex;flex-direction:row;align-items:center;gap:4px"><input id="refEvents" type="checkbox">参考イベントも表示</label>発生日時（現地）と市場への影響開始日の違いに注意。図の記号を選択すると対応する行が光ります。一覧の行を選択すると上段チャートの該当営業日に移動します。</p><div style="overflow:auto" id="events"></div></section>
 <section><h2>パス評価結果</h2><p class="muted">固定影響窓の端点評価。○的中 / ×不一致 / －方向評価なし / …未評価。flat / mixed の符号一致は未定義。専門家ウェイトへの投入はありません。</p><div style="overflow:auto" id="results"></div><details><summary>選択した予想・実績・取得可否 / 出典</summary><pre id="evidence"></pre></details><p><a href="chart-data.json" download>派生JSONを保存</a></p></section>
 <script id="chart-data" type="application/json">{
-  "as_of": "2026-09-07T14:54:42.045748+00:00",
+  "as_of": "2026-09-07T22:59:24.344742+00:00",
   "runs": [
     {
       "issued_at": "2026-09-07T14:54:24.719840+00:00",
@@ -41,13 +41,13 @@
           "actual": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-07",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "price_return",
@@ -980,7 +980,26 @@
           "related_themes": [
             "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
           ],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-07T22:58:49.823615+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-07",
+                "end_session": "2026-09-30",
+                "start_session": "2026-09-08"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": 0.06,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            }
+          ],
           "security_id": "JP:XTKS:581A:equity",
           "segments": [
             {
@@ -1038,20 +1057,20 @@
           "actual": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-07",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
           "benchmark": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "display_name": "移動最適化・自動運転｜日本/東証/JPY",
@@ -1981,11 +2000,30 @@
           "raw_basket": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-07T22:58:49.823615+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-07",
+                "end_session": "2026-09-30",
+                "start_session": "2026-09-08"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": 0.035,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            }
+          ],
           "security_id": null,
           "segments": [
             {
@@ -2043,20 +2081,20 @@
           "actual": [
             {
               "date": "2026-09-04",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-04",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
           "benchmark": [
             {
               "date": "2026-09-04",
-              "value": null
+              "value": 100.0
             }
           ],
           "display_name": "移動最適化・自動運転｜米国/NASDAQ/USD",
@@ -2896,11 +2934,30 @@
           "raw_basket": [
             {
               "date": "2026-09-04",
-              "value": null
+              "value": 100.0
             }
           ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-07T22:58:49.823615+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-04",
+                "end_session": "2026-09-30",
+                "start_session": "2026-09-08"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": 0.035,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            }
+          ],
           "security_id": null,
           "segments": [
             {

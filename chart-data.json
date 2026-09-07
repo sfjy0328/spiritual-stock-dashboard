@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-07T14:54:42.045748+00:00",
+  "as_of": "2026-09-07T22:59:24.344742+00:00",
   "runs": [
     {
       "issued_at": "2026-09-07T14:54:24.719840+00:00",
@@ -12,13 +12,13 @@
           "actual": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-07",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "price_return",
@@ -951,7 +951,26 @@
           "related_themes": [
             "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
           ],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-07T22:58:49.823615+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-07",
+                "end_session": "2026-09-30",
+                "start_session": "2026-09-08"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": 0.06,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            }
+          ],
           "security_id": "JP:XTKS:581A:equity",
           "segments": [
             {
@@ -1009,20 +1028,20 @@
           "actual": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-07",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
           "benchmark": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "display_name": "移動最適化・自動運転｜日本/東証/JPY",
@@ -1952,11 +1971,30 @@
           "raw_basket": [
             {
               "date": "2026-09-07",
-              "value": null
+              "value": 100.0
             }
           ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-07T22:58:49.823615+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-07",
+                "end_session": "2026-09-30",
+                "start_session": "2026-09-08"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": 0.035,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            }
+          ],
           "security_id": null,
           "segments": [
             {
@@ -2014,20 +2052,20 @@
           "actual": [
             {
               "date": "2026-09-04",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-04",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
           "benchmark": [
             {
               "date": "2026-09-04",
-              "value": null
+              "value": 100.0
             }
           ],
           "display_name": "移動最適化・自動運転｜米国/NASDAQ/USD",
@@ -2867,11 +2905,30 @@
           "raw_basket": [
             {
               "date": "2026-09-04",
-              "value": null
+              "value": 100.0
             }
           ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-07T22:58:49.823615+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-04",
+                "end_session": "2026-09-30",
+                "start_session": "2026-09-08"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": 0.035,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            }
+          ],
           "security_id": null,
           "segments": [
             {

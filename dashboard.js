@@ -83,9 +83,15 @@ function sessionAxis(rows) {
   return [...set].sort();
 }
 /* Gray visual connectors across sparse-path gaps. Presentation only: no forecast implied.
+   Two cases, so a colored Path that ends early still visually reaches the next
+   known point without inventing a forecast:
+   - segment → blank gap → next segment (anchor of the next segment)
+   - last segment → blank gap → next formal 1/5/20 prediction point (●)
    A segment's signal starts at start_session; its anchor_session is the session just
    before (index start_index - 1). The connector ends at the anchor session so it never
-   overlaps the colored signal line that runs anchor -> end. */
+   overlaps the colored signal line that runs anchor -> end. The ●'s date/value are
+   never altered; connectors stay pure Dashboard presentation (no proposal/path/
+   prediction/result/scoring data). */
 function gapConnectors(row) {
   const segs = [...(row.segments || [])].sort((a, b) => a.start_index - b.start_index);
   const out = [];
@@ -97,6 +103,14 @@ function gapConnectors(row) {
       out.push({from: prev.points[prev.points.length - 1], to: next.points[0],
         fromSession: prev.end_session, toSession: anchor});
     }
+  }
+  const last = segs[segs.length - 1];
+  if (last && last.end_session != null && Array.isArray(last.points) && last.points.length) {
+    const from = last.points[last.points.length - 1];
+    const next = (row.official || [])
+      .filter(p => p.date > last.end_session && p.value != null)
+      .sort((a, b) => a.date < b.date ? -1 : 1)[0];
+    if (next) out.push({from, to: next, fromSession: last.end_session, toSession: next.date});
   }
   return out;
 }
@@ -283,7 +297,10 @@ if (typeof document !== 'undefined') {
       if (pos.get(g.fromSession) == null || pos.get(g.toSession) == null) return;
       const attrs = {x1: x(g.fromSession), x2: x(g.toSession), y1: y(g.from.value), y2: y(g.to.value), stroke: '#9aa3b2', 'stroke-width': 1.6, 'stroke-dasharray': '3 4'};
       const line = svgNode('line', attrs);
-      line.append(svgNode('title', {}, `予想なし区間（表示のみ接続・方向予想なし）: ${formatDateJa(g.fromSession)} → ${formatDateJa(g.toSession)}。横ばい予想ではありません。`));
+      const note = g.to && g.to.kind === 'official'
+        ? `予想なし区間（表示のみ接続・方向予想なし）: ${formatDateJa(g.fromSession)} → ${formatDateJa(g.toSession)} の正式予想点まで。横ばい予想ではありません。`
+        : `予想なし区間（表示のみ接続・方向予想なし）: ${formatDateJa(g.fromSession)} → ${formatDateJa(g.toSession)}。横ばい予想ではありません。`;
+      line.append(svgNode('title', {}, note));
       svg.append(line);
     });
     series.forEach(s => {
