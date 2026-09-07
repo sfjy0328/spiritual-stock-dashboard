@@ -473,7 +473,7 @@ if (typeof document !== 'undefined') {
     $('results').replaceChildren(table); $('evidence').textContent = JSON.stringify(rows, null, 2);
   }
   $('source').textContent = `実績基準 ${data.as_of}${data.source_ref ? ' · Git ' + data.source_ref : ' · 公開版'} · 横軸は営業日のみ・縦軸は基準からの変化率（％）`;
-  $('run').replaceChildren(...data.runs.map(r => option(r.run_id, `${r.run_date} 基準 ${r.run_id.slice(0, 8)}`, `${r.run_date} · ${r.issued_at} · ${r.run_id}`)));
+  $('run').replaceChildren(...data.runs.map(r => option(r.run_id, r.label || `${r.run_date} 基準 ${r.run_id.slice(0, 8)}`, `${r.run_date} · ${r.issued_at} · ${r.run_kind || ''} · ${r.run_id}`)));
   ['run', 'kind', 'mode', 'status'].forEach(k => $(k).addEventListener('change', fillTargets));
   ['up', 'down', 'turn', 'spiritual', 'raw', 'benchmark', 'refEvents'].forEach(k => $(k).addEventListener('change', render));
   $('targets').addEventListener('change', render);
