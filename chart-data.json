@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-08T10:05:30.905443+00:00",
+  "as_of": "2026-09-08T22:01:32.444283+00:00",
   "runs": [
     {
       "issued_at": "2026-09-08T10:05:07.110612+00:00",
@@ -12,13 +12,13 @@
           "actual": [
             {
               "date": "2026-09-08",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-08",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "price_return",
@@ -979,7 +979,62 @@
           "related_themes": [
             "26dae351-5717-57ce-bbec-ef7183cdd398"
           ],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-08T22:01:03.569607+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-08",
+                "end_session": "2026-09-11",
+                "start_session": "2026-09-09"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": -0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.57,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-08T22:01:03.569607+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-11",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-14"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.021,
+              "sign_agreement": null,
+              "signal_strength": 0.68,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-08T22:01:03.569607+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-11",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-14"
+              },
+              "item_key": "events/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.7,
+              "status": "pending"
+            }
+          ],
           "security_id": "JP:XTKS:285A:equity",
           "segments": [
             {
@@ -2034,7 +2089,62 @@
             }
           ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-08T22:01:03.569607+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-08",
+                "end_session": "2026-09-11",
+                "start_session": "2026-09-09"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": -0.002,
+              "sign_agreement": null,
+              "signal_strength": 0.57,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-08T22:01:03.569607+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-11",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-14"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.014,
+              "sign_agreement": null,
+              "signal_strength": 0.68,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-08T22:01:03.569607+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-11",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-14"
+              },
+              "item_key": "events/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.7,
+              "status": "pending"
+            }
+          ],
           "security_id": null,
           "segments": [
             {
@@ -5411,11 +5521,19 @@
             {
               "date": "2026-09-04",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-08",
+              "value": 103.23060174255181
             }
           ],
           "availability": [
             {
               "date": "2026-09-04",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-08",
               "status": "available"
             }
           ],
@@ -5424,6 +5542,10 @@
             {
               "date": "2026-09-04",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-08",
+              "value": 99.4507874089067
             }
           ],
           "display_name": "移動最適化・自動運転｜米国/NASDAQ/USD",
@@ -6264,6 +6386,10 @@
             {
               "date": "2026-09-04",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-08",
+              "value": 102.68138915145852
             }
           ],
           "related_themes": [],
