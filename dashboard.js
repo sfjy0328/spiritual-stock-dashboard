@@ -83,34 +83,49 @@ function sessionAxis(rows) {
   return [...set].sort();
 }
 /* Gray visual connectors across sparse-path gaps. Presentation only: no forecast implied.
-   Two cases, so a colored Path that ends early still visually reaches the next
-   known point without inventing a forecast:
-   - segment → blank gap → next segment (anchor of the next segment)
-   - last segment → blank gap → next formal 1/5/20 prediction point (●)
-   A segment's signal starts at start_session; its anchor_session is the session just
-   before (index start_index - 1). The connector ends at the anchor session so it never
-   overlaps the colored signal line that runs anchor -> end. The ●'s date/value are
-   never altered; connectors stay pure Dashboard presentation (no proposal/path/
-   prediction/result/scoring data). */
+   Colored lines are the Path GPT actually forecast; gray lines only join known
+   Forecast endpoints / formal 1/5/20 prediction points (●) across gaps where no
+   Path was issued:
+   - segment → blank gap → next segment (anchor of the next segment); formal ●
+     points sitting inside that gap join the chain instead of floating
+   - last segment → blank gap → every remaining formal point, chained up to ●20
+   - no segments at all: the formal ●1/5/20 points still form a gray chain
+   A formal point inside a colored segment never gets a duplicate gray line.
+   A segment's signal starts at start_session; its anchor_session is the session
+   just before (index start_index - 1). The connector ends at the anchor session
+   so it never overlaps the colored signal line that runs anchor -> end. The ●'s
+   date/value are never altered; connectors stay pure Dashboard presentation
+   (no proposal/path/prediction/result/scoring data). */
 function gapConnectors(row) {
   const segs = [...(row.segments || [])].sort((a, b) => a.start_index - b.start_index);
+  const officials = (row.official || []).filter(p => p.value != null && p.kind === 'official')
+    .sort((a, b) => a.date < b.date ? -1 : 1);
   const out = [];
   for (let i = 1; i < segs.length; i++) {
     const prev = segs[i - 1], next = segs[i];
     if (prev.end_index == null || next.start_index == null) continue;
     if (next.start_index > prev.end_index + 1) {
       const anchor = next.anchor_session || (next.points[0] || {}).date || next.start_session;
-      out.push({from: prev.points[prev.points.length - 1], to: next.points[0],
-        fromSession: prev.end_session, toSession: anchor});
+      let cur = {point: prev.points[prev.points.length - 1], session: prev.end_session};
+      officials.filter(p => p.date > prev.end_session && p.date < anchor).forEach(p => {
+        out.push({from: cur.point, to: p, fromSession: cur.session, toSession: p.date});
+        cur = {point: p, session: p.date};
+      });
+      out.push({from: cur.point, to: next.points[0], fromSession: cur.session, toSession: anchor});
     }
   }
   const last = segs[segs.length - 1];
   if (last && last.end_session != null && Array.isArray(last.points) && last.points.length) {
-    const from = last.points[last.points.length - 1];
-    const next = (row.official || [])
-      .filter(p => p.date > last.end_session && p.value != null)
-      .sort((a, b) => a.date < b.date ? -1 : 1)[0];
-    if (next) out.push({from, to: next, fromSession: last.end_session, toSession: next.date});
+    let cur = {point: last.points[last.points.length - 1], session: last.end_session};
+    officials.filter(p => p.date > last.end_session).forEach(p => {
+      out.push({from: cur.point, to: p, fromSession: cur.session, toSession: p.date});
+      cur = {point: p, session: p.date};
+    });
+  } else if (!segs.length) {
+    for (let i = 1; i < officials.length; i++) {
+      out.push({from: officials[i - 1], to: officials[i],
+        fromSession: officials[i - 1].date, toSession: officials[i].date});
+    }
   }
   return out;
 }
