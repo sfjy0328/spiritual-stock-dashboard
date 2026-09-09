@@ -1,11 +1,1940 @@
 {
-  "as_of": "2026-09-08T22:01:32.444283+00:00",
+  "as_of": "2026-09-09T03:27:19.618288+00:00",
   "runs": [
     {
+      "analysis": [
+        {
+          "formal": "prediction",
+          "reason": "Eight experts support complete 1/5/20 evaluation while space_weather explicitly abstains for deterministic future-input insufficiency; the combined shape is mixed near term, constructive after the reset, temporarily restrictive, then constructive again.",
+          "status": "signal",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
+        }
+      ],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-05T20:00:00+00:00"
+        }
+      ],
+      "identity_failures": [],
+      "issued_at": "2026-09-09T03:26:57.888265+00:00",
+      "label": "2026-09-09 12:26 supplemental",
+      "requested_target_results": [],
+      "run_date": "2026-09-09",
+      "run_id": "run-2026-09-09-01",
+      "run_kind": "supplemental",
+      "targets": [
+        {
+          "actual": [],
+          "availability": [],
+          "basis": "benchmark_excess",
+          "benchmark": [],
+          "decision_dates": {
+            "local_dates": [
+              "2026-09-10",
+              "2026-09-11",
+              "2026-09-14",
+              "2026-09-15",
+              "2026-09-18",
+              "2026-09-21",
+              "2026-09-22",
+              "2026-09-26",
+              "2026-09-29",
+              "2026-10-02",
+              "2026-10-03",
+              "2026-10-07"
+            ],
+            "missing": [],
+            "sessions": [
+              "2026-09-09",
+              "2026-09-10",
+              "2026-09-11",
+              "2026-09-14",
+              "2026-09-15",
+              "2026-09-18",
+              "2026-09-24",
+              "2026-09-25",
+              "2026-09-28",
+              "2026-10-01",
+              "2026-10-02",
+              "2026-10-05",
+              "2026-10-06",
+              "2026-10-09",
+              "2026-10-13"
+            ]
+          },
+          "decision_points": [
+            {
+              "date": "2026-09-11",
+              "direction": "up",
+              "item_key": "decisions/0",
+              "label": "reset and control pivot",
+              "rationale": "The Uranus station and new moon establish the first constructive pivot.",
+              "session": "2026-09-11",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-09-14",
+              "direction": "up",
+              "item_key": "decisions/1",
+              "label": "adaptive-control acceleration",
+              "rationale": "Mercury trine Uranus and Sun sextile Mars reinforce the constructive control phase.",
+              "session": "2026-09-14",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-09-15",
+              "direction": "down",
+              "item_key": "decisions/2",
+              "label": "temporary tension begins",
+              "rationale": "Venus square Pluto introduces a temporary restrictive tone.",
+              "session": "2026-09-15",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-09-18",
+              "direction": "down",
+              "item_key": "decisions/3",
+              "label": "restriction marker",
+              "rationale": "Mercury opposite Saturn marks the restrictive phase.",
+              "session": "2026-09-18",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-09-22",
+              "direction": "up",
+              "item_key": "decisions/4",
+              "label": "re-expansion cue",
+              "rationale": "Mercury sextile Jupiter supplies a constructive cue before the next Tokyo session.",
+              "session": "2026-09-24",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-09-26",
+              "direction": "mixed",
+              "item_key": "decisions/5",
+              "label": "structural support with lunar intensity",
+              "rationale": "Sun trine Pluto coincides with the full-moon window, supporting strength with elevated tension.",
+              "session": "2026-09-28",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-09-29",
+              "direction": "up",
+              "item_key": "decisions/6",
+              "label": "technology reinforcement",
+              "rationale": "Sun trine Uranus reinforces the adaptive-technology theme.",
+              "session": "2026-09-29",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-10-02",
+              "direction": "down",
+              "item_key": "decisions/7",
+              "label": "communication and action conflict",
+              "rationale": "Mercury squares Mars and Pluto, beginning a volatile restrictive cluster.",
+              "session": "2026-10-02",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-10-03",
+              "direction": "down",
+              "item_key": "decisions/8",
+              "label": "retrograde and power-conflict cluster",
+              "rationale": "Venus stations retrograde while Mars opposes Pluto, extending the restrictive cluster.",
+              "session": "2026-10-05",
+              "source": "decision_point"
+            },
+            {
+              "date": "2026-10-07",
+              "direction": "up",
+              "item_key": "decisions/9",
+              "label": "adaptive recovery cue",
+              "rationale": "Mars sextile Uranus restores a constructive adaptive-control cue.",
+              "session": "2026-10-07",
+              "source": "decision_point"
+            }
+          ],
+          "display_name": "産業自動化・適応型機械制御｜日本/東証/JPY",
+          "entry_session": "2026-09-09",
+          "events": [
+            {
+              "direction": "up",
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-10T18:40:38.284Z",
+              "expected_move": 0.018,
+              "impact_session": "2026-09-11",
+              "item_key": "events/0",
+              "local_date": "2026-09-10",
+              "rationale": "Uranus retrograde station marks the automation and control pivot.",
+              "relationship": "annotation_only",
+              "signal_strength": 0.82,
+              "source": "path_event",
+              "start_session": "2026-09-11",
+              "strength_100": 82,
+              "timezone": "UTC"
+            },
+            {
+              "direction": "up",
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-11T03:27:28.467Z",
+              "expected_move": 0.012,
+              "impact_session": "2026-09-11",
+              "item_key": "events/1",
+              "local_date": "2026-09-11",
+              "rationale": "The new moon is used as the reset marker for the constructive segment.",
+              "relationship": "annotation_only",
+              "signal_strength": 0.7,
+              "source": "path_event",
+              "start_session": "2026-09-11",
+              "strength_100": 70,
+              "timezone": "UTC"
+            },
+            {
+              "direction": "up",
+              "end_session": "2026-09-25",
+              "event_at": "2026-09-21T22:51:01.623Z",
+              "expected_move": 0.008,
+              "impact_session": "2026-09-24",
+              "item_key": "events/2",
+              "local_date": "2026-09-21",
+              "rationale": "Mercury sextile Jupiter marks the re-expansion cue before the next available Tokyo session.",
+              "relationship": "annotation_only",
+              "signal_strength": 0.66,
+              "source": "path_event",
+              "start_session": "2026-09-24",
+              "strength_100": 66,
+              "timezone": "UTC"
+            },
+            {
+              "direction": "up",
+              "end_session": "2026-10-01",
+              "event_at": "2026-09-26T05:34:26.657Z",
+              "expected_move": 0.01,
+              "impact_session": "2026-09-28",
+              "item_key": "events/3",
+              "local_date": "2026-09-26",
+              "rationale": "Sun trine Pluto marks renewed structural support.",
+              "relationship": "annotation_only",
+              "signal_strength": 0.68,
+              "source": "path_event",
+              "start_session": "2026-09-28",
+              "strength_100": 68,
+              "timezone": "UTC"
+            },
+            {
+              "direction": "down",
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-03T10:38:05.405Z",
+              "expected_move": -0.009,
+              "impact_session": "2026-10-05",
+              "item_key": "events/4",
+              "local_date": "2026-10-03",
+              "rationale": "Mars opposite Pluto marks the restrictive power-conflict cluster.",
+              "relationship": "annotation_only",
+              "signal_strength": 0.68,
+              "source": "path_event",
+              "start_session": "2026-10-05",
+              "strength_100": 68,
+              "timezone": "UTC"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-24",
+              "event_at": "2026-09-23T00:05:38.617Z",
+              "expected_move": null,
+              "impact_session": "2026-09-24",
+              "item_key": null,
+              "local_date": "2026-09-23",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "daily.lunar",
+              "start_session": "2026-09-24",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-28",
+              "event_at": "2026-09-26T16:49:32.233Z",
+              "expected_move": null,
+              "impact_session": "2026-09-28",
+              "item_key": null,
+              "local_date": "2026-09-27",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "daily.lunar",
+              "start_session": "2026-09-28",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-08",
+              "event_at": "2026-10-08T06:29:58.055Z",
+              "expected_move": null,
+              "impact_session": "2026-10-08",
+              "item_key": null,
+              "local_date": "2026-10-08",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "daily.lunar",
+              "start_session": "2026-10-08",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-13",
+              "event_at": "2026-10-10T15:50:36.724Z",
+              "expected_move": null,
+              "impact_session": "2026-10-13",
+              "item_key": null,
+              "local_date": "2026-10-11",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "daily.lunar",
+              "start_session": "2026-10-13",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-11",
+              "event_at": "2026-09-10T08:12:43.526Z",
+              "expected_move": null,
+              "impact_session": "2026-09-11",
+              "item_key": null,
+              "local_date": "2026-09-10",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-11",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-11",
+              "event_at": "2026-09-10T16:21:13.542Z",
+              "expected_move": null,
+              "impact_session": "2026-09-11",
+              "item_key": null,
+              "local_date": "2026-09-11",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-11",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-12T15:59:18.501Z",
+              "expected_move": null,
+              "impact_session": "2026-09-14",
+              "item_key": null,
+              "local_date": "2026-09-13",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-14",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-12T16:41:18.586Z",
+              "expected_move": null,
+              "impact_session": "2026-09-14",
+              "item_key": null,
+              "local_date": "2026-09-13",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-14",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-14T02:39:54.857Z",
+              "expected_move": null,
+              "impact_session": "2026-09-14",
+              "item_key": null,
+              "local_date": "2026-09-14",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-14",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-15",
+              "event_at": "2026-09-14T19:53:45.771Z",
+              "expected_move": null,
+              "impact_session": "2026-09-15",
+              "item_key": null,
+              "local_date": "2026-09-15",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-15",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-16",
+              "event_at": "2026-09-15T18:41:31.911Z",
+              "expected_move": null,
+              "impact_session": "2026-09-16",
+              "item_key": null,
+              "local_date": "2026-09-16",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-16",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-17",
+              "event_at": "2026-09-16T08:31:12.807Z",
+              "expected_move": null,
+              "impact_session": "2026-09-17",
+              "item_key": null,
+              "local_date": "2026-09-16",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-17",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-24",
+              "event_at": "2026-09-18T09:58:30.013Z",
+              "expected_move": null,
+              "impact_session": "2026-09-24",
+              "item_key": null,
+              "local_date": "2026-09-18",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-24",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-24",
+              "event_at": "2026-09-23T00:05:40.392Z",
+              "expected_move": null,
+              "impact_session": "2026-09-24",
+              "item_key": null,
+              "local_date": "2026-09-23",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-24",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-28",
+              "event_at": "2026-09-26T01:41:39.322Z",
+              "expected_move": null,
+              "impact_session": "2026-09-28",
+              "item_key": null,
+              "local_date": "2026-09-26",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-28",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-28",
+              "event_at": "2026-09-28T02:49:00.996Z",
+              "expected_move": null,
+              "impact_session": "2026-09-28",
+              "item_key": null,
+              "local_date": "2026-09-28",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-28",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-09-29",
+              "event_at": "2026-09-28T16:21:52.419Z",
+              "expected_move": null,
+              "impact_session": "2026-09-29",
+              "item_key": null,
+              "local_date": "2026-09-29",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-09-29",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-01",
+              "event_at": "2026-09-30T11:44:42.397Z",
+              "expected_move": null,
+              "impact_session": "2026-10-01",
+              "item_key": null,
+              "local_date": "2026-09-30",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-01",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-02T09:15:17.462Z",
+              "expected_move": null,
+              "impact_session": "2026-10-05",
+              "item_key": null,
+              "local_date": "2026-10-02",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-02T20:43:00.295Z",
+              "expected_move": null,
+              "impact_session": "2026-10-05",
+              "item_key": null,
+              "local_date": "2026-10-03",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-02T22:25:53.873Z",
+              "expected_move": null,
+              "impact_session": "2026-10-05",
+              "item_key": null,
+              "local_date": "2026-10-03",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-03T07:10:06.596Z",
+              "expected_move": null,
+              "impact_session": "2026-10-05",
+              "item_key": null,
+              "local_date": "2026-10-03",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-04T12:25:47.678Z",
+              "expected_move": null,
+              "impact_session": "2026-10-05",
+              "item_key": null,
+              "local_date": "2026-10-04",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-07",
+              "event_at": "2026-10-07T00:05:52.230Z",
+              "expected_move": null,
+              "impact_session": "2026-10-07",
+              "item_key": null,
+              "local_date": "2026-10-07",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-07",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-08",
+              "event_at": "2026-10-07T10:41:14.687Z",
+              "expected_move": null,
+              "impact_session": "2026-10-08",
+              "item_key": null,
+              "local_date": "2026-10-07",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-08",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            },
+            {
+              "direction": null,
+              "end_session": "2026-10-13",
+              "event_at": "2026-10-10T21:21:49.723Z",
+              "expected_move": null,
+              "impact_session": "2026-10-13",
+              "item_key": null,
+              "local_date": "2026-10-11",
+              "rationale": "",
+              "relationship": "reference_only",
+              "signal_strength": null,
+              "source": "future.astrology",
+              "start_session": "2026-10-13",
+              "strength_100": null,
+              "timezone": "Asia/Tokyo"
+            }
+          ],
+          "forecast_origin": "this_run",
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "markers": [
+            {
+              "date": "2026-09-14",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "segment_end",
+              "rationale": null,
+              "session": "2026-09-14",
+              "source": null,
+              "start_session": null,
+              "strength": 0.82,
+              "timezone": null,
+              "value": 101.85
+            },
+            {
+              "date": "2026-09-18",
+              "direction": "down",
+              "end_session": null,
+              "event_at": null,
+              "kind": "segment_end",
+              "rationale": null,
+              "session": "2026-09-18",
+              "source": null,
+              "start_session": null,
+              "strength": 0.61,
+              "timezone": null,
+              "value": 101.15
+            },
+            {
+              "date": "2026-09-25",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "segment_end",
+              "rationale": null,
+              "session": "2026-09-25",
+              "source": null,
+              "start_session": null,
+              "strength": 0.66,
+              "timezone": null,
+              "value": 101.95
+            },
+            {
+              "date": "2026-10-01",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "segment_end",
+              "rationale": null,
+              "session": "2026-10-01",
+              "source": null,
+              "start_session": null,
+              "strength": 0.73,
+              "timezone": null,
+              "value": 103.15
+            },
+            {
+              "date": "2026-10-05",
+              "direction": "down",
+              "end_session": null,
+              "event_at": null,
+              "kind": "segment_end",
+              "rationale": null,
+              "session": "2026-10-05",
+              "source": null,
+              "start_session": null,
+              "strength": 0.68,
+              "timezone": null,
+              "value": 102.25
+            },
+            {
+              "date": "2026-10-09",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "segment_end",
+              "rationale": null,
+              "session": "2026-10-09",
+              "source": null,
+              "start_session": null,
+              "strength": 0.6,
+              "timezone": null,
+              "value": 103.05
+            },
+            {
+              "date": "2026-09-10",
+              "direction": "up",
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-10T18:40:38.284Z",
+              "kind": "spiritual",
+              "rationale": "Uranus retrograde station marks the automation and control pivot.",
+              "session": "2026-09-11",
+              "source": "path_event",
+              "start_session": "2026-09-11",
+              "strength": 0.82,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-10",
+              "direction": "up",
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-10T18:40:38.284Z",
+              "kind": "up",
+              "rationale": "Uranus retrograde station marks the automation and control pivot.",
+              "session": "2026-09-11",
+              "source": "path_event",
+              "start_session": "2026-09-11",
+              "strength": 0.82,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-11",
+              "direction": "up",
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-11T03:27:28.467Z",
+              "kind": "spiritual",
+              "rationale": "The new moon is used as the reset marker for the constructive segment.",
+              "session": "2026-09-11",
+              "source": "path_event",
+              "start_session": "2026-09-11",
+              "strength": 0.7,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-11",
+              "direction": "up",
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-11T03:27:28.467Z",
+              "kind": "up",
+              "rationale": "The new moon is used as the reset marker for the constructive segment.",
+              "session": "2026-09-11",
+              "source": "path_event",
+              "start_session": "2026-09-11",
+              "strength": 0.7,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-21",
+              "direction": "up",
+              "end_session": "2026-09-25",
+              "event_at": "2026-09-21T22:51:01.623Z",
+              "kind": "spiritual",
+              "rationale": "Mercury sextile Jupiter marks the re-expansion cue before the next available Tokyo session.",
+              "session": "2026-09-24",
+              "source": "path_event",
+              "start_session": "2026-09-24",
+              "strength": 0.66,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-21",
+              "direction": "up",
+              "end_session": "2026-09-25",
+              "event_at": "2026-09-21T22:51:01.623Z",
+              "kind": "up",
+              "rationale": "Mercury sextile Jupiter marks the re-expansion cue before the next available Tokyo session.",
+              "session": "2026-09-24",
+              "source": "path_event",
+              "start_session": "2026-09-24",
+              "strength": 0.66,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-26",
+              "direction": "up",
+              "end_session": "2026-10-01",
+              "event_at": "2026-09-26T05:34:26.657Z",
+              "kind": "spiritual",
+              "rationale": "Sun trine Pluto marks renewed structural support.",
+              "session": "2026-09-28",
+              "source": "path_event",
+              "start_session": "2026-09-28",
+              "strength": 0.68,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-26",
+              "direction": "up",
+              "end_session": "2026-10-01",
+              "event_at": "2026-09-26T05:34:26.657Z",
+              "kind": "up",
+              "rationale": "Sun trine Pluto marks renewed structural support.",
+              "session": "2026-09-28",
+              "source": "path_event",
+              "start_session": "2026-09-28",
+              "strength": 0.68,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-10-03",
+              "direction": "down",
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-03T10:38:05.405Z",
+              "kind": "spiritual",
+              "rationale": "Mars opposite Pluto marks the restrictive power-conflict cluster.",
+              "session": "2026-10-05",
+              "source": "path_event",
+              "start_session": "2026-10-05",
+              "strength": 0.68,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-10-03",
+              "direction": "down",
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-03T10:38:05.405Z",
+              "kind": "down",
+              "rationale": "Mars opposite Pluto marks the restrictive power-conflict cluster.",
+              "session": "2026-10-05",
+              "source": "path_event",
+              "start_session": "2026-10-05",
+              "strength": 0.68,
+              "timezone": "UTC",
+              "value": null
+            },
+            {
+              "date": "2026-09-11",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "reset and control pivot",
+              "rationale": "The Uranus station and new moon establish the first constructive pivot.",
+              "session": "2026-09-11",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-09-14",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "adaptive-control acceleration",
+              "rationale": "Mercury trine Uranus and Sun sextile Mars reinforce the constructive control phase.",
+              "session": "2026-09-14",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-09-15",
+              "direction": "down",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "temporary tension begins",
+              "rationale": "Venus square Pluto introduces a temporary restrictive tone.",
+              "session": "2026-09-15",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-09-18",
+              "direction": "down",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "restriction marker",
+              "rationale": "Mercury opposite Saturn marks the restrictive phase.",
+              "session": "2026-09-18",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-09-22",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "re-expansion cue",
+              "rationale": "Mercury sextile Jupiter supplies a constructive cue before the next Tokyo session.",
+              "session": "2026-09-24",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-09-26",
+              "direction": "mixed",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "structural support with lunar intensity",
+              "rationale": "Sun trine Pluto coincides with the full-moon window, supporting strength with elevated tension.",
+              "session": "2026-09-28",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-09-29",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "technology reinforcement",
+              "rationale": "Sun trine Uranus reinforces the adaptive-technology theme.",
+              "session": "2026-09-29",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-10-02",
+              "direction": "down",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "communication and action conflict",
+              "rationale": "Mercury squares Mars and Pluto, beginning a volatile restrictive cluster.",
+              "session": "2026-10-02",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-10-03",
+              "direction": "down",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "retrograde and power-conflict cluster",
+              "rationale": "Venus stations retrograde while Mars opposes Pluto, extending the restrictive cluster.",
+              "session": "2026-10-05",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-10-07",
+              "direction": "up",
+              "end_session": null,
+              "event_at": null,
+              "kind": "decision",
+              "label": "adaptive recovery cue",
+              "rationale": "Mars sextile Uranus restores a constructive adaptive-control cue.",
+              "session": "2026-10-07",
+              "source": "decision_point",
+              "start_session": null,
+              "strength": null,
+              "timezone": null,
+              "value": null
+            },
+            {
+              "date": "2026-09-23",
+              "direction": null,
+              "end_session": "2026-09-24",
+              "event_at": "2026-09-23T00:05:38.617Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-24",
+              "source": "daily.lunar",
+              "start_session": "2026-09-24",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-27",
+              "direction": null,
+              "end_session": "2026-09-28",
+              "event_at": "2026-09-26T16:49:32.233Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-28",
+              "source": "daily.lunar",
+              "start_session": "2026-09-28",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-08",
+              "direction": null,
+              "end_session": "2026-10-08",
+              "event_at": "2026-10-08T06:29:58.055Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-08",
+              "source": "daily.lunar",
+              "start_session": "2026-10-08",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-11",
+              "direction": null,
+              "end_session": "2026-10-13",
+              "event_at": "2026-10-10T15:50:36.724Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-13",
+              "source": "daily.lunar",
+              "start_session": "2026-10-13",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-10",
+              "direction": null,
+              "end_session": "2026-09-11",
+              "event_at": "2026-09-10T08:12:43.526Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-11",
+              "source": "future.astrology",
+              "start_session": "2026-09-11",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-11",
+              "direction": null,
+              "end_session": "2026-09-11",
+              "event_at": "2026-09-10T16:21:13.542Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-11",
+              "source": "future.astrology",
+              "start_session": "2026-09-11",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-13",
+              "direction": null,
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-12T15:59:18.501Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-14",
+              "source": "future.astrology",
+              "start_session": "2026-09-14",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-13",
+              "direction": null,
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-12T16:41:18.586Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-14",
+              "source": "future.astrology",
+              "start_session": "2026-09-14",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-14",
+              "direction": null,
+              "end_session": "2026-09-14",
+              "event_at": "2026-09-14T02:39:54.857Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-14",
+              "source": "future.astrology",
+              "start_session": "2026-09-14",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-15",
+              "direction": null,
+              "end_session": "2026-09-15",
+              "event_at": "2026-09-14T19:53:45.771Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-15",
+              "source": "future.astrology",
+              "start_session": "2026-09-15",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-16",
+              "direction": null,
+              "end_session": "2026-09-16",
+              "event_at": "2026-09-15T18:41:31.911Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-16",
+              "source": "future.astrology",
+              "start_session": "2026-09-16",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-16",
+              "direction": null,
+              "end_session": "2026-09-17",
+              "event_at": "2026-09-16T08:31:12.807Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-17",
+              "source": "future.astrology",
+              "start_session": "2026-09-17",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-18",
+              "direction": null,
+              "end_session": "2026-09-24",
+              "event_at": "2026-09-18T09:58:30.013Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-24",
+              "source": "future.astrology",
+              "start_session": "2026-09-24",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-23",
+              "direction": null,
+              "end_session": "2026-09-24",
+              "event_at": "2026-09-23T00:05:40.392Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-24",
+              "source": "future.astrology",
+              "start_session": "2026-09-24",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-26",
+              "direction": null,
+              "end_session": "2026-09-28",
+              "event_at": "2026-09-26T01:41:39.322Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-28",
+              "source": "future.astrology",
+              "start_session": "2026-09-28",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-28",
+              "direction": null,
+              "end_session": "2026-09-28",
+              "event_at": "2026-09-28T02:49:00.996Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-28",
+              "source": "future.astrology",
+              "start_session": "2026-09-28",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-29",
+              "direction": null,
+              "end_session": "2026-09-29",
+              "event_at": "2026-09-28T16:21:52.419Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-09-29",
+              "source": "future.astrology",
+              "start_session": "2026-09-29",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-09-30",
+              "direction": null,
+              "end_session": "2026-10-01",
+              "event_at": "2026-09-30T11:44:42.397Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-01",
+              "source": "future.astrology",
+              "start_session": "2026-10-01",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-02",
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-02T09:15:17.462Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-05",
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-03",
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-02T20:43:00.295Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-05",
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-03",
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-02T22:25:53.873Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-05",
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-03",
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-03T07:10:06.596Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-05",
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-04",
+              "direction": null,
+              "end_session": "2026-10-05",
+              "event_at": "2026-10-04T12:25:47.678Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-05",
+              "source": "future.astrology",
+              "start_session": "2026-10-05",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-07",
+              "direction": null,
+              "end_session": "2026-10-07",
+              "event_at": "2026-10-07T00:05:52.230Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-07",
+              "source": "future.astrology",
+              "start_session": "2026-10-07",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-07",
+              "direction": null,
+              "end_session": "2026-10-08",
+              "event_at": "2026-10-07T10:41:14.687Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-08",
+              "source": "future.astrology",
+              "start_session": "2026-10-08",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            },
+            {
+              "date": "2026-10-11",
+              "direction": null,
+              "end_session": "2026-10-13",
+              "event_at": "2026-10-10T21:21:49.723Z",
+              "kind": "spiritual",
+              "rationale": "",
+              "session": "2026-10-13",
+              "source": "future.astrology",
+              "start_session": "2026-10-13",
+              "strength": null,
+              "timezone": "Asia/Tokyo",
+              "value": null
+            }
+          ],
+          "name": "Industrial Automation and Adaptive Machine Control — JP/XTKS/JPY",
+          "official": [
+            {
+              "date": "2026-09-09",
+              "kind": "entry",
+              "value": 100
+            },
+            {
+              "date": "2026-09-10",
+              "direction": "flat",
+              "direction_probability": {
+                "down": 0.2957544473837364,
+                "flat": 0.4135883605263291,
+                "up": 0.29065719208993457
+              },
+              "expected_move": 0.0002112585065815152,
+              "horizon": 1,
+              "kind": "official",
+              "value": 100.02112585065814
+            },
+            {
+              "date": "2026-09-16",
+              "direction": "up",
+              "direction_probability": {
+                "down": 0.21250000000000002,
+                "flat": 0.30874999999999997,
+                "up": 0.47875
+              },
+              "expected_move": 0.015,
+              "horizon": 5,
+              "kind": "official",
+              "value": 101.49999999999999
+            },
+            {
+              "date": "2026-10-13",
+              "direction": "up",
+              "direction_probability": {
+                "down": 0.23375,
+                "flat": 0.32875,
+                "up": 0.4375
+              },
+              "expected_move": 0.024125,
+              "horizon": 20,
+              "kind": "official",
+              "value": 102.4125
+            }
+          ],
+          "raw_basket": [],
+          "related_themes": [],
+          "results": [],
+          "security_id": null,
+          "segments": [
+            {
+              "anchor_session": "2026-09-09",
+              "direction": "flat",
+              "end_index": 1,
+              "end_session": "2026-09-10",
+              "interpolation": "visual_only",
+              "item_key": "segments/0",
+              "points": [
+                {
+                  "date": "2026-09-09",
+                  "value": 100.0
+                },
+                {
+                  "date": "2026-09-10",
+                  "value": 100.05
+                }
+              ],
+              "rationale": "Constructive Sun–Mars factors remain offset by Mercury–Neptune ambiguity before the reset.",
+              "signal_strength": 0.42,
+              "start_index": 1,
+              "start_session": "2026-09-10"
+            },
+            {
+              "anchor_session": "2026-09-10",
+              "direction": "up",
+              "end_index": 3,
+              "end_session": "2026-09-14",
+              "interpolation": "visual_only",
+              "item_key": "segments/1",
+              "points": [
+                {
+                  "date": "2026-09-10",
+                  "value": 100.05
+                },
+                {
+                  "date": "2026-09-14",
+                  "value": 101.85
+                }
+              ],
+              "rationale": "The new-moon reset and Uranus station are followed by Mercury–Pluto/Uranus and Sun–Mars support.",
+              "signal_strength": 0.82,
+              "start_index": 2,
+              "start_session": "2026-09-11"
+            },
+            {
+              "anchor_session": "2026-09-14",
+              "direction": "down",
+              "end_index": 7,
+              "end_session": "2026-09-18",
+              "interpolation": "visual_only",
+              "item_key": "segments/2",
+              "points": [
+                {
+                  "date": "2026-09-14",
+                  "value": 101.85
+                },
+                {
+                  "date": "2026-09-18",
+                  "value": 101.15
+                }
+              ],
+              "rationale": "Venus–Pluto tension followed by Mercury–Saturn opposition creates a temporary restrictive phase.",
+              "signal_strength": 0.61,
+              "start_index": 4,
+              "start_session": "2026-09-15"
+            },
+            {
+              "anchor_session": "2026-09-18",
+              "direction": "up",
+              "end_index": 9,
+              "end_session": "2026-09-25",
+              "interpolation": "visual_only",
+              "item_key": "segments/3",
+              "points": [
+                {
+                  "date": "2026-09-18",
+                  "value": 101.15
+                },
+                {
+                  "date": "2026-09-25",
+                  "value": 101.95
+                }
+              ],
+              "rationale": "Mercury–Jupiter support reopens the constructive phase on the next available Tokyo sessions.",
+              "signal_strength": 0.66,
+              "start_index": 8,
+              "start_session": "2026-09-24"
+            },
+            {
+              "anchor_session": "2026-09-25",
+              "direction": "up",
+              "end_index": 13,
+              "end_session": "2026-10-01",
+              "interpolation": "visual_only",
+              "item_key": "segments/4",
+              "points": [
+                {
+                  "date": "2026-09-25",
+                  "value": 101.95
+                },
+                {
+                  "date": "2026-10-01",
+                  "value": 103.15
+                }
+              ],
+              "rationale": "Sun–Pluto support and subsequent Sun–Uranus reinforcement favor renewed adaptive control.",
+              "signal_strength": 0.73,
+              "start_index": 10,
+              "start_session": "2026-09-28"
+            },
+            {
+              "anchor_session": "2026-10-01",
+              "direction": "down",
+              "end_index": 15,
+              "end_session": "2026-10-05",
+              "interpolation": "visual_only",
+              "item_key": "segments/5",
+              "points": [
+                {
+                  "date": "2026-10-01",
+                  "value": 103.15
+                },
+                {
+                  "date": "2026-10-05",
+                  "value": 102.25
+                }
+              ],
+              "rationale": "Mercury conflict aspects, the Venus station, Mars–Pluto opposition and Sun–Saturn opposition form a restrictive cluster.",
+              "signal_strength": 0.68,
+              "start_index": 14,
+              "start_session": "2026-10-02"
+            },
+            {
+              "anchor_session": "2026-10-05",
+              "direction": "up",
+              "end_index": 19,
+              "end_session": "2026-10-09",
+              "interpolation": "visual_only",
+              "item_key": "segments/6",
+              "points": [
+                {
+                  "date": "2026-10-05",
+                  "value": 102.25
+                },
+                {
+                  "date": "2026-10-09",
+                  "value": 103.05
+                }
+              ],
+              "rationale": "Mars–Uranus support restores a constructive adaptive-control bias after the restrictive cluster.",
+              "signal_strength": 0.6,
+              "start_index": 16,
+              "start_session": "2026-10-06"
+            },
+            {
+              "anchor_session": "2026-10-09",
+              "direction": "flat",
+              "end_index": 20,
+              "end_session": "2026-10-13",
+              "interpolation": "visual_only",
+              "item_key": "segments/7",
+              "points": [
+                {
+                  "date": "2026-10-09",
+                  "value": 103.05
+                },
+                {
+                  "date": "2026-10-13",
+                  "value": 103.1
+                }
+              ],
+              "rationale": "The remaining horizon is treated as stabilization after the preceding mixed sequence.",
+              "signal_strength": 0.4,
+              "start_index": 20,
+              "start_session": "2026-10-13"
+            }
+          ],
+          "sessions": [
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-11",
+            "2026-09-14",
+            "2026-09-15",
+            "2026-09-16",
+            "2026-09-17",
+            "2026-09-18",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-28",
+            "2026-09-29",
+            "2026-09-30",
+            "2026-10-01",
+            "2026-10-02",
+            "2026-10-05",
+            "2026-10-06",
+            "2026-10-07",
+            "2026-10-08",
+            "2026-10-09",
+            "2026-10-13"
+          ],
+          "status": "current",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "analysis": [
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds a formal multi-horizon signal for secure network and verification infrastructure.",
+          "status": "signal",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds a formal multi-horizon signal for memory, storage and data infrastructure.",
+          "status": "signal",
+          "target_id": "theme_memory_storage_data_infrastructure_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis keeps the JP mobility concept active but too conflicted for a new formal directional Prediction in this run.",
+          "status": "no_signal",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds automation symbolism, but Mars–Saturn conflict prevents a formal directional Prediction.",
+          "status": "no_signal",
+          "target_id": "theme_industrial_automation_machine_control_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Explicitly requested Kioxia has verified memory/storage relevance and complete eight-expert horizon coverage.",
+          "status": "signal",
+          "target_id": "stock_kioxia_285A_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds direct cyber relevance, but company-level timing remains too conflicted for a formal Prediction.",
+          "status": "no_signal",
+          "target_id": "stock_cloudflare_NET_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds structural grid symbolism, but conflicting systems prevent a formal directional Prediction.",
+          "status": "no_signal",
+          "target_id": "theme_grid_modernization_power_infrastructure_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds direct automation relevance, but individual timing remains too conflicted for a formal Prediction.",
+          "status": "no_signal",
+          "target_id": "stock_fanuc_6954_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds direct power-infrastructure relevance, but individual timing remains too conflicted for a formal Prediction.",
+          "status": "no_signal",
+          "target_id": "stock_gevernova_GEV_20260908"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds remote-sensing symbolism, but the systems do not converge on a formal directional Prediction.",
+          "status": "no_signal",
+          "target_id": "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Detailed expert synthesis finds mobility symbolism, but the US-session timing does not converge on a formal directional Prediction.",
+          "status": "no_signal",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9"
+        }
+      ],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-05T20:00:00+00:00"
+        }
+      ],
+      "identity_failures": [
+        {
+          "category": "identity",
+          "expert": "astrology",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "astrology",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "astrology",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "four_pillars",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "four_pillars",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "four_pillars",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "sanmeigaku",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "sanmeigaku",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "sanmeigaku",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "nine_star_ki",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "nine_star_ki",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "nine_star_ki",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "sukuyo",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "sukuyo",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "sukuyo",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "koyomi",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "koyomi",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "koyomi",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "numerology",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "numerology",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "numerology",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "lunar",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "lunar",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        },
+        {
+          "category": "identity",
+          "expert": "lunar",
+          "reason": "identity or benchmark unresolved",
+          "target_id": "theme_cyber_resilience_trusted_network_20260908"
+        }
+      ],
       "issued_at": "2026-09-08T10:05:07.110612+00:00",
       "label": "2026-09-08 19:05 supplemental",
+      "requested_target_results": [
+        {
+          "outcome": "signal",
+          "request": "285A",
+          "status": "processed",
+          "target_id": "JP:XTKS:285A:equity"
+        }
+      ],
       "run_date": "2026-09-08",
-      "run_id": "run-2026-09-08-01",
+      "run_id": "run-2026-09-08-02",
       "run_kind": "supplemental",
       "targets": [
         {
@@ -23,6 +1952,20 @@
           ],
           "basis": "price_return",
           "benchmark": [],
+          "decision_dates": {
+            "local_dates": [
+              "2026-09-14"
+            ],
+            "missing": [],
+            "sessions": [
+              "2026-09-08",
+              "2026-09-09",
+              "2026-09-11",
+              "2026-09-14",
+              "2026-09-18"
+            ]
+          },
+          "decision_points": [],
           "display_name": "Kioxia Holdings Corporation",
           "entry_session": "2026-09-08",
           "events": [
@@ -491,6 +2434,7 @@
               "timezone": "Asia/Tokyo"
             }
           ],
+          "forecast_origin": "this_run",
           "issued_at": "2026-09-08T10:05:07.110612+00:00",
           "markers": [
             {
@@ -498,7 +2442,7 @@
               "direction": "up",
               "end_session": null,
               "event_at": null,
-              "kind": "up",
+              "kind": "segment_end",
               "rationale": null,
               "session": "2026-09-18",
               "source": null,
@@ -1114,22 +3058,36 @@
           "actual": [
             {
               "date": "2026-09-08",
-              "value": null
+              "value": 100.0
             }
           ],
           "availability": [
             {
               "date": "2026-09-08",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
           "benchmark": [
             {
               "date": "2026-09-08",
-              "value": null
+              "value": 100.0
             }
           ],
+          "decision_dates": {
+            "local_dates": [
+              "2026-09-14"
+            ],
+            "missing": [],
+            "sessions": [
+              "2026-09-08",
+              "2026-09-09",
+              "2026-09-11",
+              "2026-09-14",
+              "2026-09-18"
+            ]
+          },
+          "decision_points": [],
           "display_name": "メモリ・ストレージ・データ基盤｜日本/東証/JPY",
           "entry_session": "2026-09-08",
           "events": [
@@ -1598,6 +3556,7 @@
               "timezone": "Asia/Tokyo"
             }
           ],
+          "forecast_origin": "this_run",
           "issued_at": "2026-09-08T10:05:07.110612+00:00",
           "markers": [
             {
@@ -1605,7 +3564,7 @@
               "direction": "up",
               "end_session": null,
               "event_at": null,
-              "kind": "up",
+              "kind": "segment_end",
               "rationale": null,
               "session": "2026-09-18",
               "source": null,
@@ -2085,7 +4044,7 @@
           "raw_basket": [
             {
               "date": "2026-09-08",
-              "value": null
+              "value": 100.0
             }
           ],
           "related_themes": [],
@@ -2223,10 +4182,52 @@
       ]
     },
     {
+      "analysis": [
+        {
+          "formal": "prediction",
+          "reason": "Eight experts support a complete 1/5/20 evaluation while space_weather is explicitly abstained for future-input insufficiency; the combined shape is transitional near term and moderately positive over 5/20 sessions.",
+          "status": "signal",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
+        }
+      ],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-05T20:00:00+00:00"
+        }
+      ],
+      "identity_failures": [],
       "issued_at": "2026-09-08T04:01:52.707989+00:00",
       "label": "2026-09-08 13:01 supplemental",
+      "requested_target_results": [],
       "run_date": "2026-09-08",
-      "run_id": "run-2026-09-08-02",
+      "run_id": "run-2026-09-08-03",
       "run_kind": "supplemental",
       "targets": [
         {
@@ -2249,6 +4250,23 @@
               "value": 100.0
             }
           ],
+          "decision_dates": {
+            "local_dates": [
+              "2026-09-11",
+              "2026-09-14"
+            ],
+            "missing": [],
+            "sessions": [
+              "2026-09-09",
+              "2026-09-10",
+              "2026-09-11",
+              "2026-09-14",
+              "2026-09-18",
+              "2026-09-24",
+              "2026-09-28"
+            ]
+          },
+          "decision_points": [],
           "display_name": "移動最適化・自動運転｜日本/東証/JPY",
           "entry_session": "2026-09-08",
           "events": [
@@ -2717,6 +4735,7 @@
               "timezone": "Asia/Tokyo"
             }
           ],
+          "forecast_origin": "this_run",
           "issued_at": "2026-09-08T04:01:52.707989+00:00",
           "markers": [
             {
@@ -2724,7 +4743,7 @@
               "direction": "up",
               "end_session": null,
               "event_at": null,
-              "kind": "up",
+              "kind": "segment_end",
               "rationale": null,
               "session": "2026-09-18",
               "source": null,
@@ -2738,7 +4757,7 @@
               "direction": "up",
               "end_session": null,
               "event_at": null,
-              "kind": "up",
+              "kind": "segment_end",
               "rationale": null,
               "session": "2026-09-28",
               "source": null,
@@ -3446,10 +5465,53 @@
       ]
     },
     {
+      "analysis": [
+        {
+          "formal": "no_prediction",
+          "reason": "Eight experts completed 1/5/20; space weather lacks future input.",
+          "status": "signal",
+          "target_id": "theme_mobility_autonomy_20260907"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Eight experts completed 1/5/20; space weather lacks future input.",
+          "status": "signal",
+          "target_id": "stock_go_581A_20260907"
+        }
+      ],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        }
+      ],
+      "identity_failures": [],
       "issued_at": "2026-09-07T14:54:24.719840+00:00",
       "label": "2026-09-07 23:54 supplemental",
+      "requested_target_results": [
+        {
+          "outcome": null,
+          "request": "GO(581A)",
+          "status": "unhandled",
+          "target_id": null
+        }
+      ],
       "run_date": "2026-09-07",
-      "run_id": "run-2026-09-07-03",
+      "run_id": "run-2026-09-07-04",
       "run_kind": "supplemental",
       "targets": [
         {
@@ -3475,6 +5537,16 @@
           ],
           "basis": "price_return",
           "benchmark": [],
+          "decision_dates": {
+            "local_dates": [],
+            "missing": [],
+            "sessions": [
+              "2026-09-07",
+              "2026-09-08",
+              "2026-09-30"
+            ]
+          },
+          "decision_points": [],
           "display_name": "GO Inc.",
           "entry_session": "2026-09-07",
           "events": [
@@ -3943,6 +6015,7 @@
               "timezone": "Asia/Tokyo"
             }
           ],
+          "forecast_origin": "this_run",
           "issued_at": "2026-09-07T14:54:24.719840+00:00",
           "markers": [
             {
@@ -4508,6 +6581,16 @@
               "value": 98.16321930147032
             }
           ],
+          "decision_dates": {
+            "local_dates": [],
+            "missing": [],
+            "sessions": [
+              "2026-09-07",
+              "2026-09-08",
+              "2026-09-30"
+            ]
+          },
+          "decision_points": [],
           "display_name": "移動最適化・自動運転｜日本/東証/JPY",
           "entry_session": "2026-09-07",
           "events": [
@@ -4976,6 +7059,7 @@
               "timezone": "Asia/Tokyo"
             }
           ],
+          "forecast_origin": "this_run",
           "issued_at": "2026-09-07T14:54:24.719840+00:00",
           "markers": [
             {
@@ -5548,6 +7632,16 @@
               "value": 99.4507874089067
             }
           ],
+          "decision_dates": {
+            "local_dates": [],
+            "missing": [],
+            "sessions": [
+              "2026-09-04",
+              "2026-09-08",
+              "2026-09-30"
+            ]
+          },
+          "decision_points": [],
           "display_name": "移動最適化・自動運転｜米国/NASDAQ/USD",
           "entry_session": "2026-09-04",
           "events": [
@@ -5968,6 +8062,7 @@
               "timezone": "Asia/Tokyo"
             }
           ],
+          "forecast_origin": "this_run",
           "issued_at": "2026-09-07T14:54:24.719840+00:00",
           "markers": [
             {
@@ -6467,6 +8562,55 @@
           "valid_until": "2026-10-05T20:00:00+00:00"
         }
       ]
+    },
+    {
+      "analysis": [],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-05T20:00:00+00:00"
+        }
+      ],
+      "identity_failures": [],
+      "issued_at": "2026-09-06T23:04:37.591646+00:00",
+      "label": "2026-09-07 08:04 daily",
+      "requested_target_results": [],
+      "run_date": "2026-09-07",
+      "run_id": "run-2026-09-07-05",
+      "run_kind": "daily",
+      "targets": []
     }
   ],
   "schema_version": "public-1.0"

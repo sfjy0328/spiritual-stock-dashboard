@@ -173,6 +173,12 @@ function officialTitle(name, p) {
   return `● ${p.horizon}営業日正式予想 ${pct(p.expected_move)}｜${name}｜${formatDateJa(p.date)}｜方向: ${dir}${probs ? '｜' + probs : ''}｜直接予測（途中の強弱予想とは別推定）`;
 }
 function markerTitle(m) {
+  if (m.kind === 'decision') {
+    // 重要日 (decision_points): 方向・強度の捏造なし。節目ラベルのみ表示する。
+    const dir = m.direction ? (DIR_JA[m.direction] || m.direction) : '方向指定なし（節目のみ）';
+    const at = m.session || m.date;
+    return `${formatDateJa(m.date)} ● ${translateEventName(m.label || '')}｜方向: ${dir}${at && at !== m.date ? '｜市場影響 ' + formatDateJa(at) : ''}｜${translateEventName(m.rationale || '')}`;
+  }
   const isRef = m.source && m.source !== 'path_event';
   const dir = isRef ? '—' : (m.direction ? (DIR_JA[m.direction] || m.direction) : '方向指定なし');
   const strength = isRef ? '—' : `${Math.round((m.strength || 0) * 100)}/100`;
@@ -234,9 +240,14 @@ if (typeof document !== 'undefined') {
   function option(value, text, title = '') {const node = document.createElement('option'); node.value = value; node.textContent = text; if (title) node.title = title; return node;}
   function checkedValues(rootId) {return [...document.querySelectorAll(`#${rootId} input:checked`)].map(o => o.value);}
   function settings() {
+    const base = Object.fromEntries(['up','down','turn','spiritual','raw','benchmark'].map(k => [k, $(k).checked]));
+    // 期間終了マーカーは方向シグナルではないため、up/down のいずれかが有効なら表示する。
+    base.segment_end = base.up || base.down;
+    // 構造化された重要日 (decision_points) は省略禁止のため常に表示する。
+    base.decision = true;
     return {run: $('run').value, kind: $('kind').value, status: $('status').value, mode: $('mode').value,
       targets: checkedValues('targets'), related: checkedValues('related'),
-      ...Object.fromEntries(['up','down','turn','spiritual','raw','benchmark'].map(k => [k, $(k).checked])),
+      ...base,
       refEvents: $('refEvents').checked};
   }
   function statusJa(t) { return STATUS_JA[t.status] || t.status; }
@@ -335,6 +346,11 @@ if (typeof document !== 'undefined') {
     });
     priceMarkers.forEach(m => {
       if (pos.get(m.date) == null) return;
+      if (m.kind === 'segment_end') {
+        const marker = svgNode('text', {x: x(m.date), y: y(m.value) - 9, fill: '#625879', 'font-size': 11, 'text-anchor': 'middle', tabindex: 0}, '○');
+        marker.append(svgNode('title', {}, `期間終了 ${formatDateJa(m.date)}｜方向: ${(DIR_JA[m.direction] || m.direction || '—')}（期間の終了・シグナル発生日ではありません）｜${translateEventName(m.label || '')}`)); svg.append(marker);
+        return;
+      }
       const label = m.kind === 'up' ? '▲' : '▼';
       const marker = svgNode('text', {x: x(m.date), y: y(m.value) - 9, fill: m.kind === 'down' ? '#b03648' : '#097968', 'font-size': 10 + 8 * m.strength, 'text-anchor': 'middle', tabindex: 0}, label);
       marker.append(svgNode('title', {}, markerTitle(m))); svg.append(marker);
@@ -342,11 +358,11 @@ if (typeof document !== 'undefined') {
     if (laneMarkers.length) {
       svg.append(svgNode('rect', {x: 62, y: 330, width: 870, height: 52, fill: '#f6f7fb', stroke: '#e2e6ed', rx: 6}));
       svg.append(svgNode('text', {x: 66, y: 343, fill: '#657183', 'font-size': 11}, 'イベント'));
-      const order = {up: 0, down: 1, turn: 2, spiritual: 3};
+      const order = {up: 0, down: 1, turn: 2, spiritual: 3, decision: 4, segment_end: 5};
       laneMarkers.forEach((m, idx) => {
         const session = m.session || m.start_session;
         if (session == null || pos.get(session) == null) return;
-        const label = m.kind === 'up' ? '▲' : m.kind === 'down' ? '▼' : m.kind === 'turn' ? '◆' : '✦';
+        const label = m.kind === 'up' ? '▲' : m.kind === 'down' ? '▼' : m.kind === 'turn' ? '◆' : m.kind === 'decision' ? '●' : m.kind === 'segment_end' ? '○' : '✦';
         const marker = svgNode('text', {x: x(session), y: 352 + (order[m.kind] ?? 3) * 7 - 7, fill: m.kind === 'down' ? '#b03648' : m.kind === 'up' ? '#097968' : '#625879', 'font-size': 10 + 8 * (m.strength || 0), 'text-anchor': 'middle', tabindex: 0, class: 'evmark', 'data-ev': m.evKey || ''});
         marker.style.cursor = 'pointer';
         marker.append(svgNode('title', {}, markerTitle(m)));
@@ -482,7 +498,7 @@ if (typeof document !== 'undefined') {
     const axis = sessionAxis([...rows, ...overlay]);
     chartState.axis = axis;
     const markers = rows.flatMap(t => (t.markers || []).filter(m => options[m.kind]));
-    const visible = m => m.source === 'path_event' || m.source == null || m.kind === 'turn' || options.refEvents;
+    const visible = m => m.source === 'path_event' || m.source == null || m.kind === 'turn' || m.kind === 'decision' || options.refEvents;
     const priceMarkers = markers.filter(m => m.value !== null && m.value !== undefined);
     const laneMarkers = [...rows, ...overlay].flatMap(t => (t.markers || []).filter(m => options[m.kind] && visible(m) && (m.value === null || m.value === undefined))
       .map(m => ({...m, evKey: m.event_at ? eventKey(t, {event_at: m.event_at, start_session: m.start_session || m.session || ''}) : ''})));
@@ -494,7 +510,14 @@ if (typeof document !== 'undefined') {
     plot('prediction', groups.upper, priceMarkers, laneMarkers, axis, [ymin, ymax], gaps);
     plot('actual', groups.lower, [], [], axis, [ymin, ymax], []);
     renderEvents(rows, options.refEvents);
-    $('message').textContent = rows.length ? rows.map(t => `${displayOf(t)}［${statusJa(t)}］基準 ${t.issued_at}${t.reason ? ' · ' + t.reason : ''}`).join(' / ') : 'この条件の予想はありません。実行日・種別・期間を選んでください。';
+    const runMeta = (data.runs || []).find(r => r.run_id === options.run) || {};
+    const nA = (runMeta.analysis || []).length, nC = (runMeta.carried_forecasts || []).length,
+      nI = (runMeta.identity_failures || []).length;
+    // 最新分析 (this run) と過去Forecast継続 (carried) を混同させない。
+    // 正式予想0件のrunでも分析自体は表示する（消さない）。
+    $('message').textContent = rows.length ? rows.map(t => `${displayOf(t)}［${statusJa(t)}］基準 ${t.issued_at}${t.forecast_origin === 'this_run' ? '（今回作成）' : ''}${t.reason ? ' · ' + t.reason : ''}`).join(' / ')
+      : (nA || nC || nI ? `このrunに正式予想はありません（今回の分析 ${nA}件・対象確認失敗 ${nI}件・過去から継続の予測 ${nC}件）。詳細は派生JSONの analysis / carried_forecasts を参照。`
+        : 'この条件の予想はありません。実行日・種別・期間を選んでください。');
     const table = document.createElement('table'), head = document.createElement('tr');
     ['対象 / 窓', '状態', '判定', '予想方向', '予想変化', '実現変化', '符号一致', '差 / 絶対誤差', '取得後評価時刻'].forEach(v => {const th = document.createElement('th'); th.textContent = v; head.append(th);}); table.append(head);
     rows.forEach(t => (t.results || []).forEach(r => {
@@ -505,7 +528,10 @@ if (typeof document !== 'undefined') {
     $('results').replaceChildren(table); $('evidence').textContent = JSON.stringify(rows, null, 2);
   }
   $('source').textContent = `実績基準 ${data.as_of}${data.source_ref ? ' · Git ' + data.source_ref : ' · 公開版'} · 横軸は営業日のみ・縦軸は基準からの変化率（％）`;
-  $('run').replaceChildren(...data.runs.map(r => option(r.run_id, r.label || `${r.run_date} 基準 ${r.run_id.slice(0, 8)}`, `${r.run_date} · ${r.issued_at} · ${r.run_kind || ''} · ${r.run_id}`)));
+  $('run').replaceChildren(...data.runs.map(r => {
+    const extra = `分析${(r.analysis || []).length}件・継続${(r.carried_forecasts || []).length}件`;
+    return option(r.run_id, `${r.label || `${r.run_date} 基準 ${r.run_id.slice(0, 8)}`}［正式${(r.targets || []).length}・${extra}］`, `${r.run_date} · ${r.issued_at} · ${r.run_kind || ''} · ${r.run_id} · ${extra}`);
+  }));
   ['run', 'kind', 'mode', 'status'].forEach(k => $(k).addEventListener('change', fillTargets));
   ['up', 'down', 'turn', 'spiritual', 'raw', 'benchmark', 'refEvents'].forEach(k => $(k).addEventListener('change', render));
   $('targets').addEventListener('change', render);
