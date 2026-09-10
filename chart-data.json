@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-09T21:57:25.396162+00:00",
+  "as_of": "2026-09-10T21:51:52.276906+00:00",
   "current": {
     "exploration": [
       {
@@ -134,6 +134,10 @@
           {
             "date": "2026-09-09",
             "value": 99.28583870405852
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.18446263717122
           }
         ],
         "availability": [
@@ -143,6 +147,10 @@
           },
           {
             "date": "2026-09-09",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
             "status": "available"
           }
         ],
@@ -1297,6 +1305,10 @@
           {
             "date": "2026-09-09",
             "value": 97.72079772079772
+          },
+          {
+            "date": "2026-09-10",
+            "value": 94.87179487179486
           }
         ],
         "availability": [
@@ -1310,6 +1322,10 @@
           },
           {
             "date": "2026-09-09",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
             "status": "available"
           }
         ],
@@ -2373,7 +2389,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 98.10195004081017
+          },
+          {
+            "date": "2026-09-10",
+            "value": 95.85630156866499
           }
         ],
         "availability": [
@@ -2387,7 +2407,11 @@
           },
           {
             "date": "2026-09-09",
-            "status": "pending"
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
+            "status": "available"
           }
         ],
         "basis": "benchmark_excess",
@@ -2402,7 +2426,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 97.97721179177633
+          },
+          {
+            "date": "2026-09-10",
+            "value": 98.27947133423119
           }
         ],
         "change_reason": [
@@ -3357,7 +3385,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 96.0791618325865
+          },
+          {
+            "date": "2026-09-10",
+            "value": 94.13577290289619
           }
         ],
         "related_themes": [],
@@ -3470,7 +3502,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 99.47532669255118
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.0660353549487
           }
         ],
         "availability": [
@@ -3480,7 +3516,11 @@
           },
           {
             "date": "2026-09-09",
-            "status": "pending"
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
+            "status": "available"
           }
         ],
         "basis": "benchmark_excess",
@@ -3491,7 +3531,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 99.81051201150733
+          },
+          {
+            "date": "2026-09-10",
+            "value": 100.11842728222254
           }
         ],
         "change_reason": [
@@ -4474,7 +4518,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 99.28583870405852
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.18446263717122
           }
         ],
         "related_themes": [],
@@ -4641,20 +4689,32 @@
         "actual": [
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 100.0
+          },
+          {
+            "date": "2026-09-10",
+            "value": 98.8194765354227
           }
         ],
         "availability": [
           {
             "date": "2026-09-09",
-            "status": "pending"
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
+            "status": "available"
           }
         ],
         "basis": "benchmark_excess",
         "benchmark": [
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 100.0
+          },
+          {
+            "date": "2026-09-10",
+            "value": 100.30849984085813
           }
         ],
         "change_reason": [
@@ -6081,7 +6141,11 @@
         "raw_basket": [
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 100.0
+          },
+          {
+            "date": "2026-09-10",
+            "value": 99.12797637628083
           }
         ],
         "related_themes": [],
@@ -6319,6 +6383,24 @@
             "sign_agreement": null,
             "signal_strength": 0.68,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.011805234645773077,
+            "actual_return": -0.011805234645773077,
+            "available_at": "2026-09-10T21:51:17.232479+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-09",
+              "end_session": "2026-09-10",
+              "start_session": "2026-09-10"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.012305234645773077,
+            "magnitude_error": 0.012305234645773077,
+            "predicted_direction": "flat",
+            "predicted_expected_move": 0.0005,
+            "sign_agreement": null,
+            "signal_strength": 0.42,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -6569,6 +6651,10 @@
           {
             "date": "2026-09-09",
             "value": 103.53509271830899
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.44706459591242
           }
         ],
         "availability": [
@@ -6582,6 +6668,10 @@
           },
           {
             "date": "2026-09-09",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
             "status": "available"
           }
         ],
@@ -6598,6 +6688,10 @@
           {
             "date": "2026-09-09",
             "value": 98.98856412019754
+          },
+          {
+            "date": "2026-09-10",
+            "value": 98.39520309113558
           }
         ],
         "change_reason": [
@@ -7463,6 +7557,10 @@
           {
             "date": "2026-09-09",
             "value": 102.52365683850653
+          },
+          {
+            "date": "2026-09-10",
+            "value": 99.84226768704801
           }
         ],
         "related_themes": [],
@@ -8082,14 +8180,14 @@
             "observed_frequency": null
           },
           {
-            "count": 2,
-            "mean_probability": 0.29625,
-            "observed_frequency": 0.0
+            "count": 3,
+            "mean_probability": 0.2960848157945788,
+            "observed_frequency": 0.3333333333333333
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 2,
+            "mean_probability": 0.30562500000000004,
+            "observed_frequency": 1.0
           },
           {
             "count": 0,
@@ -8139,14 +8237,14 @@
             "observed_frequency": null
           },
           {
-            "count": 2,
-            "mean_probability": 0.3525,
+            "count": 3,
+            "mean_probability": 0.3675,
             "observed_frequency": 0.0
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 2,
+            "mean_probability": 0.4099191802631645,
+            "observed_frequency": 0.0
           },
           {
             "count": 0,
@@ -8186,9 +8284,9 @@
             "observed_frequency": null
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 3,
+            "mean_probability": 0.29188573069664486,
+            "observed_frequency": 0.0
           },
           {
             "count": 2,
@@ -8227,12 +8325,12 @@
           }
         ]
       },
-      "equal": 0.3887922382322795,
-      "evaluated": 1,
+      "equal": 0.4307991885090496,
+      "evaluated": 4,
       "issued": 4,
       "pool": "theme:1",
-      "weighted": 0.3887922382322795,
-      "zero": 0.8700908319822795
+      "weighted": 0.431188133041152,
+      "zero": 0.8814675869465496
     },
     {
       "calibration": {
@@ -8760,20 +8858,32 @@
           "actual": [
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 100.0
+            },
+            {
+              "date": "2026-09-10",
+              "value": 98.8194765354227
             }
           ],
           "availability": [
             {
               "date": "2026-09-09",
-              "status": "pending"
+              "status": "available"
+            },
+            {
+              "date": "2026-09-10",
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
           "benchmark": [
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 100.0
+            },
+            {
+              "date": "2026-09-10",
+              "value": 100.30849984085813
             }
           ],
           "change_reason": [],
@@ -10195,7 +10305,11 @@
           "raw_basket": [
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 100.0
+            },
+            {
+              "date": "2026-09-10",
+              "value": 99.12797637628083
             }
           ],
           "related_themes": [],
@@ -10433,6 +10547,24 @@
               "sign_agreement": null,
               "signal_strength": 0.68,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.011805234645773077,
+              "actual_return": -0.011805234645773077,
+              "available_at": "2026-09-10T21:51:17.232479+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-09",
+                "end_session": "2026-09-10",
+                "start_session": "2026-09-10"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.012305234645773077,
+              "magnitude_error": 0.012305234645773077,
+              "predicted_direction": "flat",
+              "predicted_expected_move": 0.0005,
+              "sign_agreement": null,
+              "signal_strength": 0.42,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -11190,6 +11322,10 @@
             {
               "date": "2026-09-09",
               "value": 99.28583870405852
+            },
+            {
+              "date": "2026-09-10",
+              "value": 101.18446263717122
             }
           ],
           "availability": [
@@ -11199,6 +11335,10 @@
             },
             {
               "date": "2026-09-09",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-10",
               "status": "available"
             }
           ],
@@ -12318,7 +12458,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 99.47532669255118
+            },
+            {
+              "date": "2026-09-10",
+              "value": 101.0660353549487
             }
           ],
           "availability": [
@@ -12328,7 +12472,11 @@
             },
             {
               "date": "2026-09-09",
-              "status": "pending"
+              "status": "available"
+            },
+            {
+              "date": "2026-09-10",
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
@@ -12339,7 +12487,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 99.81051201150733
+            },
+            {
+              "date": "2026-09-10",
+              "value": 100.11842728222254
             }
           ],
           "change_reason": [],
@@ -13317,7 +13469,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 99.28583870405852
+            },
+            {
+              "date": "2026-09-10",
+              "value": 101.18446263717122
             }
           ],
           "related_themes": [],
@@ -13589,7 +13745,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 97.79310228160098
+            },
+            {
+              "date": "2026-09-10",
+              "value": 95.51739435666066
             }
           ],
           "availability": [
@@ -13599,7 +13759,11 @@
             },
             {
               "date": "2026-09-09",
-              "status": "pending"
+              "status": "available"
+            },
+            {
+              "date": "2026-09-10",
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
@@ -13610,7 +13774,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 99.81051201150736
+            },
+            {
+              "date": "2026-09-10",
+              "value": 100.11842728222253
             }
           ],
           "change_reason": [],
@@ -14619,7 +14787,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 97.60361429310834
+            },
+            {
+              "date": "2026-09-10",
+              "value": 95.63582163888319
             }
           ],
           "related_themes": [],
@@ -15003,6 +15175,10 @@
             {
               "date": "2026-09-09",
               "value": 97.72079772079772
+            },
+            {
+              "date": "2026-09-10",
+              "value": 94.87179487179486
             }
           ],
           "availability": [
@@ -15016,6 +15192,10 @@
             },
             {
               "date": "2026-09-09",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-10",
               "status": "available"
             }
           ],
@@ -16049,7 +16229,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 98.10195004081017
+            },
+            {
+              "date": "2026-09-10",
+              "value": 95.85630156866499
             }
           ],
           "availability": [
@@ -16063,7 +16247,11 @@
             },
             {
               "date": "2026-09-09",
-              "status": "pending"
+              "status": "available"
+            },
+            {
+              "date": "2026-09-10",
+              "status": "available"
             }
           ],
           "basis": "benchmark_excess",
@@ -16078,7 +16266,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 97.97721179177633
+            },
+            {
+              "date": "2026-09-10",
+              "value": 98.27947133423119
             }
           ],
           "change_reason": [],
@@ -17028,7 +17220,11 @@
             },
             {
               "date": "2026-09-09",
-              "value": null
+              "value": 96.0791618325865
+            },
+            {
+              "date": "2026-09-10",
+              "value": 94.13577290289619
             }
           ],
           "related_themes": [],
@@ -17121,6 +17317,10 @@
             {
               "date": "2026-09-09",
               "value": 103.53509271830899
+            },
+            {
+              "date": "2026-09-10",
+              "value": 101.44706459591242
             }
           ],
           "availability": [
@@ -17134,6 +17334,10 @@
             },
             {
               "date": "2026-09-09",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-10",
               "status": "available"
             }
           ],
@@ -17150,6 +17354,10 @@
             {
               "date": "2026-09-09",
               "value": 98.98856412019754
+            },
+            {
+              "date": "2026-09-10",
+              "value": 98.39520309113558
             }
           ],
           "change_reason": [],
@@ -18010,6 +18218,10 @@
             {
               "date": "2026-09-09",
               "value": 102.52365683850653
+            },
+            {
+              "date": "2026-09-10",
+              "value": 99.84226768704801
             }
           ],
           "related_themes": [],
@@ -18141,6 +18353,10 @@
           {
             "date": "2026-09-09",
             "value": 97.72079772079772
+          },
+          {
+            "date": "2026-09-10",
+            "value": 94.87179487179486
           }
         ],
         "availability": [
@@ -18154,6 +18370,10 @@
           },
           {
             "date": "2026-09-09",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
             "status": "available"
           }
         ],
@@ -19223,6 +19443,10 @@
               {
                 "date": "2026-09-09",
                 "value": 97.72079772079772
+              },
+              {
+                "date": "2026-09-10",
+                "value": 94.87179487179486
               }
             ],
             "availability": [
@@ -19236,6 +19460,10 @@
               },
               {
                 "date": "2026-09-09",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-10",
                 "status": "available"
               }
             ],
@@ -20348,7 +20576,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 98.10195004081017
+          },
+          {
+            "date": "2026-09-10",
+            "value": 95.85630156866499
           }
         ],
         "availability": [
@@ -20362,7 +20594,11 @@
           },
           {
             "date": "2026-09-09",
-            "status": "pending"
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
+            "status": "available"
           }
         ],
         "basis": "benchmark_excess",
@@ -20377,7 +20613,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 97.97721179177633
+          },
+          {
+            "date": "2026-09-10",
+            "value": 98.27947133423119
           }
         ],
         "change_reason": [
@@ -21332,7 +21572,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 96.0791618325865
+          },
+          {
+            "date": "2026-09-10",
+            "value": 94.13577290289619
           }
         ],
         "related_themes": [],
@@ -21454,7 +21698,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 98.10195004081017
+              },
+              {
+                "date": "2026-09-10",
+                "value": 95.85630156866499
               }
             ],
             "availability": [
@@ -21468,7 +21716,11 @@
               },
               {
                 "date": "2026-09-09",
-                "status": "pending"
+                "status": "available"
+              },
+              {
+                "date": "2026-09-10",
+                "status": "available"
               }
             ],
             "basis": "benchmark_excess",
@@ -21483,7 +21735,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 97.97721179177633
+              },
+              {
+                "date": "2026-09-10",
+                "value": 98.27947133423119
               }
             ],
             "change_reason": [
@@ -22438,7 +22694,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 96.0791618325865
+              },
+              {
+                "date": "2026-09-10",
+                "value": 94.13577290289619
               }
             ],
             "related_themes": [],
@@ -22555,7 +22815,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 97.79310228160098
+              },
+              {
+                "date": "2026-09-10",
+                "value": 95.51739435666066
               }
             ],
             "availability": [
@@ -22565,7 +22829,11 @@
               },
               {
                 "date": "2026-09-09",
-                "status": "pending"
+                "status": "available"
+              },
+              {
+                "date": "2026-09-10",
+                "status": "available"
               }
             ],
             "basis": "benchmark_excess",
@@ -22576,7 +22844,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 99.81051201150736
+              },
+              {
+                "date": "2026-09-10",
+                "value": 100.11842728222253
               }
             ],
             "change_reason": [],
@@ -23585,7 +23857,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 97.60361429310834
+              },
+              {
+                "date": "2026-09-10",
+                "value": 95.63582163888319
               }
             ],
             "related_themes": [],
@@ -23874,6 +24150,10 @@
           {
             "date": "2026-09-09",
             "value": 103.53509271830899
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.44706459591242
           }
         ],
         "availability": [
@@ -23887,6 +24167,10 @@
           },
           {
             "date": "2026-09-09",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
             "status": "available"
           }
         ],
@@ -23903,6 +24187,10 @@
           {
             "date": "2026-09-09",
             "value": 98.98856412019754
+          },
+          {
+            "date": "2026-09-10",
+            "value": 98.39520309113558
           }
         ],
         "change_reason": [
@@ -24768,6 +25056,10 @@
           {
             "date": "2026-09-09",
             "value": 102.52365683850653
+          },
+          {
+            "date": "2026-09-10",
+            "value": 99.84226768704801
           }
         ],
         "related_themes": [],
@@ -24890,6 +25182,10 @@
               {
                 "date": "2026-09-09",
                 "value": 103.53509271830899
+              },
+              {
+                "date": "2026-09-10",
+                "value": 101.44706459591242
               }
             ],
             "availability": [
@@ -24903,6 +25199,10 @@
               },
               {
                 "date": "2026-09-09",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-10",
                 "status": "available"
               }
             ],
@@ -24919,6 +25219,10 @@
               {
                 "date": "2026-09-09",
                 "value": 98.98856412019754
+              },
+              {
+                "date": "2026-09-10",
+                "value": 98.39520309113558
               }
             ],
             "change_reason": [
@@ -25784,6 +26088,10 @@
               {
                 "date": "2026-09-09",
                 "value": 102.52365683850653
+              },
+              {
+                "date": "2026-09-10",
+                "value": 99.84226768704801
               }
             ],
             "related_themes": [],
@@ -25933,6 +26241,10 @@
           {
             "date": "2026-09-09",
             "value": 99.28583870405852
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.18446263717122
           }
         ],
         "availability": [
@@ -25942,6 +26254,10 @@
           },
           {
             "date": "2026-09-09",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
             "status": "available"
           }
         ],
@@ -27097,6 +27413,10 @@
               {
                 "date": "2026-09-09",
                 "value": 99.28583870405852
+              },
+              {
+                "date": "2026-09-10",
+                "value": 101.18446263717122
               }
             ],
             "availability": [
@@ -27106,6 +27426,10 @@
               },
               {
                 "date": "2026-09-09",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-10",
                 "status": "available"
               }
             ],
@@ -28278,7 +28602,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 99.47532669255118
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.0660353549487
           }
         ],
         "availability": [
@@ -28288,7 +28616,11 @@
           },
           {
             "date": "2026-09-09",
-            "status": "pending"
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
+            "status": "available"
           }
         ],
         "basis": "benchmark_excess",
@@ -28299,7 +28631,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 99.81051201150733
+          },
+          {
+            "date": "2026-09-10",
+            "value": 100.11842728222254
           }
         ],
         "change_reason": [
@@ -29282,7 +29618,11 @@
           },
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 99.28583870405852
+          },
+          {
+            "date": "2026-09-10",
+            "value": 101.18446263717122
           }
         ],
         "related_themes": [],
@@ -29458,7 +29798,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 99.47532669255118
+              },
+              {
+                "date": "2026-09-10",
+                "value": 101.0660353549487
               }
             ],
             "availability": [
@@ -29468,7 +29812,11 @@
               },
               {
                 "date": "2026-09-09",
-                "status": "pending"
+                "status": "available"
+              },
+              {
+                "date": "2026-09-10",
+                "status": "available"
               }
             ],
             "basis": "benchmark_excess",
@@ -29479,7 +29827,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 99.81051201150733
+              },
+              {
+                "date": "2026-09-10",
+                "value": 100.11842728222254
               }
             ],
             "change_reason": [
@@ -30462,7 +30814,11 @@
               },
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 99.28583870405852
+              },
+              {
+                "date": "2026-09-10",
+                "value": 101.18446263717122
               }
             ],
             "related_themes": [],
@@ -30665,20 +31021,32 @@
         "actual": [
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 100.0
+          },
+          {
+            "date": "2026-09-10",
+            "value": 98.8194765354227
           }
         ],
         "availability": [
           {
             "date": "2026-09-09",
-            "status": "pending"
+            "status": "available"
+          },
+          {
+            "date": "2026-09-10",
+            "status": "available"
           }
         ],
         "basis": "benchmark_excess",
         "benchmark": [
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 100.0
+          },
+          {
+            "date": "2026-09-10",
+            "value": 100.30849984085813
           }
         ],
         "change_reason": [
@@ -32105,7 +32473,11 @@
         "raw_basket": [
           {
             "date": "2026-09-09",
-            "value": null
+            "value": 100.0
+          },
+          {
+            "date": "2026-09-10",
+            "value": 99.12797637628083
           }
         ],
         "related_themes": [],
@@ -32343,6 +32715,24 @@
             "sign_agreement": null,
             "signal_strength": 0.68,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.011805234645773077,
+            "actual_return": -0.011805234645773077,
+            "available_at": "2026-09-10T21:51:17.232479+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-09",
+              "end_session": "2026-09-10",
+              "start_session": "2026-09-10"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.012305234645773077,
+            "magnitude_error": 0.012305234645773077,
+            "predicted_direction": "flat",
+            "predicted_expected_move": 0.0005,
+            "sign_agreement": null,
+            "signal_strength": 0.42,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -32589,20 +32979,32 @@
             "actual": [
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 100.0
+              },
+              {
+                "date": "2026-09-10",
+                "value": 98.8194765354227
               }
             ],
             "availability": [
               {
                 "date": "2026-09-09",
-                "status": "pending"
+                "status": "available"
+              },
+              {
+                "date": "2026-09-10",
+                "status": "available"
               }
             ],
             "basis": "benchmark_excess",
             "benchmark": [
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 100.0
+              },
+              {
+                "date": "2026-09-10",
+                "value": 100.30849984085813
               }
             ],
             "change_reason": [
@@ -34029,7 +34431,11 @@
             "raw_basket": [
               {
                 "date": "2026-09-09",
-                "value": null
+                "value": 100.0
+              },
+              {
+                "date": "2026-09-10",
+                "value": 99.12797637628083
               }
             ],
             "related_themes": [],
@@ -34267,6 +34673,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.68,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.011805234645773077,
+                "actual_return": -0.011805234645773077,
+                "available_at": "2026-09-10T21:51:17.232479+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-09",
+                  "end_session": "2026-09-10",
+                  "start_session": "2026-09-10"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.012305234645773077,
+                "magnitude_error": 0.012305234645773077,
+                "predicted_direction": "flat",
+                "predicted_expected_move": 0.0005,
+                "sign_agreement": null,
+                "signal_strength": 0.42,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -35130,6 +35554,167 @@
             "sanmeigaku": 0.11851545337907222,
             "space_weather": 0.11097426796895121,
             "sukuyo": 0.10830978915923775
+          }
+        },
+        "theme:20": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        },
+        "theme:5": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-09-10T21:51:17.232479+00:00",
+      "pools": {
+        "stock:1": {
+          "coverage": {
+            "astrology": 2,
+            "four_pillars": 2,
+            "koyomi": 2,
+            "lunar": 2,
+            "nine_star_ki": 2,
+            "numerology": 2,
+            "sanmeigaku": 2,
+            "space_weather": 0,
+            "sukuyo": 2
+          },
+          "phase": "learned",
+          "sample_count": 2,
+          "weights": {
+            "astrology": 0.12673203042009665,
+            "four_pillars": 0.10298418469297592,
+            "koyomi": 0.10844845578103582,
+            "lunar": 0.1331655155815492,
+            "nine_star_ki": 0.1018276780626979,
+            "numerology": 0.10915194543736133,
+            "sanmeigaku": 0.09764000446803035,
+            "space_weather": 0.11073687810521525,
+            "sukuyo": 0.1093133074510375
+          }
+        },
+        "stock:20": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        },
+        "stock:5": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        },
+        "theme:1": {
+          "coverage": {
+            "astrology": 4,
+            "four_pillars": 4,
+            "koyomi": 4,
+            "lunar": 4,
+            "nine_star_ki": 4,
+            "numerology": 4,
+            "sanmeigaku": 4,
+            "space_weather": 0,
+            "sukuyo": 4
+          },
+          "phase": "learned",
+          "sample_count": 4,
+          "weights": {
+            "astrology": 0.10409458693420424,
+            "four_pillars": 0.11655652714188372,
+            "koyomi": 0.10808303145891807,
+            "lunar": 0.11007516870061804,
+            "nine_star_ki": 0.11748502286657446,
+            "numerology": 0.10962176722487368,
+            "sanmeigaku": 0.11525484820864586,
+            "space_weather": 0.11096031524763274,
+            "sukuyo": 0.1078687322166492
           }
         },
         "theme:20": {
