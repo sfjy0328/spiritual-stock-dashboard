@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-11T10:59:10.549175+00:00",
+  "as_of": "2026-09-11T21:54:18.536099+00:00",
   "current": {
     "exploration": [
       {
@@ -90,7 +90,7 @@
           },
           {
             "date": "2026-09-11",
-            "value": null
+            "value": 94.11252395053127
           }
         ],
         "availability": [
@@ -108,7 +108,7 @@
           },
           {
             "date": "2026-09-11",
-            "status": "pending"
+            "status": "available"
           }
         ],
         "basis": "price_return",
@@ -1144,6 +1144,24 @@
             "sign_agreement": null,
             "signal_strength": 0.7,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.05887476049468734,
+            "actual_return": -0.05887476049468734,
+            "available_at": "2026-09-11T21:53:37.149610+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-08",
+              "end_session": "2026-09-11",
+              "start_session": "2026-09-09"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.05487476049468734,
+            "magnitude_error": 0.05487476049468734,
+            "predicted_direction": "mixed",
+            "predicted_expected_move": -0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.57,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -1269,7 +1287,7 @@
           },
           {
             "date": "2026-09-11",
-            "value": null
+            "value": 90.88319088319088
           }
         ],
         "availability": [
@@ -1291,7 +1309,7 @@
           },
           {
             "date": "2026-09-11",
-            "status": "pending"
+            "status": "available"
           }
         ],
         "basis": "price_return",
@@ -4577,6 +4595,24 @@
             "sign_agreement": null,
             "signal_strength": 0.7,
             "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-11T21:53:37.149610+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-08",
+              "end_session": "2026-09-11",
+              "start_session": "2026-09-09"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "mixed",
+            "predicted_expected_move": -0.002,
+            "sign_agreement": null,
+            "signal_strength": 0.57,
+            "status": "pending"
           }
         ],
         "retained_outlooks": [],
@@ -6668,6 +6704,10 @@
           {
             "date": "2026-09-10",
             "value": 101.44706459591242
+          },
+          {
+            "date": "2026-09-11",
+            "value": 102.18560112076807
           }
         ],
         "availability": [
@@ -6685,6 +6725,10 @@
           },
           {
             "date": "2026-09-10",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-11",
             "status": "available"
           }
         ],
@@ -6705,6 +6749,10 @@
           {
             "date": "2026-09-10",
             "value": 98.39520309113558
+          },
+          {
+            "date": "2026-09-11",
+            "value": 99.23395209034652
           }
         ],
         "change_reason": [
@@ -7574,6 +7622,10 @@
           {
             "date": "2026-09-10",
             "value": 99.84226768704801
+          },
+          {
+            "date": "2026-09-11",
+            "value": 101.4195532111146
           }
         ],
         "related_themes": [],
@@ -11496,7 +11548,7 @@
             },
             {
               "date": "2026-09-11",
-              "value": null
+              "value": 94.11252395053127
             }
           ],
           "availability": [
@@ -11514,7 +11566,7 @@
             },
             {
               "date": "2026-09-11",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "price_return",
@@ -12545,6 +12597,24 @@
               "sign_agreement": null,
               "signal_strength": 0.7,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.05887476049468734,
+              "actual_return": -0.05887476049468734,
+              "available_at": "2026-09-11T21:53:37.149610+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-08",
+                "end_session": "2026-09-11",
+                "start_session": "2026-09-09"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.05487476049468734,
+              "magnitude_error": 0.05487476049468734,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": -0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.57,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -13721,6 +13791,24 @@
               "predicted_expected_move": 0.004,
               "sign_agreement": null,
               "signal_strength": 0.7,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-11T21:53:37.149610+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-08",
+                "end_session": "2026-09-11",
+                "start_session": "2026-09-09"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": -0.002,
+              "sign_agreement": null,
+              "signal_strength": 0.57,
               "status": "pending"
             }
           ],
@@ -15110,6 +15198,60 @@
               "sign_agreement": null,
               "signal_strength": 0.72,
               "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-11T21:53:37.149610+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-09",
+                "end_session": "2026-09-11",
+                "start_session": "2026-09-10"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": -0.002,
+              "sign_agreement": null,
+              "signal_strength": 0.52,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-11T21:53:37.149610+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-10",
+                "end_session": "2026-09-11",
+                "start_session": "2026-09-11"
+              },
+              "item_key": "events/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "mixed",
+              "predicted_expected_move": -0.001,
+              "sign_agreement": null,
+              "signal_strength": 0.72,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-11T21:53:37.149610+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-10",
+                "end_session": "2026-09-11",
+                "start_session": "2026-09-11"
+              },
+              "item_key": "events/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.003,
+              "sign_agreement": null,
+              "signal_strength": 0.63,
+              "status": "pending"
             }
           ],
           "retained_outlooks": [],
@@ -15389,7 +15531,7 @@
             },
             {
               "date": "2026-09-11",
-              "value": null
+              "value": 90.88319088319088
             }
           ],
           "availability": [
@@ -15411,7 +15553,7 @@
             },
             {
               "date": "2026-09-11",
-              "status": "pending"
+              "status": "available"
             }
           ],
           "basis": "price_return",
@@ -17552,6 +17694,10 @@
             {
               "date": "2026-09-10",
               "value": 101.44706459591242
+            },
+            {
+              "date": "2026-09-11",
+              "value": 102.18560112076807
             }
           ],
           "availability": [
@@ -17569,6 +17715,10 @@
             },
             {
               "date": "2026-09-10",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-11",
               "status": "available"
             }
           ],
@@ -17589,6 +17739,10 @@
             {
               "date": "2026-09-10",
               "value": 98.39520309113558
+            },
+            {
+              "date": "2026-09-11",
+              "value": 99.23395209034652
             }
           ],
           "change_reason": [],
@@ -18453,6 +18607,10 @@
             {
               "date": "2026-09-10",
               "value": 99.84226768704801
+            },
+            {
+              "date": "2026-09-11",
+              "value": 101.4195532111146
             }
           ],
           "related_themes": [],
@@ -18591,7 +18749,7 @@
           },
           {
             "date": "2026-09-11",
-            "value": null
+            "value": 90.88319088319088
           }
         ],
         "availability": [
@@ -18613,7 +18771,7 @@
           },
           {
             "date": "2026-09-11",
-            "status": "pending"
+            "status": "available"
           }
         ],
         "basis": "price_return",
@@ -19689,7 +19847,7 @@
               },
               {
                 "date": "2026-09-11",
-                "value": null
+                "value": 90.88319088319088
               }
             ],
             "availability": [
@@ -19711,7 +19869,7 @@
               },
               {
                 "date": "2026-09-11",
-                "status": "pending"
+                "status": "available"
               }
             ],
             "basis": "price_return",
@@ -24268,6 +24426,60 @@
                 "sign_agreement": null,
                 "signal_strength": 0.72,
                 "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-11T21:53:37.149610+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-09",
+                  "end_session": "2026-09-11",
+                  "start_session": "2026-09-10"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "mixed",
+                "predicted_expected_move": -0.002,
+                "sign_agreement": null,
+                "signal_strength": 0.52,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-11T21:53:37.149610+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-10",
+                  "end_session": "2026-09-11",
+                  "start_session": "2026-09-11"
+                },
+                "item_key": "events/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "mixed",
+                "predicted_expected_move": -0.001,
+                "sign_agreement": null,
+                "signal_strength": 0.72,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-11T21:53:37.149610+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-10",
+                  "end_session": "2026-09-11",
+                  "start_session": "2026-09-11"
+                },
+                "item_key": "events/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.003,
+                "sign_agreement": null,
+                "signal_strength": 0.63,
+                "status": "pending"
               }
             ],
             "retained_outlooks": [],
@@ -24462,6 +24674,10 @@
           {
             "date": "2026-09-10",
             "value": 101.44706459591242
+          },
+          {
+            "date": "2026-09-11",
+            "value": 102.18560112076807
           }
         ],
         "availability": [
@@ -24479,6 +24695,10 @@
           },
           {
             "date": "2026-09-10",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-11",
             "status": "available"
           }
         ],
@@ -24499,6 +24719,10 @@
           {
             "date": "2026-09-10",
             "value": 98.39520309113558
+          },
+          {
+            "date": "2026-09-11",
+            "value": 99.23395209034652
           }
         ],
         "change_reason": [
@@ -25368,6 +25592,10 @@
           {
             "date": "2026-09-10",
             "value": 99.84226768704801
+          },
+          {
+            "date": "2026-09-11",
+            "value": 101.4195532111146
           }
         ],
         "related_themes": [],
@@ -25494,6 +25722,10 @@
               {
                 "date": "2026-09-10",
                 "value": 101.44706459591242
+              },
+              {
+                "date": "2026-09-11",
+                "value": 102.18560112076807
               }
             ],
             "availability": [
@@ -25511,6 +25743,10 @@
               },
               {
                 "date": "2026-09-10",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-11",
                 "status": "available"
               }
             ],
@@ -25531,6 +25767,10 @@
               {
                 "date": "2026-09-10",
                 "value": 98.39520309113558
+              },
+              {
+                "date": "2026-09-11",
+                "value": 99.23395209034652
               }
             ],
             "change_reason": [
@@ -26400,6 +26640,10 @@
               {
                 "date": "2026-09-10",
                 "value": 99.84226768704801
+              },
+              {
+                "date": "2026-09-11",
+                "value": 101.4195532111146
               }
             ],
             "related_themes": [],
@@ -26556,7 +26800,7 @@
           },
           {
             "date": "2026-09-11",
-            "value": null
+            "value": 94.11252395053127
           }
         ],
         "availability": [
@@ -26574,7 +26818,7 @@
           },
           {
             "date": "2026-09-11",
-            "status": "pending"
+            "status": "available"
           }
         ],
         "basis": "price_return",
@@ -27610,6 +27854,24 @@
             "sign_agreement": null,
             "signal_strength": 0.7,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.05887476049468734,
+            "actual_return": -0.05887476049468734,
+            "available_at": "2026-09-11T21:53:37.149610+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-08",
+              "end_session": "2026-09-11",
+              "start_session": "2026-09-09"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.05487476049468734,
+            "magnitude_error": 0.05487476049468734,
+            "predicted_direction": "mixed",
+            "predicted_expected_move": -0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.57,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -27736,7 +27998,7 @@
               },
               {
                 "date": "2026-09-11",
-                "value": null
+                "value": 94.11252395053127
               }
             ],
             "availability": [
@@ -27754,7 +28016,7 @@
               },
               {
                 "date": "2026-09-11",
-                "status": "pending"
+                "status": "available"
               }
             ],
             "basis": "price_return",
@@ -28790,6 +29052,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.7,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.05887476049468734,
+                "actual_return": -0.05887476049468734,
+                "available_at": "2026-09-11T21:53:37.149610+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-08",
+                  "end_session": "2026-09-11",
+                  "start_session": "2026-09-09"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.05487476049468734,
+                "magnitude_error": 0.05487476049468734,
+                "predicted_direction": "mixed",
+                "predicted_expected_move": -0.004,
+                "sign_agreement": null,
+                "signal_strength": 0.57,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -30020,6 +30300,24 @@
             "sign_agreement": null,
             "signal_strength": 0.7,
             "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-11T21:53:37.149610+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-08",
+              "end_session": "2026-09-11",
+              "start_session": "2026-09-09"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "mixed",
+            "predicted_expected_move": -0.002,
+            "sign_agreement": null,
+            "signal_strength": 0.57,
+            "status": "pending"
           }
         ],
         "retained_outlooks": [],
@@ -31231,6 +31529,24 @@
                 "predicted_expected_move": 0.004,
                 "sign_agreement": null,
                 "signal_strength": 0.7,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-11T21:53:37.149610+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-08",
+                  "end_session": "2026-09-11",
+                  "start_session": "2026-09-09"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "mixed",
+                "predicted_expected_move": -0.002,
+                "sign_agreement": null,
+                "signal_strength": 0.57,
                 "status": "pending"
               }
             ],
