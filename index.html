@@ -41,7 +41,7 @@
 <section id="event-panel"><h2>占術イベント一覧</h2><p class="muted">通常は期間予想の正式イベントのみ表示します。<label style="display:inline-flex;flex-direction:row;align-items:center;gap:4px"><input id="refEvents" type="checkbox">参考イベントも表示</label>発生日時（現地）と市場への影響開始日の違いに注意。図の記号を選択すると対応する行が光ります。一覧の行を選択すると上段チャートの該当営業日に移動します。</p><div style="overflow:auto" id="events"></div></section>
 <section><h2>パス評価結果</h2><p class="muted">固定影響窓の端点評価。○的中 / ×不一致 / －方向評価なし / …未評価。flat / mixed の符号一致は未定義。専門家ウェイトへの投入はありません。</p><div style="overflow:auto" id="results"></div><details><summary>選択した予想・実績・取得可否 / 出典</summary><pre id="evidence"></pre></details><p><a href="chart-data.json" download>派生JSONを保存</a></p></section>
 <script id="chart-data" type="application/json">{
-  "as_of": "2026-09-10T21:51:52.276906+00:00",
+  "as_of": "2026-09-11T10:59:10.549175+00:00",
   "current": {
     "exploration": [
       {
@@ -49,48 +49,31 @@
           "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
         ],
         "compared": true,
-        "comparison_reason": "Among independent Theme First hypotheses, the Uranus station plus Mercury–Pluto/Uranus and Sun–Mars sequence gives the clearest coherent automation and control direction after an initially mixed window.",
-        "direction": "up",
-        "expert_assessments": [],
-        "formal": "prediction",
-        "identity": "resolved",
-        "name": "産業自動化・適応型機械制御",
-        "priority": 0.82,
-        "reason": "Eight experts support complete 1/5/20 evaluation while space_weather explicitly abstains for deterministic future-input insufficiency; the combined shape is mixed near term, constructive after the reset, temporarily restrictive, then constructive again.",
-        "status": "signal",
-        "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
-        "target_type": "theme"
-      },
-      {
-        "canonical_ids": [
-          "JP:XTKS:6954:equity"
-        ],
-        "compared": true,
-        "comparison_reason": "FANUC was compared as the existing direct member; the shared theme is relevant, but the available inputs do not establish a distinct stock-level direction without mechanically copying the theme.",
+        "comparison_reason": "自動化・制御は引き続き最も整合的だが、既存Forecastとの差がmaterial閾値を超える新方向は成立しない。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
-        "name": "FANUC CORPORATION",
+        "name": "産業自動化・適応型機械制御",
         "priority": 0.0,
-        "reason": "FANUC was compared as the existing direct member; the shared theme is relevant, but the available inputs do not establish a distinct stock-level direction without mechanically copying the theme.",
+        "reason": "自動化・制御は引き続き最も整合的だが、既存Forecastとの差がmaterial閾値を超える新方向は成立しない。",
         "status": "compared",
-        "target_id": "JP:XTKS:6954:equity",
-        "target_type": "stock"
+        "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+        "target_type": "theme"
       },
       {
         "canonical_ids": [
           "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
         ],
         "compared": true,
-        "comparison_reason": "Mobility and autonomous transport was compared independently, but Mercury–Neptune ambiguity and the near-term waning phase prevent a coherent net direction today.",
+        "comparison_reason": "モビリティ・自律移動は技術革新の支援と短期の曖昧さが相殺し、独立した方向性signalを確定できない。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "移動最適化・自動運転",
         "priority": 0.0,
-        "reason": "Mobility and autonomous transport was compared independently, but Mercury–Neptune ambiguity and the near-term waning phase prevent a coherent net direction today.",
+        "reason": "モビリティ・自律移動は技術革新の支援と短期の曖昧さが相殺し、独立した方向性signalを確定できない。",
         "status": "compared",
         "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
         "target_type": "theme"
@@ -100,14 +83,14 @@
           "26dae351-5717-57ce-bbec-ef7183cdd398"
         ],
         "compared": true,
-        "comparison_reason": "Memory and data infrastructure was compared, but supportive and restrictive inputs conflict enough that no coherent new direction is established today.",
+        "comparison_reason": "メモリ・データ基盤は情報処理象意の支援があるが、今日の入力だけでは既存見立てを更新する明確な差に至らない。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "メモリ・ストレージ・データ基盤",
         "priority": 0.0,
-        "reason": "Memory and data infrastructure was compared, but supportive and restrictive inputs conflict enough that no coherent new direction is established today.",
+        "reason": "メモリ・データ基盤は情報処理象意の支援があるが、今日の入力だけでは既存見立てを更新する明確な差に至らない。",
         "status": "compared",
         "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
         "target_type": "theme"
@@ -117,51 +100,17 @@
           "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
         ],
         "compared": true,
-        "comparison_reason": "Geospatial sensing was compared, but the computed inputs do not produce a distinct net direction beyond the broader technology backdrop.",
+        "comparison_reason": "地理空間センシングは観測・情報テーマとの整合はあるが、他仮説から独立した方向性signalが弱い。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "地理空間センシング・遠隔インフラ知能",
         "priority": 0.0,
-        "reason": "Geospatial sensing was compared, but the computed inputs do not produce a distinct net direction beyond the broader technology backdrop.",
+        "reason": "地理空間センシングは観測・情報テーマとの整合はあるが、他仮説から独立した方向性signalが弱い。",
         "status": "compared",
         "target_id": "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1",
         "target_type": "theme"
-      },
-      {
-        "canonical_ids": [
-          "JP:XTKS:6645:equity"
-        ],
-        "compared": false,
-        "comparison_reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "direction": null,
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "OMRON Corporation",
-        "priority": null,
-        "reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "status": "discovered",
-        "target_id": "stock_omron_6645_20260909_recovery",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "JP:XTKS:6506:equity"
-        ],
-        "compared": false,
-        "comparison_reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "direction": null,
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "YASKAWA Electric Corporation",
-        "priority": null,
-        "reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "status": "discovered",
-        "target_id": "stock_yaskawa_6506_20260909_recovery",
-        "target_type": "stock"
       }
     ],
     "label": "現在有効な予想",
@@ -180,6 +129,10 @@
           {
             "date": "2026-09-10",
             "value": 101.18446263717122
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -194,6 +147,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "price_return",
@@ -1351,6 +1308,10 @@
           {
             "date": "2026-09-10",
             "value": 94.87179487179486
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -1369,6 +1330,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "price_return",
@@ -2436,6 +2401,10 @@
           {
             "date": "2026-09-10",
             "value": 95.85630156866499
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -2454,6 +2423,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "benchmark_excess",
@@ -2473,6 +2446,10 @@
           {
             "date": "2026-09-10",
             "value": 98.27947133423119
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "change_reason": [
@@ -3432,6 +3409,10 @@
           {
             "date": "2026-09-10",
             "value": 94.13577290289619
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "related_themes": [],
@@ -3549,6 +3530,10 @@
           {
             "date": "2026-09-10",
             "value": 101.0660353549487
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -3563,6 +3548,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "benchmark_excess",
@@ -3578,6 +3567,10 @@
           {
             "date": "2026-09-10",
             "value": 100.11842728222254
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "change_reason": [
@@ -4565,6 +4558,10 @@
           {
             "date": "2026-09-10",
             "value": 101.18446263717122
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "related_themes": [],
@@ -4736,6 +4733,10 @@
           {
             "date": "2026-09-10",
             "value": 98.8194765354227
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -4746,6 +4747,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "benchmark_excess",
@@ -4757,6 +4762,10 @@
           {
             "date": "2026-09-10",
             "value": 100.30849984085813
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "change_reason": [
@@ -6188,6 +6197,10 @@
           {
             "date": "2026-09-10",
             "value": 99.12797637628083
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "related_themes": [],
@@ -8709,6 +8722,144 @@
   ],
   "runs": [
     {
+      "analysis": [],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-05T20:00:00+00:00"
+        }
+      ],
+      "exploration": [
+        {
+          "canonical_ids": [
+            "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
+          ],
+          "compared": true,
+          "comparison_reason": "自動化・制御は引き続き最も整合的だが、既存Forecastとの差がmaterial閾値を超える新方向は成立しない。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "産業自動化・適応型機械制御",
+          "priority": 0.0,
+          "reason": "自動化・制御は引き続き最も整合的だが、既存Forecastとの差がmaterial閾値を超える新方向は成立しない。",
+          "status": "compared",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
+          ],
+          "compared": true,
+          "comparison_reason": "モビリティ・自律移動は技術革新の支援と短期の曖昧さが相殺し、独立した方向性signalを確定できない。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "移動最適化・自動運転",
+          "priority": 0.0,
+          "reason": "モビリティ・自律移動は技術革新の支援と短期の曖昧さが相殺し、独立した方向性signalを確定できない。",
+          "status": "compared",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "26dae351-5717-57ce-bbec-ef7183cdd398"
+          ],
+          "compared": true,
+          "comparison_reason": "メモリ・データ基盤は情報処理象意の支援があるが、今日の入力だけでは既存見立てを更新する明確な差に至らない。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "メモリ・ストレージ・データ基盤",
+          "priority": 0.0,
+          "reason": "メモリ・データ基盤は情報処理象意の支援があるが、今日の入力だけでは既存見立てを更新する明確な差に至らない。",
+          "status": "compared",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
+          ],
+          "compared": true,
+          "comparison_reason": "地理空間センシングは観測・情報テーマとの整合はあるが、他仮説から独立した方向性signalが弱い。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "地理空間センシング・遠隔インフラ知能",
+          "priority": 0.0,
+          "reason": "地理空間センシングは観測・情報テーマとの整合はあるが、他仮説から独立した方向性signalが弱い。",
+          "status": "compared",
+          "target_id": "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1",
+          "target_type": "theme"
+        }
+      ],
+      "exploration_summary": {
+        "compared": 4,
+        "detailed": 0,
+        "formal_targets": 0,
+        "identity_unresolved": 0,
+        "outcomes": {
+          "compared": 4,
+          "insufficient_input": 0,
+          "no_signal": 0,
+          "signal": 0
+        },
+        "sourced_candidates": 0,
+        "tracks": {
+          "stock": 0,
+          "theme": 4,
+          "unknown": 0
+        }
+      },
+      "identity_failures": [],
+      "issued_at": "2026-09-11T10:58:47.898317+00:00",
+      "label": "2026-09-11 19:58 daily",
+      "requested_target_results": [],
+      "run_date": "2026-09-11",
+      "run_id": "run-20260911-105847-898317",
+      "run_kind": "daily",
+      "targets": [],
+      "warnings": []
+    },
+    {
       "analysis": [
         {
           "formal": "prediction",
@@ -8905,6 +9056,10 @@
             {
               "date": "2026-09-10",
               "value": 98.8194765354227
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "availability": [
@@ -8915,6 +9070,10 @@
             {
               "date": "2026-09-10",
               "status": "available"
+            },
+            {
+              "date": "2026-09-11",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -8926,6 +9085,10 @@
             {
               "date": "2026-09-10",
               "value": 100.30849984085813
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -10352,6 +10515,10 @@
             {
               "date": "2026-09-10",
               "value": 99.12797637628083
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -11368,6 +11535,10 @@
             {
               "date": "2026-09-10",
               "value": 101.18446263717122
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "availability": [
@@ -11382,6 +11553,10 @@
             {
               "date": "2026-09-10",
               "status": "available"
+            },
+            {
+              "date": "2026-09-11",
+              "status": "pending"
             }
           ],
           "basis": "price_return",
@@ -12505,6 +12680,10 @@
             {
               "date": "2026-09-10",
               "value": 101.0660353549487
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "availability": [
@@ -12519,6 +12698,10 @@
             {
               "date": "2026-09-10",
               "status": "available"
+            },
+            {
+              "date": "2026-09-11",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -12534,6 +12717,10 @@
             {
               "date": "2026-09-10",
               "value": 100.11842728222254
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -13516,6 +13703,10 @@
             {
               "date": "2026-09-10",
               "value": 101.18446263717122
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -13792,6 +13983,10 @@
             {
               "date": "2026-09-10",
               "value": 95.51739435666066
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "availability": [
@@ -13806,6 +14001,10 @@
             {
               "date": "2026-09-10",
               "status": "available"
+            },
+            {
+              "date": "2026-09-11",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -13821,6 +14020,10 @@
             {
               "date": "2026-09-10",
               "value": 100.11842728222253
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -14834,6 +15037,10 @@
             {
               "date": "2026-09-10",
               "value": 95.63582163888319
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -15221,6 +15428,10 @@
             {
               "date": "2026-09-10",
               "value": 94.87179487179486
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "availability": [
@@ -15239,6 +15450,10 @@
             {
               "date": "2026-09-10",
               "status": "available"
+            },
+            {
+              "date": "2026-09-11",
+              "status": "pending"
             }
           ],
           "basis": "price_return",
@@ -16276,6 +16491,10 @@
             {
               "date": "2026-09-10",
               "value": 95.85630156866499
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "availability": [
@@ -16294,6 +16513,10 @@
             {
               "date": "2026-09-10",
               "status": "available"
+            },
+            {
+              "date": "2026-09-11",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -16313,6 +16536,10 @@
             {
               "date": "2026-09-10",
               "value": 98.27947133423119
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -17267,6 +17494,10 @@
             {
               "date": "2026-09-10",
               "value": 94.13577290289619
+            },
+            {
+              "date": "2026-09-11",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -18399,6 +18630,10 @@
           {
             "date": "2026-09-10",
             "value": 94.87179487179486
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -18417,6 +18652,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "price_return",
@@ -19489,6 +19728,10 @@
               {
                 "date": "2026-09-10",
                 "value": 94.87179487179486
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "availability": [
@@ -19507,6 +19750,10 @@
               {
                 "date": "2026-09-10",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-11",
+                "status": "pending"
               }
             ],
             "basis": "price_return",
@@ -20623,6 +20870,10 @@
           {
             "date": "2026-09-10",
             "value": 95.85630156866499
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -20641,6 +20892,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "benchmark_excess",
@@ -20660,6 +20915,10 @@
           {
             "date": "2026-09-10",
             "value": 98.27947133423119
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "change_reason": [
@@ -21619,6 +21878,10 @@
           {
             "date": "2026-09-10",
             "value": 94.13577290289619
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "related_themes": [],
@@ -21745,6 +22008,10 @@
               {
                 "date": "2026-09-10",
                 "value": 95.85630156866499
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "availability": [
@@ -21763,6 +22030,10 @@
               {
                 "date": "2026-09-10",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-11",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -21782,6 +22053,10 @@
               {
                 "date": "2026-09-10",
                 "value": 98.27947133423119
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "change_reason": [
@@ -22741,6 +23016,10 @@
               {
                 "date": "2026-09-10",
                 "value": 94.13577290289619
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -22862,6 +23141,10 @@
               {
                 "date": "2026-09-10",
                 "value": 95.51739435666066
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "availability": [
@@ -22876,6 +23159,10 @@
               {
                 "date": "2026-09-10",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-11",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -22891,6 +23178,10 @@
               {
                 "date": "2026-09-10",
                 "value": 100.11842728222253
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "change_reason": [],
@@ -23904,6 +24195,10 @@
               {
                 "date": "2026-09-10",
                 "value": 95.63582163888319
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -24174,6 +24469,19 @@
           ],
           "issued_at": "2026-09-09T03:26:57.888265+00:00",
           "label": "2026-09-09 12:26 supplemental",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "モビリティ・自律移動は技術革新の支援と短期の曖昧さが相殺し、独立した方向性signalを確定できない。",
+              "status": "compared"
+            }
+          ],
+          "issued_at": "2026-09-11T10:58:47.898317+00:00",
+          "label": "2026-09-11 19:58 daily",
           "reasons": []
         }
       ]
@@ -26287,6 +26595,10 @@
           {
             "date": "2026-09-10",
             "value": 101.18446263717122
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -26301,6 +26613,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "price_return",
@@ -27459,6 +27775,10 @@
               {
                 "date": "2026-09-10",
                 "value": 101.18446263717122
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "availability": [
@@ -27473,6 +27793,10 @@
               {
                 "date": "2026-09-10",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-11",
+                "status": "pending"
               }
             ],
             "basis": "price_return",
@@ -28649,6 +28973,10 @@
           {
             "date": "2026-09-10",
             "value": 101.0660353549487
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -28663,6 +28991,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "benchmark_excess",
@@ -28678,6 +29010,10 @@
           {
             "date": "2026-09-10",
             "value": 100.11842728222254
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "change_reason": [
@@ -29665,6 +30001,10 @@
           {
             "date": "2026-09-10",
             "value": 101.18446263717122
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "related_themes": [],
@@ -29845,6 +30185,10 @@
               {
                 "date": "2026-09-10",
                 "value": 101.0660353549487
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "availability": [
@@ -29859,6 +30203,10 @@
               {
                 "date": "2026-09-10",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-11",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -29874,6 +30222,10 @@
               {
                 "date": "2026-09-10",
                 "value": 100.11842728222254
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "change_reason": [
@@ -30861,6 +31213,10 @@
               {
                 "date": "2026-09-10",
                 "value": 101.18446263717122
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -31055,6 +31411,19 @@
           "issued_at": "2026-09-09T03:26:57.888265+00:00",
           "label": "2026-09-09 12:26 supplemental",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "メモリ・データ基盤は情報処理象意の支援があるが、今日の入力だけでは既存見立てを更新する明確な差に至らない。",
+              "status": "compared"
+            }
+          ],
+          "issued_at": "2026-09-11T10:58:47.898317+00:00",
+          "label": "2026-09-11 19:58 daily",
+          "reasons": []
         }
       ]
     },
@@ -31068,6 +31437,10 @@
           {
             "date": "2026-09-10",
             "value": 98.8194765354227
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "availability": [
@@ -31078,6 +31451,10 @@
           {
             "date": "2026-09-10",
             "status": "available"
+          },
+          {
+            "date": "2026-09-11",
+            "status": "pending"
           }
         ],
         "basis": "benchmark_excess",
@@ -31089,6 +31466,10 @@
           {
             "date": "2026-09-10",
             "value": 100.30849984085813
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "change_reason": [
@@ -32520,6 +32901,10 @@
           {
             "date": "2026-09-10",
             "value": 99.12797637628083
+          },
+          {
+            "date": "2026-09-11",
+            "value": null
           }
         ],
         "related_themes": [],
@@ -33026,6 +33411,10 @@
               {
                 "date": "2026-09-10",
                 "value": 98.8194765354227
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "availability": [
@@ -33036,6 +33425,10 @@
               {
                 "date": "2026-09-10",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-11",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -33047,6 +33440,10 @@
               {
                 "date": "2026-09-10",
                 "value": 100.30849984085813
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "change_reason": [
@@ -34478,6 +34875,10 @@
               {
                 "date": "2026-09-10",
                 "value": 99.12797637628083
+              },
+              {
+                "date": "2026-09-11",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -35002,6 +35403,19 @@
           "reasons": [
             "new_target"
           ]
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "自動化・制御は引き続き最も整合的だが、既存Forecastとの差がmaterial閾値を超える新方向は成立しない。",
+              "status": "compared"
+            }
+          ],
+          "issued_at": "2026-09-11T10:58:47.898317+00:00",
+          "label": "2026-09-11 19:58 daily",
+          "reasons": []
         }
       ]
     }
