@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-12T21:37:23.864889+00:00",
+  "as_of": "2026-09-12T23:05:49.801998+00:00",
   "current": {
     "exploration": [
       {
@@ -7,14 +7,14 @@
           "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
         ],
         "compared": true,
-        "comparison_reason": "自動化・制御は水星―天王星・冥王星の調和と龍高星・玉堂星の情報更新象意に整合するが、水星―海王星の対立が短期の方向確定を妨げ、materialな更新差は成立しない。",
+        "comparison_reason": "自動化・制御は水星―天王星・冥王星の調和、車騎星・牽牛星の実行と規律の象意に合うが、水星―海王星オポジションと月―土星オポジションが短期の判断・実装を曖昧化する。9月14日の追い風の直後に15日・18日の緊張aspectが続くため、1/5/20日を通じた単一方向signalは成立しない。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "産業自動化・適応型機械制御",
         "priority": 0.0,
-        "reason": "自動化・制御は水星―天王星・冥王星の調和と龍高星・玉堂星の情報更新象意に整合するが、水星―海王星の対立が短期の方向確定を妨げ、materialな更新差は成立しない。",
+        "reason": "自動化・制御は水星―天王星・冥王星の調和、車騎星・牽牛星の実行と規律の象意に合うが、水星―海王星オポジションと月―土星オポジションが短期の判断・実装を曖昧化する。9月14日の追い風の直後に15日・18日の緊張aspectが続くため、1/5/20日を通じた単一方向signalは成立しない。",
         "status": "compared",
         "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
         "target_type": "theme"
@@ -24,14 +24,14 @@
           "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
         ],
         "compared": true,
-        "comparison_reason": "モビリティ・自律移動は技術革新象意の支援がある一方、対立aspectと五黄中宮による不安定さが相殺し、独立した方向性signalを確定できない。",
+        "comparison_reason": "モビリティ・自律移動は天王星系の革新象意と太陽―火星セクスタイルに整合するが、金星―冥王星スクエア、水星―土星オポジション、仏滅・庚寅の競合が短期の前進と制約を併存させる。窓全体で方向を固定できない。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "移動最適化・自動運転",
         "priority": 0.0,
-        "reason": "モビリティ・自律移動は技術革新象意の支援がある一方、対立aspectと五黄中宮による不安定さが相殺し、独立した方向性signalを確定できない。",
+        "reason": "モビリティ・自律移動は天王星系の革新象意と太陽―火星セクスタイルに整合するが、金星―冥王星スクエア、水星―土星オポジション、仏滅・庚寅の競合が短期の前進と制約を併存させる。窓全体で方向を固定できない。",
         "status": "compared",
         "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
         "target_type": "theme"
@@ -41,14 +41,14 @@
           "26dae351-5717-57ce-bbec-ef7183cdd398"
         ],
         "compared": true,
-        "comparison_reason": "メモリ・データ基盤は情報処理・蓄積の象意と整合するが、今日の入力だけでは既存見立てをmaterialに変更する強さに達しない。",
+        "comparison_reason": "メモリ・データ基盤は水星―冥王星トライン、水星―天王星トライン、一白水星の情報・流動象意と整合する一方、水星―海王星オポジションと後続の水星―土星オポジションが情報の明瞭性と速度を相殺する。新月後の拡大局面も単独では方向確定に足りない。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "メモリ・ストレージ・データ基盤",
         "priority": 0.0,
-        "reason": "メモリ・データ基盤は情報処理・蓄積の象意と整合するが、今日の入力だけでは既存見立てをmaterialに変更する強さに達しない。",
+        "reason": "メモリ・データ基盤は水星―冥王星トライン、水星―天王星トライン、一白水星の情報・流動象意と整合する一方、水星―海王星オポジションと後続の水星―土星オポジションが情報の明瞭性と速度を相殺する。新月後の拡大局面も単独では方向確定に足りない。",
         "status": "compared",
         "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
         "target_type": "theme"
@@ -58,14 +58,14 @@
           "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
         ],
         "compared": true,
-        "comparison_reason": "地理空間センシングは観測・情報・測定Themeとして成立するが、他仮説から独立した方向性の強さが不足し、更新対象には選ばない。",
+        "comparison_reason": "地理空間センシングは四緑・一白の通信・移動・情報象意、軫宿の観測・移動イメージと親和するが、今日の主要aspectは革新支援と認識混乱を同時に示す。数秘4/5も構造化と変化が競合し、方向性を一方へ揃えない。",
         "direction": "flat",
         "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "地理空間センシング・遠隔インフラ知能",
         "priority": 0.0,
-        "reason": "地理空間センシングは観測・情報・測定Themeとして成立するが、他仮説から独立した方向性の強さが不足し、更新対象には選ばない。",
+        "reason": "地理空間センシングは四緑・一白の通信・移動・情報象意、軫宿の観測・移動イメージと親和するが、今日の主要aspectは革新支援と認識混乱を同時に示す。数秘4/5も構造化と変化が競合し、方向性を一方へ揃えない。",
         "status": "compared",
         "target_id": "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1",
         "target_type": "theme"
@@ -8749,6 +8749,144 @@
     }
   ],
   "runs": [
+    {
+      "analysis": [],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-05T20:00:00+00:00"
+        }
+      ],
+      "exploration": [
+        {
+          "canonical_ids": [
+            "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
+          ],
+          "compared": true,
+          "comparison_reason": "自動化・制御は水星―天王星・冥王星の調和、車騎星・牽牛星の実行と規律の象意に合うが、水星―海王星オポジションと月―土星オポジションが短期の判断・実装を曖昧化する。9月14日の追い風の直後に15日・18日の緊張aspectが続くため、1/5/20日を通じた単一方向signalは成立しない。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "産業自動化・適応型機械制御",
+          "priority": 0.0,
+          "reason": "自動化・制御は水星―天王星・冥王星の調和、車騎星・牽牛星の実行と規律の象意に合うが、水星―海王星オポジションと月―土星オポジションが短期の判断・実装を曖昧化する。9月14日の追い風の直後に15日・18日の緊張aspectが続くため、1/5/20日を通じた単一方向signalは成立しない。",
+          "status": "compared",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
+          ],
+          "compared": true,
+          "comparison_reason": "モビリティ・自律移動は天王星系の革新象意と太陽―火星セクスタイルに整合するが、金星―冥王星スクエア、水星―土星オポジション、仏滅・庚寅の競合が短期の前進と制約を併存させる。窓全体で方向を固定できない。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "移動最適化・自動運転",
+          "priority": 0.0,
+          "reason": "モビリティ・自律移動は天王星系の革新象意と太陽―火星セクスタイルに整合するが、金星―冥王星スクエア、水星―土星オポジション、仏滅・庚寅の競合が短期の前進と制約を併存させる。窓全体で方向を固定できない。",
+          "status": "compared",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "26dae351-5717-57ce-bbec-ef7183cdd398"
+          ],
+          "compared": true,
+          "comparison_reason": "メモリ・データ基盤は水星―冥王星トライン、水星―天王星トライン、一白水星の情報・流動象意と整合する一方、水星―海王星オポジションと後続の水星―土星オポジションが情報の明瞭性と速度を相殺する。新月後の拡大局面も単独では方向確定に足りない。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "メモリ・ストレージ・データ基盤",
+          "priority": 0.0,
+          "reason": "メモリ・データ基盤は水星―冥王星トライン、水星―天王星トライン、一白水星の情報・流動象意と整合する一方、水星―海王星オポジションと後続の水星―土星オポジションが情報の明瞭性と速度を相殺する。新月後の拡大局面も単独では方向確定に足りない。",
+          "status": "compared",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
+          ],
+          "compared": true,
+          "comparison_reason": "地理空間センシングは四緑・一白の通信・移動・情報象意、軫宿の観測・移動イメージと親和するが、今日の主要aspectは革新支援と認識混乱を同時に示す。数秘4/5も構造化と変化が競合し、方向性を一方へ揃えない。",
+          "direction": "flat",
+          "expert_assessments": [],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "地理空間センシング・遠隔インフラ知能",
+          "priority": 0.0,
+          "reason": "地理空間センシングは四緑・一白の通信・移動・情報象意、軫宿の観測・移動イメージと親和するが、今日の主要aspectは革新支援と認識混乱を同時に示す。数秘4/5も構造化と変化が競合し、方向性を一方へ揃えない。",
+          "status": "compared",
+          "target_id": "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1",
+          "target_type": "theme"
+        }
+      ],
+      "exploration_summary": {
+        "compared": 4,
+        "detailed": 0,
+        "formal_targets": 0,
+        "identity_unresolved": 0,
+        "outcomes": {
+          "compared": 4,
+          "insufficient_input": 0,
+          "no_signal": 0,
+          "signal": 0
+        },
+        "sourced_candidates": 0,
+        "tracks": {
+          "stock": 0,
+          "theme": 4,
+          "unknown": 0
+        }
+      },
+      "identity_failures": [],
+      "issued_at": "2026-09-12T23:05:28.867557+00:00",
+      "label": "2026-09-13 08:05 daily",
+      "requested_target_results": [],
+      "run_date": "2026-09-13",
+      "run_id": "run-20260912-230528-867557",
+      "run_kind": "daily",
+      "targets": [],
+      "warnings": []
+    },
     {
       "analysis": [],
       "carried_forecasts": [
@@ -24948,6 +25086,19 @@
           "issued_at": "2026-09-11T23:01:34.645432+00:00",
           "label": "2026-09-12 08:01 daily",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "モビリティ・自律移動は天王星系の革新象意と太陽―火星セクスタイルに整合するが、金星―冥王星スクエア、水星―土星オポジション、仏滅・庚寅の競合が短期の前進と制約を併存させる。窓全体で方向を固定できない。",
+              "status": "compared"
+            }
+          ],
+          "issued_at": "2026-09-12T23:05:28.867557+00:00",
+          "label": "2026-09-13 08:05 daily",
+          "reasons": []
         }
       ]
     },
@@ -32042,6 +32193,19 @@
           "issued_at": "2026-09-11T23:01:34.645432+00:00",
           "label": "2026-09-12 08:01 daily",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "メモリ・データ基盤は水星―冥王星トライン、水星―天王星トライン、一白水星の情報・流動象意と整合する一方、水星―海王星オポジションと後続の水星―土星オポジションが情報の明瞭性と速度を相殺する。新月後の拡大局面も単独では方向確定に足りない。",
+              "status": "compared"
+            }
+          ],
+          "issued_at": "2026-09-12T23:05:28.867557+00:00",
+          "label": "2026-09-13 08:05 daily",
+          "reasons": []
         }
       ]
     },
@@ -36046,6 +36210,19 @@
           ],
           "issued_at": "2026-09-11T23:01:34.645432+00:00",
           "label": "2026-09-12 08:01 daily",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "自動化・制御は水星―天王星・冥王星の調和、車騎星・牽牛星の実行と規律の象意に合うが、水星―海王星オポジションと月―土星オポジションが短期の判断・実装を曖昧化する。9月14日の追い風の直後に15日・18日の緊張aspectが続くため、1/5/20日を通じた単一方向signalは成立しない。",
+              "status": "compared"
+            }
+          ],
+          "issued_at": "2026-09-12T23:05:28.867557+00:00",
+          "label": "2026-09-13 08:05 daily",
           "reasons": []
         }
       ]
