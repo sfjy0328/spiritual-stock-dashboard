@@ -41,41 +41,71 @@
 <section id="event-panel"><h2>占術イベント一覧</h2><p class="muted">通常は期間予想の正式イベントのみ表示します。<label style="display:inline-flex;flex-direction:row;align-items:center;gap:4px"><input id="refEvents" type="checkbox">参考イベントも表示</label>発生日時（現地）と市場への影響開始日の違いに注意。図の記号を選択すると対応する行が光ります。一覧の行を選択すると上段チャートの該当営業日に移動します。</p><div style="overflow:auto" id="events"></div></section>
 <section><h2>パス評価結果</h2><p class="muted">固定影響窓の端点評価。○的中 / ×不一致 / －方向評価なし / …未評価。flat / mixed の符号一致は未定義。専門家ウェイトへの投入はありません。</p><div style="overflow:auto" id="results"></div><details><summary>選択した予想・実績・取得可否 / 出典</summary><pre id="evidence"></pre></details><p><a href="chart-data.json" download>派生JSONを保存</a></p></section>
 <script id="chart-data" type="application/json">{
-  "as_of": "2026-09-13T21:40:03.642016+00:00",
+  "as_of": "2026-09-13T23:11:13.270324+00:00",
   "current": {
     "exploration": [
       {
         "canonical_ids": [
-          "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
+          "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "d4762e19-dcd8-5b57-aad7-fae529d406b9"
         ],
         "compared": true,
-        "comparison_reason": "自動化・制御は水星―天王星・冥王星の調和、車騎星・牽牛星の実行と規律の象意に合うが、水星―海王星オポジションと月―土星オポジションが短期の判断・実装を曖昧化する。9月14日の追い風の直後に15日・18日の緊張aspectが続くため、1/5/20日を通じた単一方向signalは成立しない。",
+        "comparison_reason": "モビリティ・自律移動には技術革新と活動性の象意がある一方、制約・反転要素も重なり全窓で一方向に固定できない。",
         "direction": "flat",
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "産業自動化・適応型機械制御",
-        "priority": 0.0,
-        "reason": "自動化・制御は水星―天王星・冥王星の調和、車騎星・牽牛星の実行と規律の象意に合うが、水星―海王星オポジションと月―土星オポジションが短期の判断・実装を曖昧化する。9月14日の追い風の直後に15日・18日の緊張aspectが続くため、1/5/20日を通じた単一方向signalは成立しない。",
-        "status": "compared",
-        "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
-        "target_type": "theme"
-      },
-      {
-        "canonical_ids": [
-          "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "技術・変革の象意と摩擦・反転のアスペクトが併存する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "辛卯日・丁酉月・丙午年の組合せは推進と緊張を同時に含む。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "日次算命学の構成は単一方向へ収束する材料にならない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "九星の年・月・日配置は活動性と抑制の双方を含む。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "宿曜の月位置は短中期で一方向の優位を確定しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "大安は建設的だが暦全体では単独の方向性根拠にならない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "日次数秘はテーマの方向を一方に固定するほど強くない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "月相約34度は成長局面だが他系統との整合が不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33の静穏環境で方向性の強い宇宙天気signalはない。",
+            "status": "flat"
+          }
         ],
-        "compared": true,
-        "comparison_reason": "モビリティ・自律移動は天王星系の革新象意と太陽―火星セクスタイルに整合するが、金星―冥王星スクエア、水星―土星オポジション、仏滅・庚寅の競合が短期の前進と制約を併存させる。窓全体で方向を固定できない。",
-        "direction": "flat",
-        "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "移動最適化・自動運転",
         "priority": 0.0,
-        "reason": "モビリティ・自律移動は天王星系の革新象意と太陽―火星セクスタイルに整合するが、金星―冥王星スクエア、水星―土星オポジション、仏滅・庚寅の競合が短期の前進と制約を併存させる。窓全体で方向を固定できない。",
-        "status": "compared",
-        "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+        "reason": "9 Expertの詳細評価でモビリティ・自律移動について一貫方向を成立させられなかった。",
+        "status": "no_signal",
+        "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd",
         "target_type": "theme"
       },
       {
@@ -83,16 +113,125 @@
           "26dae351-5717-57ce-bbec-ef7183cdd398"
         ],
         "compared": true,
-        "comparison_reason": "メモリ・データ基盤は水星―冥王星トライン、水星―天王星トライン、一白水星の情報・流動象意と整合する一方、水星―海王星オポジションと後続の水星―土星オポジションが情報の明瞭性と速度を相殺する。新月後の拡大局面も単独では方向確定に足りない。",
+        "comparison_reason": "メモリ・データ基盤は情報・技術革新の象意と整合するが、抑制・曖昧化・転換の入力も並存し安定方向を確定できない。",
         "direction": "flat",
-        "expert_assessments": [],
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "情報・技術革新の象意はあるが緊張アスペクトも強い。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "五行上の促進要素と衝突要素が併存する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "算命学上の配置は安定した一方向signalを与えない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "九星配置は成長と抑制の双方を示す。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "宿曜では短中期の優勢方向を固定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "大安の追い風だけでは方向判定に不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "数秘の象意は情報Themeと親和するが方向強度は不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "成長月相は追い風だが他系統と完全には一致しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33で宇宙天気は静穏、方向性寄与は小さい。",
+            "status": "flat"
+          }
+        ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "メモリ・ストレージ・データ基盤",
         "priority": 0.0,
-        "reason": "メモリ・データ基盤は水星―冥王星トライン、水星―天王星トライン、一白水星の情報・流動象意と整合する一方、水星―海王星オポジションと後続の水星―土星オポジションが情報の明瞭性と速度を相殺する。新月後の拡大局面も単独では方向確定に足りない。",
-        "status": "compared",
-        "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+        "reason": "9 Expertの詳細評価でメモリ・データ基盤の追い風と抑制要素が相殺した。",
+        "status": "no_signal",
+        "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d",
+        "target_type": "theme"
+      },
+      {
+        "canonical_ids": [
+          "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
+        ],
+        "compared": true,
+        "comparison_reason": "産業オートメーションは実行・制御・技術の象意を得る一方、短期摩擦と後続の反転要素が相殺し方向性signalは成立しない。",
+        "direction": "flat",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "機械・革新の象意と制約的アスペクトが同時に存在する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "実行力を示す要素と衝突要素が併存する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "算命学上は実装性を示す一方で安定方向は確定しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "九星配置は実務性と変化性の双方を含む。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "宿曜では全窓を通じる優勢方向が出ない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "大安の建設性はあるが他の暦要素との合意が不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "数秘は制御・構造Themeに中立から混合の象意。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "月相の成長性と他系統の摩擦が相殺する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33の静穏環境で独立した方向signalはない。",
+            "status": "flat"
+          }
+        ],
+        "formal": "no_prediction",
+        "identity": "resolved",
+        "name": "産業自動化・適応型機械制御",
+        "priority": 0.0,
+        "reason": "9 Expertの詳細評価で産業オートメーションの実行・革新と摩擦・反転の象意が拮抗した。",
+        "status": "no_signal",
+        "target_id": "940f927b-8785-57e8-b518-1390dedcb634",
         "target_type": "theme"
       },
       {
@@ -100,17 +239,376 @@
           "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
         ],
         "compared": true,
-        "comparison_reason": "地理空間センシングは四緑・一白の通信・移動・情報象意、軫宿の観測・移動イメージと親和するが、今日の主要aspectは革新支援と認識混乱を同時に示す。数秘4/5も構造化と変化が競合し、方向性を一方へ揃えない。",
+        "comparison_reason": "地理空間センシングには観測・通信・情報の象意があるが、東西・月相系の入力が窓全体で同方向へ揃わない。",
         "direction": "flat",
-        "expert_assessments": [],
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "観測・通信の象意と緊張・反転の象意が併存する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "日月年柱は情報・観測Themeへ明確な単方向を与えない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "算命学上の配置は変化性を含み方向が安定しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "九星は移動・情報象意と抑制を同時に含む。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "宿曜では観測Themeの優勢方向を固定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "大安は支援材料だが単独ではsignal不足。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "日次数秘は情報・インフラThemeに決定的な方向性を与えない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "成長月相は支援的だが全体系合意には至らない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33で宇宙天気起点の強い変動signalはない。",
+            "status": "flat"
+          }
+        ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "地理空間センシング・遠隔インフラ知能",
         "priority": 0.0,
-        "reason": "地理空間センシングは四緑・一白の通信・移動・情報象意、軫宿の観測・移動イメージと親和するが、今日の主要aspectは革新支援と認識混乱を同時に示す。数秘4/5も構造化と変化が競合し、方向性を一方へ揃えない。",
-        "status": "compared",
-        "target_id": "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1",
+        "reason": "9 Expertの詳細評価で地理空間センシングの方向を全窓で一方へ揃えられなかった。",
+        "status": "no_signal",
+        "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de",
         "target_type": "theme"
+      },
+      {
+        "canonical_ids": [],
+        "compared": true,
+        "comparison_reason": "サイバー/信頼ネットワークは通信・防御の象意と親和するが、活性化と制約が分かれ安定方向を得られない。",
+        "direction": "flat",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "通信・ネットワーク象意と制約的アスペクトが併存する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "防御・構造と変化の要素が同時に表れる。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "算命学上は守備性と変化性が併存する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "九星の情報・変化象意はあるが方向を固定しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "宿曜は短中期の安定方向を示さない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "大安の支援性だけではdirectional signalに不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "数秘上の構造・情報象意は混合である。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "成長月相は支援的だが制約要素を打ち消せない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33で静穏、宇宙天気からの方向性寄与は小さい。",
+            "status": "flat"
+          }
+        ],
+        "formal": "excluded",
+        "identity": "unresolved",
+        "name": "サイバー耐障害性・信頼ネットワーク基盤",
+        "priority": 0.0,
+        "reason": "対象の身元または評価用構成を確認できません",
+        "status": "no_signal",
+        "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c",
+        "target_type": "theme"
+      },
+      {
+        "canonical_ids": [
+          "JP:XTKS:581A:equity"
+        ],
+        "compared": true,
+        "comparison_reason": "GOのモビリティThemeへの直接関連を踏まえて個別評価したが、各占術系の方向が揃わない。",
+        "direction": "flat",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "モビリティとの親和性はあるが日次・将来アスペクトは混合。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "日次四柱は推進と摩擦を併せ持つ。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "算命学では単一方向の優位を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "九星は移動性と制約を同時に含む。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "宿曜の位置は方向を固定するほど強くない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "大安は支援材料だが単独では不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "日次数秘はモビリティ銘柄の方向を決定しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "月相の成長性と他の摩擦要素が相殺する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33の静穏環境で方向性signalはない。",
+            "status": "flat"
+          }
+        ],
+        "formal": "no_prediction",
+        "identity": "resolved",
+        "name": "GO Inc.",
+        "priority": 0.0,
+        "reason": "GOをモビリティThemeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+        "status": "no_signal",
+        "target_id": "JP:XTKS:581A:equity",
+        "target_type": "stock"
+      },
+      {
+        "canonical_ids": [
+          "JP:XTKS:285A:equity"
+        ],
+        "compared": true,
+        "comparison_reason": "KIOXIAのメモリ/ストレージThemeへの直接関連を踏まえたが、技術・情報の追い風と制約・反転要素が相殺する。",
+        "direction": "flat",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "情報・技術象意は追い風だが緊張アスペクトも併存する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "日次四柱は成長と衝突の双方を含む。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "算命学では一方向の優位を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "九星は情報・変化Themeに混合の象意。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "宿曜はメモリThemeに安定した方向を示さない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "大安の支援性と他要素の不一致で中立化する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "数秘は情報Themeとの親和性があるがdirectionalではない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "成長月相は支援的だが全体系合意に至らない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33で静穏、宇宙天気の方向性寄与は小さい。",
+            "status": "flat"
+          }
+        ],
+        "formal": "no_prediction",
+        "identity": "resolved",
+        "name": "Kioxia Holdings Corporation",
+        "priority": 0.0,
+        "reason": "KIOXIAをメモリ/データ基盤Themeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+        "status": "no_signal",
+        "target_id": "JP:XTKS:285A:equity",
+        "target_type": "stock"
+      },
+      {
+        "canonical_ids": [
+          "JP:XTKS:290A:equity"
+        ],
+        "compared": true,
+        "comparison_reason": "SynspectiveのSAR/地理空間Themeへの直接関連を踏まえたが、観測・インフラ象意と抑制要素が混在する。",
+        "direction": "flat",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "Synspective固有の設立日ベース天体入力と日次将来配置は混合。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "Synspective固有四柱と日次四柱を合わせても一方向に収束しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "固有算命学入力と日次入力は単方向の優位を作らない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "固有九星と日次九星の組合せは観測Themeへ混合signal。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "固有宿曜と日次宿曜では方向を固定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "固有暦入力と日次大安を合わせても決定的ではない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "固有数秘と日次数秘は地理空間Themeに混合の象意。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "月相の成長性はあるが他系統との合意が不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33で静穏、宇宙天気起点の方向signalはない。",
+            "status": "flat"
+          }
+        ],
+        "formal": "no_prediction",
+        "identity": "resolved",
+        "name": "Synspective Inc.",
+        "priority": 0.0,
+        "reason": "Synspectiveを地理空間センシングThemeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+        "status": "no_signal",
+        "target_id": "JP:XTKS:290A:equity",
+        "target_type": "stock"
+      },
+      {
+        "canonical_ids": [
+          "JP:XTKS:593A:equity"
+        ],
+        "compared": true,
+        "comparison_reason": "TIER IVの自動運転Themeへの直接関連を踏まえたが、革新・活動性と制約・不確実性が拮抗する。",
+        "direction": "flat",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "TIER IV固有の設立日ベース天体入力と日次将来配置は混合。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "TIER IV固有四柱と日次四柱を合わせても一方向に収束しない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "固有算命学入力と日次入力は単方向の優位を作らない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "固有九星と日次九星の組合せは自動運転Themeへ混合signal。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "固有宿曜と日次宿曜では方向を固定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "固有暦入力と日次大安を合わせても決定的ではない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "固有数秘と日次数秘は自動運転Themeに混合の象意。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "月相の成長性はあるが他系統との合意が不足する。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "Kp約0.33で静穏、宇宙天気起点の方向signalはない。",
+            "status": "flat"
+          }
+        ],
+        "formal": "no_prediction",
+        "identity": "resolved",
+        "name": "TIER IV, Inc.",
+        "priority": 0.0,
+        "reason": "TIER IVを自動運転Themeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+        "status": "no_signal",
+        "target_id": "JP:XTKS:593A:equity",
+        "target_type": "stock"
       }
     ],
     "label": "現在有効な予想",
@@ -8791,6 +9289,1050 @@
     }
   ],
   "runs": [
+    {
+      "admission_decisions": [],
+      "analysis": [
+        {
+          "formal": "no_prediction",
+          "reason": "9 Expertの詳細評価でモビリティ・自律移動について一貫方向を成立させられなかった。",
+          "status": "no_signal",
+          "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9 Expertの詳細評価でメモリ・データ基盤の追い風と抑制要素が相殺した。",
+          "status": "no_signal",
+          "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9 Expertの詳細評価で産業オートメーションの実行・革新と摩擦・反転の象意が拮抗した。",
+          "status": "no_signal",
+          "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9 Expertの詳細評価で地理空間センシングの方向を全窓で一方へ揃えられなかった。",
+          "status": "no_signal",
+          "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9 Expertの詳細評価でサイバー/信頼ネットワークの活性化と制約が拮抗した。",
+          "status": "no_signal",
+          "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "GOをモビリティThemeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:581A:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "KIOXIAをメモリ/データ基盤Themeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:285A:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "Synspectiveを地理空間センシングThemeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:290A:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "TIER IVを自動運転Themeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:593A:equity"
+        }
+      ],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-09T03:26:57.888265+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-13T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-08T10:05:07.110612+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-08T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-07T14:54:24.719840+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-05T20:00:00+00:00"
+        }
+      ],
+      "exploration": [
+        {
+          "canonical_ids": [
+            "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+            "d4762e19-dcd8-5b57-aad7-fae529d406b9"
+          ],
+          "compared": true,
+          "comparison_reason": "モビリティ・自律移動には技術革新と活動性の象意がある一方、制約・反転要素も重なり全窓で一方向に固定できない。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "技術・変革の象意と摩擦・反転のアスペクトが併存する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "辛卯日・丁酉月・丙午年の組合せは推進と緊張を同時に含む。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "日次算命学の構成は単一方向へ収束する材料にならない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "九星の年・月・日配置は活動性と抑制の双方を含む。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "宿曜の月位置は短中期で一方向の優位を確定しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "大安は建設的だが暦全体では単独の方向性根拠にならない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "日次数秘はテーマの方向を一方に固定するほど強くない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "月相約34度は成長局面だが他系統との整合が不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33の静穏環境で方向性の強い宇宙天気signalはない。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "移動最適化・自動運転",
+          "priority": 0.0,
+          "reason": "9 Expertの詳細評価でモビリティ・自律移動について一貫方向を成立させられなかった。",
+          "status": "no_signal",
+          "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "26dae351-5717-57ce-bbec-ef7183cdd398"
+          ],
+          "compared": true,
+          "comparison_reason": "メモリ・データ基盤は情報・技術革新の象意と整合するが、抑制・曖昧化・転換の入力も並存し安定方向を確定できない。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "情報・技術革新の象意はあるが緊張アスペクトも強い。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "五行上の促進要素と衝突要素が併存する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "算命学上の配置は安定した一方向signalを与えない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "九星配置は成長と抑制の双方を示す。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "宿曜では短中期の優勢方向を固定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "大安の追い風だけでは方向判定に不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "数秘の象意は情報Themeと親和するが方向強度は不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "成長月相は追い風だが他系統と完全には一致しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33で宇宙天気は静穏、方向性寄与は小さい。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "メモリ・ストレージ・データ基盤",
+          "priority": 0.0,
+          "reason": "9 Expertの詳細評価でメモリ・データ基盤の追い風と抑制要素が相殺した。",
+          "status": "no_signal",
+          "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
+          ],
+          "compared": true,
+          "comparison_reason": "産業オートメーションは実行・制御・技術の象意を得る一方、短期摩擦と後続の反転要素が相殺し方向性signalは成立しない。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "機械・革新の象意と制約的アスペクトが同時に存在する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "実行力を示す要素と衝突要素が併存する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "算命学上は実装性を示す一方で安定方向は確定しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "九星配置は実務性と変化性の双方を含む。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "宿曜では全窓を通じる優勢方向が出ない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "大安の建設性はあるが他の暦要素との合意が不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "数秘は制御・構造Themeに中立から混合の象意。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "月相の成長性と他系統の摩擦が相殺する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33の静穏環境で独立した方向signalはない。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "産業自動化・適応型機械制御",
+          "priority": 0.0,
+          "reason": "9 Expertの詳細評価で産業オートメーションの実行・革新と摩擦・反転の象意が拮抗した。",
+          "status": "no_signal",
+          "target_id": "940f927b-8785-57e8-b518-1390dedcb634",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
+          ],
+          "compared": true,
+          "comparison_reason": "地理空間センシングには観測・通信・情報の象意があるが、東西・月相系の入力が窓全体で同方向へ揃わない。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "観測・通信の象意と緊張・反転の象意が併存する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "日月年柱は情報・観測Themeへ明確な単方向を与えない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "算命学上の配置は変化性を含み方向が安定しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "九星は移動・情報象意と抑制を同時に含む。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "宿曜では観測Themeの優勢方向を固定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "大安は支援材料だが単独ではsignal不足。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "日次数秘は情報・インフラThemeに決定的な方向性を与えない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "成長月相は支援的だが全体系合意には至らない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33で宇宙天気起点の強い変動signalはない。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "地理空間センシング・遠隔インフラ知能",
+          "priority": 0.0,
+          "reason": "9 Expertの詳細評価で地理空間センシングの方向を全窓で一方へ揃えられなかった。",
+          "status": "no_signal",
+          "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [],
+          "compared": true,
+          "comparison_reason": "サイバー/信頼ネットワークは通信・防御の象意と親和するが、活性化と制約が分かれ安定方向を得られない。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "通信・ネットワーク象意と制約的アスペクトが併存する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "防御・構造と変化の要素が同時に表れる。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "算命学上は守備性と変化性が併存する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "九星の情報・変化象意はあるが方向を固定しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "宿曜は短中期の安定方向を示さない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "大安の支援性だけではdirectional signalに不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "数秘上の構造・情報象意は混合である。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "成長月相は支援的だが制約要素を打ち消せない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33で静穏、宇宙天気からの方向性寄与は小さい。",
+              "status": "flat"
+            }
+          ],
+          "formal": "excluded",
+          "identity": "unresolved",
+          "name": "サイバー耐障害性・信頼ネットワーク基盤",
+          "priority": 0.0,
+          "reason": "対象の身元または評価用構成を確認できません",
+          "status": "no_signal",
+          "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "JP:XTKS:581A:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "GOのモビリティThemeへの直接関連を踏まえて個別評価したが、各占術系の方向が揃わない。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "モビリティとの親和性はあるが日次・将来アスペクトは混合。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "日次四柱は推進と摩擦を併せ持つ。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "算命学では単一方向の優位を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "九星は移動性と制約を同時に含む。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "宿曜の位置は方向を固定するほど強くない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "大安は支援材料だが単独では不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "日次数秘はモビリティ銘柄の方向を決定しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "月相の成長性と他の摩擦要素が相殺する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33の静穏環境で方向性signalはない。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "GO Inc.",
+          "priority": 0.0,
+          "reason": "GOをモビリティThemeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "JP:XTKS:285A:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "KIOXIAのメモリ/ストレージThemeへの直接関連を踏まえたが、技術・情報の追い風と制約・反転要素が相殺する。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "情報・技術象意は追い風だが緊張アスペクトも併存する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "日次四柱は成長と衝突の双方を含む。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "算命学では一方向の優位を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "九星は情報・変化Themeに混合の象意。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "宿曜はメモリThemeに安定した方向を示さない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "大安の支援性と他要素の不一致で中立化する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "数秘は情報Themeとの親和性があるがdirectionalではない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "成長月相は支援的だが全体系合意に至らない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33で静穏、宇宙天気の方向性寄与は小さい。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "Kioxia Holdings Corporation",
+          "priority": 0.0,
+          "reason": "KIOXIAをメモリ/データ基盤Themeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "JP:XTKS:290A:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "SynspectiveのSAR/地理空間Themeへの直接関連を踏まえたが、観測・インフラ象意と抑制要素が混在する。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "Synspective固有の設立日ベース天体入力と日次将来配置は混合。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "Synspective固有四柱と日次四柱を合わせても一方向に収束しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "固有算命学入力と日次入力は単方向の優位を作らない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "固有九星と日次九星の組合せは観測Themeへ混合signal。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "固有宿曜と日次宿曜では方向を固定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "固有暦入力と日次大安を合わせても決定的ではない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "固有数秘と日次数秘は地理空間Themeに混合の象意。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "月相の成長性はあるが他系統との合意が不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33で静穏、宇宙天気起点の方向signalはない。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "Synspective Inc.",
+          "priority": 0.0,
+          "reason": "Synspectiveを地理空間センシングThemeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:290A:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "JP:XTKS:593A:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "TIER IVの自動運転Themeへの直接関連を踏まえたが、革新・活動性と制約・不確実性が拮抗する。",
+          "direction": "flat",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "TIER IV固有の設立日ベース天体入力と日次将来配置は混合。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "TIER IV固有四柱と日次四柱を合わせても一方向に収束しない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "固有算命学入力と日次入力は単方向の優位を作らない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "固有九星と日次九星の組合せは自動運転Themeへ混合signal。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "固有宿曜と日次宿曜では方向を固定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "固有暦入力と日次大安を合わせても決定的ではない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "固有数秘と日次数秘は自動運転Themeに混合の象意。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "月相の成長性はあるが他系統との合意が不足する。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "Kp約0.33で静穏、宇宙天気起点の方向signalはない。",
+              "status": "flat"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "TIER IV, Inc.",
+          "priority": 0.0,
+          "reason": "TIER IVを自動運転Themeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:593A:equity",
+          "target_type": "stock"
+        }
+      ],
+      "exploration_summary": {
+        "compared": 9,
+        "detailed": 9,
+        "formal_targets": 0,
+        "identity_unresolved": 1,
+        "outcomes": {
+          "compared": 0,
+          "insufficient_input": 0,
+          "no_signal": 9,
+          "signal": 0
+        },
+        "sourced_candidates": 0,
+        "tracks": {
+          "stock": 4,
+          "theme": 5,
+          "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-13T23:10:56.064512+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 2,
+              "candidate_count": 11,
+              "evaluated_count": 7,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 6,
+              "waiting_count": 4
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 6,
+              "evaluated_count": 6,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:285A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6506:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6645:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6954:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:MBLY:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_cloudflare_NET_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_gevernova_GEV_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+              "status": "evaluated",
+              "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+            }
+          ]
+        }
+      },
+      "identity_failures": [],
+      "issued_at": "2026-09-13T23:10:56.064512+00:00",
+      "label": "2026-09-14 08:10 daily",
+      "requested_target_results": [],
+      "run_date": "2026-09-14",
+      "run_id": "run-20260913-231056-064512",
+      "run_kind": "daily",
+      "targets": [],
+      "waiting": {
+        "as_of": "2026-09-13T23:10:56.064512+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 2,
+            "candidate_count": 11,
+            "evaluated_count": 7,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 6,
+            "waiting_count": 4
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 6,
+            "evaluated_count": 6,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:285A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6506:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6645:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6954:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:MBLY:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_cloudflare_NET_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_gevernova_GEV_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-13T23:10:53.522402+00:00",
+            "status": "evaluated",
+            "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+          }
+        ]
+      },
+      "warnings": []
+    },
     {
       "admission_decisions": [],
       "analysis": [],
@@ -23475,6 +25017,19 @@
           "issued_at": "2026-09-08T10:05:07.110612+00:00",
           "label": "2026-09-08 19:05 supplemental",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "GOをモビリティThemeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-13T23:10:56.064512+00:00",
+          "label": "2026-09-14 08:10 daily",
+          "reasons": []
         }
       ]
     },
@@ -27243,6 +28798,19 @@
           "issued_at": "2026-09-12T23:05:28.867557+00:00",
           "label": "2026-09-13 08:05 daily",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9 Expertの詳細評価でモビリティ・自律移動について一貫方向を成立させられなかった。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-13T23:10:56.064512+00:00",
+          "label": "2026-09-14 08:10 daily",
+          "reasons": []
         }
       ]
     },
@@ -29369,6 +30937,19 @@
           ],
           "issued_at": "2026-09-08T10:05:07.110612+00:00",
           "label": "2026-09-08 19:05 supplemental",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9 Expertの詳細評価でモビリティ・自律移動について一貫方向を成立させられなかった。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-13T23:10:56.064512+00:00",
+          "label": "2026-09-14 08:10 daily",
           "reasons": []
         }
       ]
@@ -31784,6 +33365,19 @@
           "reasons": [
             "new_target"
           ]
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "KIOXIAをメモリ/データ基盤Themeとの直接関連を含めて詳細評価したが方向性signalは成立しなかった。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-13T23:10:56.064512+00:00",
+          "label": "2026-09-14 08:10 daily",
+          "reasons": []
         }
       ]
     },
@@ -34349,6 +35943,19 @@
           ],
           "issued_at": "2026-09-12T23:05:28.867557+00:00",
           "label": "2026-09-13 08:05 daily",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9 Expertの詳細評価でメモリ・データ基盤の追い風と抑制要素が相殺した。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-13T23:10:56.064512+00:00",
+          "label": "2026-09-14 08:10 daily",
           "reasons": []
         }
       ]
@@ -38367,6 +39974,19 @@
           ],
           "issued_at": "2026-09-12T23:05:28.867557+00:00",
           "label": "2026-09-13 08:05 daily",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9 Expertの詳細評価で産業オートメーションの実行・革新と摩擦・反転の象意が拮抗した。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-13T23:10:56.064512+00:00",
+          "label": "2026-09-14 08:10 daily",
           "reasons": []
         }
       ]
