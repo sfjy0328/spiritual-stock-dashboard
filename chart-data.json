@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-12T23:05:49.801998+00:00",
+  "as_of": "2026-09-13T21:40:03.642016+00:00",
   "current": {
     "exploration": [
       {
@@ -8750,6 +8750,7 @@
   ],
   "runs": [
     {
+      "admission_decisions": [],
       "analysis": [],
       "carried_forecasts": [
         {
@@ -8875,6 +8876,182 @@
           "stock": 0,
           "theme": 4,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-12T23:05:28.867557+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 2,
+              "candidate_count": 11,
+              "evaluated_count": 5,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 5,
+              "waiting_count": 6
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 6,
+              "evaluated_count": 6,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:285A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6506:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6645:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6954:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:MBLY:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_cloudflare_NET_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_gevernova_GEV_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+              "status": "evaluated",
+              "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+              "status": "evaluated",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+              "status": "evaluated",
+              "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+            }
+          ]
         }
       },
       "identity_failures": [],
@@ -8885,9 +9062,186 @@
       "run_id": "run-20260912-230528-867557",
       "run_kind": "daily",
       "targets": [],
+      "waiting": {
+        "as_of": "2026-09-12T23:05:28.867557+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 2,
+            "candidate_count": 11,
+            "evaluated_count": 5,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 5,
+            "waiting_count": 6
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 6,
+            "evaluated_count": 6,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:285A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6506:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6645:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6954:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:MBLY:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_cloudflare_NET_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_gevernova_GEV_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+            "status": "evaluated",
+            "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+            "status": "evaluated",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-12T23:05:26.732200+00:00",
+            "status": "evaluated",
+            "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+          }
+        ]
+      },
       "warnings": []
     },
     {
+      "admission_decisions": [],
       "analysis": [],
       "carried_forecasts": [
         {
@@ -9013,6 +9367,182 @@
           "stock": 0,
           "theme": 4,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-11T23:01:34.645432+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 2,
+              "candidate_count": 11,
+              "evaluated_count": 5,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 4,
+              "waiting_count": 6
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 6,
+              "evaluated_count": 6,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:285A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6506:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6645:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6954:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:MBLY:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_cloudflare_NET_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_gevernova_GEV_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+              "status": "evaluated",
+              "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+              "status": "evaluated",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+              "status": "evaluated",
+              "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+            }
+          ]
         }
       },
       "identity_failures": [],
@@ -9023,9 +9553,186 @@
       "run_id": "run-20260911-230134-645432",
       "run_kind": "daily",
       "targets": [],
+      "waiting": {
+        "as_of": "2026-09-11T23:01:34.645432+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 2,
+            "candidate_count": 11,
+            "evaluated_count": 5,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 4,
+            "waiting_count": 6
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 6,
+            "evaluated_count": 6,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:285A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6506:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6645:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6954:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:MBLY:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_cloudflare_NET_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_gevernova_GEV_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+            "status": "evaluated",
+            "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+            "status": "evaluated",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T23:01:32.405816+00:00",
+            "status": "evaluated",
+            "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+          }
+        ]
+      },
       "warnings": []
     },
     {
+      "admission_decisions": [],
       "analysis": [],
       "carried_forecasts": [
         {
@@ -9151,6 +9858,182 @@
           "stock": 0,
           "theme": 4,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-11T10:58:47.898317+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 2,
+              "candidate_count": 11,
+              "evaluated_count": 5,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 3,
+              "waiting_count": 6
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 6,
+              "evaluated_count": 6,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:285A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6506:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6645:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6954:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:MBLY:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_cloudflare_NET_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_gevernova_GEV_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+              "status": "evaluated",
+              "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+              "status": "evaluated",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+              "status": "evaluated",
+              "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+            }
+          ]
         }
       },
       "identity_failures": [],
@@ -9161,9 +10044,186 @@
       "run_id": "run-20260911-105847-898317",
       "run_kind": "daily",
       "targets": [],
+      "waiting": {
+        "as_of": "2026-09-11T10:58:47.898317+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 2,
+            "candidate_count": 11,
+            "evaluated_count": 5,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 3,
+            "waiting_count": 6
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 6,
+            "evaluated_count": 6,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:285A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6506:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6645:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6954:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:MBLY:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_cloudflare_NET_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_gevernova_GEV_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+            "status": "evaluated",
+            "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+            "status": "evaluated",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-11T10:58:43.994399+00:00",
+            "status": "evaluated",
+            "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+          }
+        ]
+      },
       "warnings": []
     },
     {
+      "admission_decisions": [],
       "analysis": [
         {
           "formal": "prediction",
@@ -9341,6 +10401,182 @@
           "stock": 1,
           "theme": 4,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-09T03:26:57.888265+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 2,
+              "candidate_count": 11,
+              "evaluated_count": 5,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 1,
+              "waiting_count": 6
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 6,
+              "evaluated_count": 6,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:285A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6506:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": null,
+              "status": "waiting",
+              "target_id": "JP:XTKS:6645:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6954:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:MBLY:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_cloudflare_NET_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_gevernova_GEV_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+              "status": "evaluated",
+              "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+            }
+          ]
         }
       },
       "identity_failures": [],
@@ -11291,9 +12527,186 @@
           "valid_until": "2026-10-13T06:30:00+00:00"
         }
       ],
+      "waiting": {
+        "as_of": "2026-09-09T03:26:57.888265+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 2,
+            "candidate_count": 11,
+            "evaluated_count": 5,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 1,
+            "waiting_count": 6
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 6,
+            "evaluated_count": 6,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:285A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6506:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": null,
+            "status": "waiting",
+            "target_id": "JP:XTKS:6645:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6954:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:MBLY:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_cloudflare_NET_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_gevernova_GEV_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-09T03:26:54.439864+00:00",
+            "status": "evaluated",
+            "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+          }
+        ]
+      },
       "warnings": []
     },
     {
+      "admission_decisions": [],
       "analysis": [
         {
           "formal": "no_prediction",
@@ -11664,6 +13077,164 @@
           "stock": 9,
           "theme": 7,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-08T10:05:07.110612+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 2,
+              "candidate_count": 9,
+              "evaluated_count": 5,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 0,
+              "waiting_count": 4
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 6,
+              "evaluated_count": 6,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:285A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6954:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:MBLY:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_cloudflare_NET_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "unresolved:stock_gevernova_GEV_20260908"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+              "status": "evaluated",
+              "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+            }
+          ]
         }
       },
       "identity_failures": [
@@ -14203,9 +15774,168 @@
           "valid_until": "2026-10-09T06:30:00+00:00"
         }
       ],
+      "waiting": {
+        "as_of": "2026-09-08T10:05:07.110612+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 2,
+            "candidate_count": 9,
+            "evaluated_count": 5,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 0,
+            "waiting_count": 4
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 6,
+            "evaluated_count": 6,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:285A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6954:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:MBLY:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_cloudflare_NET_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "unresolved:stock_gevernova_GEV_20260908"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T10:04:58.393417+00:00",
+            "status": "evaluated",
+            "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+          }
+        ]
+      },
       "warnings": []
     },
     {
+      "admission_decisions": [],
       "analysis": [
         {
           "formal": "prediction",
@@ -14318,6 +16048,92 @@
           "stock": 2,
           "theme": 2,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-08T04:01:52.707989+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 1,
+              "candidate_count": 5,
+              "evaluated_count": 1,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 0,
+              "waiting_count": 4
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 2,
+              "evaluated_count": 1,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 0,
+              "waiting_count": 1
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-08T04:01:49.940096+00:00",
+              "identity_state": "unresolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+              "status": "waiting",
+              "target_id": "unresolved:stock_mobileye_mbly_20260908_recovery"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+              "status": "waiting",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            }
+          ]
         }
       },
       "identity_failures": [],
@@ -15721,9 +17537,96 @@
           "valid_until": "2026-10-09T06:30:00+00:00"
         }
       ],
+      "waiting": {
+        "as_of": "2026-09-08T04:01:52.707989+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 1,
+            "candidate_count": 5,
+            "evaluated_count": 1,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 0,
+            "waiting_count": 4
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 2,
+            "evaluated_count": 1,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 0,
+            "waiting_count": 1
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-08T04:01:49.940096+00:00",
+            "identity_state": "unresolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+            "status": "waiting",
+            "target_id": "unresolved:stock_mobileye_mbly_20260908_recovery"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-08T04:01:49.940096+00:00",
+            "status": "waiting",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          }
+        ]
+      },
       "warnings": []
     },
     {
+      "admission_decisions": [],
       "analysis": [
         {
           "formal": "prediction",
@@ -15860,6 +17763,83 @@
           "stock": 4,
           "theme": 2,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-07T14:54:24.719840+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 0,
+              "candidate_count": 4,
+              "evaluated_count": 1,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 0,
+              "waiting_count": 3
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 2,
+              "evaluated_count": 1,
+              "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+              "oldest_waiting_days": 0,
+              "waiting_count": 1
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "waiting",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "waiting",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "waiting",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+              "status": "waiting",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            }
+          ]
         }
       },
       "identity_failures": [],
@@ -19057,9 +21037,87 @@
           "valid_until": "2026-10-05T20:00:00+00:00"
         }
       ],
+      "waiting": {
+        "as_of": "2026-09-07T14:54:24.719840+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 0,
+            "candidate_count": 4,
+            "evaluated_count": 1,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 0,
+            "waiting_count": 3
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 2,
+            "evaluated_count": 1,
+            "oldest_waiting_at": "2026-09-07T14:54:19.495428+00:00",
+            "oldest_waiting_days": 0,
+            "waiting_count": 1
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "waiting",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "waiting",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "waiting",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-07T14:54:19.495428+00:00",
+            "status": "waiting",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          }
+        ]
+      },
       "warnings": []
     },
     {
+      "admission_decisions": [],
       "analysis": [],
       "carried_forecasts": [],
       "exploration": [],
@@ -19079,6 +21137,28 @@
           "stock": 0,
           "theme": 0,
           "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-06T23:04:37.591646+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 0,
+              "candidate_count": 0,
+              "evaluated_count": 0,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 0,
+              "evaluated_count": 0,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": []
         }
       },
       "identity_failures": [],
@@ -19089,6 +21169,28 @@
       "run_id": "run-20260906-230437-591646",
       "run_kind": "daily",
       "targets": [],
+      "waiting": {
+        "as_of": "2026-09-06T23:04:37.591646+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 0,
+            "candidate_count": 0,
+            "evaluated_count": 0,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 0,
+            "evaluated_count": 0,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": []
+      },
       "warnings": []
     }
   ],
