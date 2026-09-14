@@ -41,7 +41,7 @@
 <section id="event-panel"><h2>占術イベント一覧</h2><p class="muted">通常は期間予想の正式イベントのみ表示します。<label style="display:inline-flex;flex-direction:row;align-items:center;gap:4px"><input id="refEvents" type="checkbox">参考イベントも表示</label>発生日時（現地）と市場への影響開始日の違いに注意。図の記号を選択すると対応する行が光ります。一覧の行を選択すると上段チャートの該当営業日に移動します。</p><div style="overflow:auto" id="events"></div></section>
 <section><h2>パス評価結果</h2><p class="muted">固定影響窓の端点評価。○的中 / ×不一致 / －方向評価なし / …未評価。flat / mixed の符号一致は未定義。専門家ウェイトへの投入はありません。</p><div style="overflow:auto" id="results"></div><details><summary>選択した予想・実績・取得可否 / 出典</summary><pre id="evidence"></pre></details><p><a href="chart-data.json" download>派生JSONを保存</a></p></section>
 <script id="chart-data" type="application/json">{
-  "as_of": "2026-09-14T06:27:07.466898+00:00",
+  "as_of": "2026-09-14T22:44:24.754163+00:00",
   "current": {
     "exploration": [
       {
@@ -247,8 +247,18 @@
     "run_id": "current",
     "targets": [
       {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": 100.0
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "available"
+          }
+        ],
         "basis": "price_return",
         "benchmark": [],
         "change_reason": [
@@ -1207,7 +1217,62 @@
         "related_themes": [
           "26dae351-5717-57ce-bbec-ef7183cdd398"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.82,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.82,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.82,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -1361,8 +1426,18 @@
         "valid_until": "2026-10-16T06:30:00+00:00"
       },
       {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": 100.0
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "available"
+          }
+        ],
         "basis": "price_return",
         "benchmark": [],
         "change_reason": [
@@ -2321,7 +2396,62 @@
         "related_themes": [
           "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.74,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.74,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.74,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -2479,11 +2609,19 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 100.46656626141935
           }
         ],
         "availability": [
           {
             "date": "2026-09-11",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-14",
             "status": "available"
           }
         ],
@@ -3323,7 +3461,62 @@
         "related_themes": [
           "d4762e19-dcd8-5b57-aad7-fae529d406b9"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.89,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.89,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-23",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.89,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 1,
         "revisions": [
@@ -3454,11 +3647,19 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 98.90908905954072
           }
         ],
         "availability": [
           {
             "date": "2026-09-11",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-14",
             "status": "available"
           }
         ],
@@ -4298,7 +4499,62 @@
         "related_themes": [
           "d4762e19-dcd8-5b57-aad7-fae529d406b9"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.84,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.84,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-23",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.84,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 1,
         "revisions": [
@@ -4425,10 +4681,25 @@
         "valid_until": "2026-10-09T20:00:00+00:00"
       },
       {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "new_target"
         ],
@@ -5378,9 +5649,69 @@
             "value": 103.0
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.68,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.68,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.68,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 1,
         "revisions": [
@@ -5507,10 +5838,25 @@
         "valid_until": "2026-10-16T06:30:00+00:00"
       },
       {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "probability:1",
           "probability:5",
@@ -6462,9 +6808,69 @@
             "value": 103.8
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -6617,10 +7023,25 @@
         "valid_until": "2026-10-16T06:30:00+00:00"
       },
       {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "probability:1",
           "probability:5",
@@ -7572,9 +7993,69 @@
             "value": 103.4
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.79,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.79,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.79,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -7727,10 +8208,25 @@
         "valid_until": "2026-10-16T06:30:00+00:00"
       },
       {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "probability:1",
           "confidence"
@@ -8681,9 +9177,69 @@
             "value": 104.60000000000001
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.91,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.002,
+            "sign_agreement": null,
+            "signal_strength": 0.91,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.035,
+            "sign_agreement": null,
+            "signal_strength": 0.91,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -8839,11 +9395,19 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 100.13398988196207
           }
         ],
         "availability": [
           {
             "date": "2026-09-11",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-14",
             "status": "available"
           }
         ],
@@ -8852,6 +9416,10 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 99.55383777851796
           }
         ],
         "change_reason": [
@@ -9690,10 +10258,69 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 99.68782766048004
           }
         ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-23",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -9862,9 +10489,9 @@
             "observed_frequency": null
           },
           {
-            "count": 1,
-            "mean_probability": 0.29875,
-            "observed_frequency": 1.0
+            "count": 3,
+            "mean_probability": 0.2386532001576529,
+            "observed_frequency": 0.6666666666666666
           },
           {
             "count": 1,
@@ -9914,9 +10541,9 @@
             "observed_frequency": null
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 2,
+            "mean_probability": 0.27581440070943813,
+            "observed_frequency": 0.0
           },
           {
             "count": 1,
@@ -9981,9 +10608,9 @@
             "observed_frequency": null
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 2,
+            "mean_probability": 0.5155807990540826,
+            "observed_frequency": 0.5
           },
           {
             "count": 0,
@@ -10007,12 +10634,12 @@
           }
         ]
       },
-      "equal": 0.38132950504817464,
-      "evaluated": 2,
+      "equal": 0.3997072873630845,
+      "evaluated": 4,
       "issued": 6,
       "pool": "stock:1",
-      "weighted": 0.3797191249686826,
-      "zero": 0.8176646612981746
+      "weighted": 0.39902494150094425,
+      "zero": 0.8172377257195356
     },
     {
       "calibration": {
@@ -10189,9 +10816,9 @@
             "observed_frequency": null
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 1,
+            "mean_probability": 0.18500000000000003,
+            "observed_frequency": 1.0
           },
           {
             "count": 0,
@@ -10246,9 +10873,9 @@
             "observed_frequency": null
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 1,
+            "mean_probability": 0.2725,
+            "observed_frequency": 0.0
           },
           {
             "count": 0,
@@ -10313,9 +10940,9 @@
             "observed_frequency": null
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 1,
+            "mean_probability": 0.5425,
+            "observed_frequency": 0.0
           },
           {
             "count": 0,
@@ -10339,12 +10966,12 @@
           }
         ]
       },
-      "equal": null,
-      "evaluated": 0,
+      "equal": 0.661475625,
+      "evaluated": 1,
       "issued": 6,
       "pool": "stock:5",
-      "weighted": null,
-      "zero": null
+      "weighted": 0.661475625,
+      "zero": 1.0
     },
     {
       "calibration": {
@@ -11471,8 +12098,18 @@
       "run_kind": "supplemental",
       "targets": [
         {
-          "actual": [],
-          "availability": [],
+          "actual": [
+            {
+              "date": "2026-09-14",
+              "value": 100.0
+            }
+          ],
+          "availability": [
+            {
+              "date": "2026-09-14",
+              "status": "available"
+            }
+          ],
           "basis": "price_return",
           "benchmark": [],
           "change_reason": [],
@@ -12423,7 +13060,62 @@
           "related_themes": [
             "26dae351-5717-57ce-bbec-ef7183cdd398"
           ],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.012,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-18",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.05,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -12525,8 +13217,18 @@
           "valid_until": "2026-10-16T06:30:00+00:00"
         },
         {
-          "actual": [],
-          "availability": [],
+          "actual": [
+            {
+              "date": "2026-09-14",
+              "value": 100.0
+            }
+          ],
+          "availability": [
+            {
+              "date": "2026-09-14",
+              "status": "available"
+            }
+          ],
           "basis": "price_return",
           "benchmark": [],
           "change_reason": [],
@@ -13477,7 +14179,62 @@
           "related_themes": [
             "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
           ],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": null,
+              "signal_strength": 0.74,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.012,
+              "sign_agreement": null,
+              "signal_strength": 0.74,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-18",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.05,
+              "sign_agreement": null,
+              "signal_strength": 0.74,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -13583,11 +14340,19 @@
             {
               "date": "2026-09-11",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-14",
+              "value": 100.46656626141935
             }
           ],
           "availability": [
             {
               "date": "2026-09-11",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-14",
               "status": "available"
             }
           ],
@@ -14422,7 +15187,62 @@
           "related_themes": [
             "d4762e19-dcd8-5b57-aad7-fae529d406b9"
           ],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": null,
+              "signal_strength": 0.89,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.012,
+              "sign_agreement": null,
+              "signal_strength": 0.89,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-23",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.05,
+              "sign_agreement": null,
+              "signal_strength": 0.89,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -14528,11 +15348,19 @@
             {
               "date": "2026-09-11",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-14",
+              "value": 98.90908905954072
             }
           ],
           "availability": [
             {
               "date": "2026-09-11",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-14",
               "status": "available"
             }
           ],
@@ -15367,7 +16195,62 @@
           "related_themes": [
             "d4762e19-dcd8-5b57-aad7-fae529d406b9"
           ],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": null,
+              "signal_strength": 0.84,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.012,
+              "sign_agreement": null,
+              "signal_strength": 0.84,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-23",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.05,
+              "sign_agreement": null,
+              "signal_strength": 0.84,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -15469,10 +16352,25 @@
           "valid_until": "2026-10-09T20:00:00+00:00"
         },
         {
-          "actual": [],
-          "availability": [],
+          "actual": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
+          "availability": [
+            {
+              "date": "2026-09-14",
+              "status": "pending"
+            }
+          ],
           "basis": "benchmark_excess",
-          "benchmark": [],
+          "benchmark": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "change_reason": [],
           "decision_dates": {
             "local_dates": [
@@ -16417,9 +17315,69 @@
               "value": 103.0
             }
           ],
-          "raw_basket": [],
+          "raw_basket": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.68,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.005,
+              "sign_agreement": null,
+              "signal_strength": 0.68,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-18",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.025,
+              "sign_agreement": null,
+              "signal_strength": 0.68,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -16521,10 +17479,25 @@
           "valid_until": "2026-10-16T06:30:00+00:00"
         },
         {
-          "actual": [],
-          "availability": [],
+          "actual": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
+          "availability": [
+            {
+              "date": "2026-09-14",
+              "status": "pending"
+            }
+          ],
           "basis": "benchmark_excess",
-          "benchmark": [],
+          "benchmark": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "change_reason": [],
           "decision_dates": {
             "local_dates": [
@@ -17469,9 +18442,69 @@
               "value": 103.8
             }
           ],
-          "raw_basket": [],
+          "raw_basket": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.86,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.005,
+              "sign_agreement": null,
+              "signal_strength": 0.86,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-18",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.025,
+              "sign_agreement": null,
+              "signal_strength": 0.86,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -17573,10 +18606,25 @@
           "valid_until": "2026-10-16T06:30:00+00:00"
         },
         {
-          "actual": [],
-          "availability": [],
+          "actual": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
+          "availability": [
+            {
+              "date": "2026-09-14",
+              "status": "pending"
+            }
+          ],
           "basis": "benchmark_excess",
-          "benchmark": [],
+          "benchmark": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "change_reason": [],
           "decision_dates": {
             "local_dates": [
@@ -18521,9 +19569,69 @@
               "value": 103.4
             }
           ],
-          "raw_basket": [],
+          "raw_basket": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.79,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.005,
+              "sign_agreement": null,
+              "signal_strength": 0.79,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-18",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.025,
+              "sign_agreement": null,
+              "signal_strength": 0.79,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -18625,10 +19733,25 @@
           "valid_until": "2026-10-16T06:30:00+00:00"
         },
         {
-          "actual": [],
-          "availability": [],
+          "actual": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
+          "availability": [
+            {
+              "date": "2026-09-14",
+              "status": "pending"
+            }
+          ],
           "basis": "benchmark_excess",
-          "benchmark": [],
+          "benchmark": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "change_reason": [],
           "decision_dates": {
             "local_dates": [
@@ -19573,9 +20696,69 @@
               "value": 104.60000000000001
             }
           ],
-          "raw_basket": [],
+          "raw_basket": [
+            {
+              "date": "2026-09-14",
+              "value": null
+            }
+          ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.91,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.002,
+              "sign_agreement": null,
+              "signal_strength": 0.91,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-18",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.035,
+              "sign_agreement": null,
+              "signal_strength": 0.91,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -19681,11 +20864,19 @@
             {
               "date": "2026-09-11",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-14",
+              "value": 100.13398988196207
             }
           ],
           "availability": [
             {
               "date": "2026-09-11",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-14",
               "status": "available"
             }
           ],
@@ -19694,6 +20885,10 @@
             {
               "date": "2026-09-11",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-14",
+              "value": 99.55383777851796
             }
           ],
           "change_reason": [],
@@ -20525,10 +21720,69 @@
             {
               "date": "2026-09-11",
               "value": 100.0
+            },
+            {
+              "date": "2026-09-14",
+              "value": 99.68782766048004
             }
           ],
           "related_themes": [],
-          "results": [],
+          "results": [
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.86,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-16",
+                "end_session": "2026-09-18",
+                "start_session": "2026-09-17"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "down",
+              "predicted_expected_move": -0.005,
+              "sign_agreement": null,
+              "signal_strength": 0.86,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-23",
+                "end_session": "2026-10-08",
+                "start_session": "2026-09-24"
+              },
+              "item_key": "segments/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.025,
+              "sign_agreement": null,
+              "signal_strength": 0.86,
+              "status": "pending"
+            }
+          ],
           "retained_outlooks": [],
           "revision": null,
           "revisions": [],
@@ -23703,6 +24957,10 @@
             {
               "date": "2026-09-11",
               "value": 98.07628735117294
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "availability": [
@@ -23717,6 +24975,10 @@
             {
               "date": "2026-09-11",
               "status": "available"
+            },
+            {
+              "date": "2026-09-14",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -23732,6 +24994,10 @@
             {
               "date": "2026-09-11",
               "value": 99.59658715850128
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -25162,6 +26428,10 @@
             {
               "date": "2026-09-11",
               "value": 97.67287450967423
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -25417,6 +26687,60 @@
               "sign_agreement": null,
               "signal_strength": 0.42,
               "status": "scored"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-10",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-11"
+              },
+              "item_key": "segments/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.018,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-10",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-11"
+              },
+              "item_key": "events/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.018,
+              "sign_agreement": null,
+              "signal_strength": 0.82,
+              "status": "pending"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-10",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-11"
+              },
+              "item_key": "events/1",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.012,
+              "sign_agreement": null,
+              "signal_strength": 0.7,
+              "status": "pending"
             }
           ],
           "retained_outlooks": [],
@@ -26517,6 +27841,10 @@
             {
               "date": "2026-09-11",
               "value": 94.11252395053127
+            },
+            {
+              "date": "2026-09-14",
+              "value": 88.12053649190037
             }
           ],
           "availability": [
@@ -26534,6 +27862,10 @@
             },
             {
               "date": "2026-09-11",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-14",
               "status": "available"
             }
           ],
@@ -27583,6 +28915,24 @@
               "sign_agreement": null,
               "signal_strength": 0.57,
               "status": "scored"
+            },
+            {
+              "actual_move": -0.06366833240792152,
+              "actual_return": -0.06366833240792152,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-11",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-14"
+              },
+              "item_key": "events/0",
+              "magnitude_difference": -0.06766833240792153,
+              "magnitude_error": 0.06766833240792153,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": false,
+              "signal_strength": 0.7,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -27680,6 +29030,10 @@
             {
               "date": "2026-09-11",
               "value": 94.70466036164395
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "availability": [
@@ -27698,6 +29052,10 @@
             {
               "date": "2026-09-11",
               "status": "available"
+            },
+            {
+              "date": "2026-09-14",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -27717,6 +29075,10 @@
             {
               "date": "2026-09-11",
               "value": 99.40786358888734
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -28703,6 +30065,10 @@
             {
               "date": "2026-09-11",
               "value": 94.11252395053127
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -28796,6 +30162,24 @@
               "sign_agreement": null,
               "signal_strength": 0.57,
               "status": "scored"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-11",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-14"
+              },
+              "item_key": "events/0",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": null,
+              "signal_strength": 0.7,
+              "status": "pending"
             }
           ],
           "retained_outlooks": [],
@@ -29264,6 +30648,10 @@
             {
               "date": "2026-09-11",
               "value": 91.75257254818433
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "availability": [
@@ -29282,6 +30670,10 @@
             {
               "date": "2026-09-11",
               "status": "available"
+            },
+            {
+              "date": "2026-09-14",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -29301,6 +30693,10 @@
             {
               "date": "2026-09-11",
               "value": 99.40786358888732
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -30318,6 +31714,10 @@
             {
               "date": "2026-09-11",
               "value": 91.16043613707166
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -30537,6 +31937,24 @@
               "sign_agreement": false,
               "signal_strength": 0.63,
               "status": "scored"
+            },
+            {
+              "actual_move": null,
+              "actual_return": null,
+              "available_at": "2026-09-14T22:43:46.306018+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-11",
+                "end_session": "2026-09-14",
+                "start_session": "2026-09-14"
+              },
+              "item_key": "events/2",
+              "magnitude_difference": null,
+              "magnitude_error": null,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.006,
+              "sign_agreement": null,
+              "signal_strength": 0.72,
+              "status": "pending"
             }
           ],
           "retained_outlooks": [],
@@ -30981,6 +32399,10 @@
             {
               "date": "2026-09-11",
               "value": 90.88319088319088
+            },
+            {
+              "date": "2026-09-14",
+              "value": 92.45014245014245
             }
           ],
           "availability": [
@@ -31002,6 +32424,10 @@
             },
             {
               "date": "2026-09-11",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-14",
               "status": "available"
             }
           ],
@@ -32044,6 +33470,10 @@
             {
               "date": "2026-09-11",
               "value": 92.15187374685189
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "availability": [
@@ -32066,6 +33496,10 @@
             {
               "date": "2026-09-11",
               "status": "available"
+            },
+            {
+              "date": "2026-09-14",
+              "status": "pending"
             }
           ],
           "basis": "benchmark_excess",
@@ -32089,6 +33523,10 @@
             {
               "date": "2026-09-11",
               "value": 97.58195913766593
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "change_reason": [],
@@ -33047,6 +34485,10 @@
             {
               "date": "2026-09-11",
               "value": 89.73383288451782
+            },
+            {
+              "date": "2026-09-14",
+              "value": null
             }
           ],
           "related_themes": [],
@@ -33147,6 +34589,10 @@
             {
               "date": "2026-09-11",
               "value": 102.18560112076807
+            },
+            {
+              "date": "2026-09-14",
+              "value": 103.10153494364407
             }
           ],
           "availability": [
@@ -33168,6 +34614,10 @@
             },
             {
               "date": "2026-09-11",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-14",
               "status": "available"
             }
           ],
@@ -33192,6 +34642,10 @@
             {
               "date": "2026-09-11",
               "value": 99.23395209034652
+            },
+            {
+              "date": "2026-09-14",
+              "value": 98.79120768523582
             }
           ],
           "change_reason": [],
@@ -34060,6 +35514,10 @@
             {
               "date": "2026-09-11",
               "value": 101.4195532111146
+            },
+            {
+              "date": "2026-09-14",
+              "value": 101.8927426288799
             }
           ],
           "related_themes": [],
@@ -34301,8 +35759,18 @@
   "subjects": [
     {
       "latest": {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": 100.0
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "available"
+          }
+        ],
         "basis": "price_return",
         "benchmark": [],
         "change_reason": [
@@ -35261,7 +36729,62 @@
         "related_themes": [
           "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.74,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.74,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.74,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -35440,6 +36963,10 @@
               {
                 "date": "2026-09-11",
                 "value": 90.88319088319088
+              },
+              {
+                "date": "2026-09-14",
+                "value": 92.45014245014245
               }
             ],
             "availability": [
@@ -35461,6 +36988,10 @@
               },
               {
                 "date": "2026-09-11",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-14",
                 "status": "available"
               }
             ],
@@ -36517,8 +38048,18 @@
           "adopted": true,
           "issued_at": "2026-09-14T06:26:45.660598+00:00",
           "target": {
-            "actual": [],
-            "availability": [],
+            "actual": [
+              {
+                "date": "2026-09-14",
+                "value": 100.0
+              }
+            ],
+            "availability": [
+              {
+                "date": "2026-09-14",
+                "status": "available"
+              }
+            ],
             "basis": "price_return",
             "benchmark": [],
             "change_reason": [
@@ -37477,7 +39018,62 @@
             "related_themes": [
               "22945348-6b2b-5c20-9e59-f3bcbcb5eda8"
             ],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": null,
+                "signal_strength": 0.74,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.012,
+                "sign_agreement": null,
+                "signal_strength": 0.74,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-18",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.05,
+                "sign_agreement": null,
+                "signal_strength": 0.74,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 2,
             "revisions": [
@@ -37711,10 +39307,25 @@
     },
     {
       "latest": {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "probability:1",
           "probability:5",
@@ -38666,9 +40277,69 @@
             "value": 103.8
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -38846,6 +40517,10 @@
               {
                 "date": "2026-09-11",
                 "value": 92.15187374685189
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "availability": [
@@ -38868,6 +40543,10 @@
               {
                 "date": "2026-09-11",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-14",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -38891,6 +40570,10 @@
               {
                 "date": "2026-09-11",
                 "value": 97.58195913766593
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "change_reason": [
@@ -39854,6 +41537,10 @@
               {
                 "date": "2026-09-11",
                 "value": 89.73383288451782
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -39979,6 +41666,10 @@
               {
                 "date": "2026-09-11",
                 "value": 91.75257254818433
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "availability": [
@@ -39997,6 +41688,10 @@
               {
                 "date": "2026-09-11",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-14",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -40016,6 +41711,10 @@
               {
                 "date": "2026-09-11",
                 "value": 99.40786358888732
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "change_reason": [],
@@ -41033,6 +42732,10 @@
               {
                 "date": "2026-09-11",
                 "value": 91.16043613707166
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -41252,6 +42955,24 @@
                 "sign_agreement": false,
                 "signal_strength": 0.63,
                 "status": "scored"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-11",
+                  "end_session": "2026-09-14",
+                  "start_session": "2026-09-14"
+                },
+                "item_key": "events/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.006,
+                "sign_agreement": null,
+                "signal_strength": 0.72,
+                "status": "pending"
               }
             ],
             "retained_outlooks": [],
@@ -41359,10 +43080,25 @@
           "adopted": true,
           "issued_at": "2026-09-14T06:26:45.660598+00:00",
           "target": {
-            "actual": [],
-            "availability": [],
+            "actual": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
+            "availability": [
+              {
+                "date": "2026-09-14",
+                "status": "pending"
+              }
+            ],
             "basis": "benchmark_excess",
-            "benchmark": [],
+            "benchmark": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "change_reason": [
               "probability:1",
               "probability:5",
@@ -42314,9 +44050,69 @@
                 "value": 103.8
               }
             ],
-            "raw_basket": [],
+            "raw_basket": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "related_themes": [],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": null,
+                "signal_strength": 0.86,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.005,
+                "sign_agreement": null,
+                "signal_strength": 0.86,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-18",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.025,
+                "sign_agreement": null,
+                "signal_strength": 0.86,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 2,
             "revisions": [
@@ -42604,11 +44400,19 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 100.13398988196207
           }
         ],
         "availability": [
           {
             "date": "2026-09-11",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-14",
             "status": "available"
           }
         ],
@@ -42617,6 +44421,10 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 99.55383777851796
           }
         ],
         "change_reason": [
@@ -43455,10 +45263,69 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 99.68782766048004
           }
         ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-23",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.86,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -43636,6 +45503,10 @@
               {
                 "date": "2026-09-11",
                 "value": 102.18560112076807
+              },
+              {
+                "date": "2026-09-14",
+                "value": 103.10153494364407
               }
             ],
             "availability": [
@@ -43657,6 +45528,10 @@
               },
               {
                 "date": "2026-09-11",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-14",
                 "status": "available"
               }
             ],
@@ -43681,6 +45556,10 @@
               {
                 "date": "2026-09-11",
                 "value": 99.23395209034652
+              },
+              {
+                "date": "2026-09-14",
+                "value": 98.79120768523582
               }
             ],
             "change_reason": [
@@ -44554,6 +46433,10 @@
               {
                 "date": "2026-09-11",
                 "value": 101.4195532111146
+              },
+              {
+                "date": "2026-09-14",
+                "value": 101.8927426288799
               }
             ],
             "related_themes": [],
@@ -44667,11 +46550,19 @@
               {
                 "date": "2026-09-11",
                 "value": 100.0
+              },
+              {
+                "date": "2026-09-14",
+                "value": 100.13398988196207
               }
             ],
             "availability": [
               {
                 "date": "2026-09-11",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-14",
                 "status": "available"
               }
             ],
@@ -44680,6 +46571,10 @@
               {
                 "date": "2026-09-11",
                 "value": 100.0
+              },
+              {
+                "date": "2026-09-14",
+                "value": 99.55383777851796
               }
             ],
             "change_reason": [
@@ -45518,10 +47413,69 @@
               {
                 "date": "2026-09-11",
                 "value": 100.0
+              },
+              {
+                "date": "2026-09-14",
+                "value": 99.68782766048004
               }
             ],
             "related_themes": [],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": null,
+                "signal_strength": 0.86,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.005,
+                "sign_agreement": null,
+                "signal_strength": 0.86,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-23",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.025,
+                "sign_agreement": null,
+                "signal_strength": 0.86,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 2,
             "revisions": [
@@ -45740,8 +47694,18 @@
     },
     {
       "latest": {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": 100.0
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "available"
+          }
+        ],
         "basis": "price_return",
         "benchmark": [],
         "change_reason": [
@@ -46700,7 +48664,62 @@
         "related_themes": [
           "26dae351-5717-57ce-bbec-ef7183cdd398"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.82,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.82,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.82,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -46875,6 +48894,10 @@
               {
                 "date": "2026-09-11",
                 "value": 94.11252395053127
+              },
+              {
+                "date": "2026-09-14",
+                "value": 88.12053649190037
               }
             ],
             "availability": [
@@ -46892,6 +48915,10 @@
               },
               {
                 "date": "2026-09-11",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-14",
                 "status": "available"
               }
             ],
@@ -47946,6 +49973,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.57,
                 "status": "scored"
+              },
+              {
+                "actual_move": -0.06366833240792152,
+                "actual_return": -0.06366833240792152,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-11",
+                  "end_session": "2026-09-14",
+                  "start_session": "2026-09-14"
+                },
+                "item_key": "events/0",
+                "magnitude_difference": -0.06766833240792153,
+                "magnitude_error": 0.06766833240792153,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": false,
+                "signal_strength": 0.7,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -48056,8 +50101,18 @@
           "adopted": true,
           "issued_at": "2026-09-14T06:26:45.660598+00:00",
           "target": {
-            "actual": [],
-            "availability": [],
+            "actual": [
+              {
+                "date": "2026-09-14",
+                "value": 100.0
+              }
+            ],
+            "availability": [
+              {
+                "date": "2026-09-14",
+                "status": "available"
+              }
+            ],
             "basis": "price_return",
             "benchmark": [],
             "change_reason": [
@@ -49016,7 +51071,62 @@
             "related_themes": [
               "26dae351-5717-57ce-bbec-ef7183cdd398"
             ],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": null,
+                "signal_strength": 0.82,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.012,
+                "sign_agreement": null,
+                "signal_strength": 0.82,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-18",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.05,
+                "sign_agreement": null,
+                "signal_strength": 0.82,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 2,
             "revisions": [
@@ -49224,10 +51334,25 @@
     },
     {
       "latest": {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "probability:1",
           "probability:5",
@@ -50179,9 +52304,69 @@
             "value": 103.4
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.79,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.79,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.79,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -50355,6 +52540,10 @@
               {
                 "date": "2026-09-11",
                 "value": 94.70466036164395
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "availability": [
@@ -50373,6 +52562,10 @@
               {
                 "date": "2026-09-11",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-14",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -50392,6 +52585,10 @@
               {
                 "date": "2026-09-11",
                 "value": 99.40786358888734
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "change_reason": [
@@ -51383,6 +53580,10 @@
               {
                 "date": "2026-09-11",
                 "value": 94.11252395053127
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -51476,6 +53677,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.57,
                 "status": "scored"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-11",
+                  "end_session": "2026-09-14",
+                  "start_session": "2026-09-14"
+                },
+                "item_key": "events/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": null,
+                "signal_strength": 0.7,
+                "status": "pending"
               }
             ],
             "retained_outlooks": [],
@@ -51586,10 +53805,25 @@
           "adopted": true,
           "issued_at": "2026-09-14T06:26:45.660598+00:00",
           "target": {
-            "actual": [],
-            "availability": [],
+            "actual": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
+            "availability": [
+              {
+                "date": "2026-09-14",
+                "status": "pending"
+              }
+            ],
             "basis": "benchmark_excess",
-            "benchmark": [],
+            "benchmark": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "change_reason": [
               "probability:1",
               "probability:5",
@@ -52541,9 +54775,69 @@
                 "value": 103.4
               }
             ],
-            "raw_basket": [],
+            "raw_basket": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "related_themes": [],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": null,
+                "signal_strength": 0.79,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.005,
+                "sign_agreement": null,
+                "signal_strength": 0.79,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-18",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.025,
+                "sign_agreement": null,
+                "signal_strength": 0.79,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 2,
             "revisions": [
@@ -52801,10 +55095,25 @@
     },
     {
       "latest": {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "probability:1",
           "confidence"
@@ -53755,9 +56064,69 @@
             "value": 104.60000000000001
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.91,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.002,
+            "sign_agreement": null,
+            "signal_strength": 0.91,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.035,
+            "sign_agreement": null,
+            "signal_strength": 0.91,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 2,
         "revisions": [
@@ -53926,6 +56295,10 @@
               {
                 "date": "2026-09-11",
                 "value": 98.07628735117294
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "availability": [
@@ -53940,6 +56313,10 @@
               {
                 "date": "2026-09-11",
                 "status": "available"
+              },
+              {
+                "date": "2026-09-14",
+                "status": "pending"
               }
             ],
             "basis": "benchmark_excess",
@@ -53955,6 +56332,10 @@
               {
                 "date": "2026-09-11",
                 "value": 99.59658715850128
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "change_reason": [
@@ -55390,6 +57771,10 @@
               {
                 "date": "2026-09-11",
                 "value": 97.67287450967423
+              },
+              {
+                "date": "2026-09-14",
+                "value": null
               }
             ],
             "related_themes": [],
@@ -55645,6 +58030,60 @@
                 "sign_agreement": null,
                 "signal_strength": 0.42,
                 "status": "scored"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-10",
+                  "end_session": "2026-09-14",
+                  "start_session": "2026-09-11"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.018,
+                "sign_agreement": null,
+                "signal_strength": 0.82,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-10",
+                  "end_session": "2026-09-14",
+                  "start_session": "2026-09-11"
+                },
+                "item_key": "events/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.018,
+                "sign_agreement": null,
+                "signal_strength": 0.82,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-10",
+                  "end_session": "2026-09-14",
+                  "start_session": "2026-09-11"
+                },
+                "item_key": "events/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.012,
+                "sign_agreement": null,
+                "signal_strength": 0.7,
+                "status": "pending"
               }
             ],
             "retained_outlooks": [],
@@ -55887,10 +58326,25 @@
           "adopted": true,
           "issued_at": "2026-09-14T06:26:45.660598+00:00",
           "target": {
-            "actual": [],
-            "availability": [],
+            "actual": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
+            "availability": [
+              {
+                "date": "2026-09-14",
+                "status": "pending"
+              }
+            ],
             "basis": "benchmark_excess",
-            "benchmark": [],
+            "benchmark": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "change_reason": [
               "probability:1",
               "confidence"
@@ -56841,9 +59295,69 @@
                 "value": 104.60000000000001
               }
             ],
-            "raw_basket": [],
+            "raw_basket": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "related_themes": [],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": null,
+                "signal_strength": 0.91,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.002,
+                "sign_agreement": null,
+                "signal_strength": 0.91,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-18",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.035,
+                "sign_agreement": null,
+                "signal_strength": 0.91,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 2,
             "revisions": [
@@ -57103,11 +59617,19 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 100.46656626141935
           }
         ],
         "availability": [
           {
             "date": "2026-09-11",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-14",
             "status": "available"
           }
         ],
@@ -57947,7 +60469,62 @@
         "related_themes": [
           "d4762e19-dcd8-5b57-aad7-fae529d406b9"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.89,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.89,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-23",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.89,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 1,
         "revisions": [
@@ -58083,11 +60660,19 @@
               {
                 "date": "2026-09-11",
                 "value": 100.0
+              },
+              {
+                "date": "2026-09-14",
+                "value": 100.46656626141935
               }
             ],
             "availability": [
               {
                 "date": "2026-09-11",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-14",
                 "status": "available"
               }
             ],
@@ -58927,7 +61512,62 @@
             "related_themes": [
               "d4762e19-dcd8-5b57-aad7-fae529d406b9"
             ],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": null,
+                "signal_strength": 0.89,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.012,
+                "sign_agreement": null,
+                "signal_strength": 0.89,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-23",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.05,
+                "sign_agreement": null,
+                "signal_strength": 0.89,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 1,
             "revisions": [
@@ -59107,11 +61747,19 @@
           {
             "date": "2026-09-11",
             "value": 100.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 98.90908905954072
           }
         ],
         "availability": [
           {
             "date": "2026-09-11",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-14",
             "status": "available"
           }
         ],
@@ -59951,7 +62599,62 @@
         "related_themes": [
           "d4762e19-dcd8-5b57-aad7-fae529d406b9"
         ],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": null,
+            "signal_strength": 0.84,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.012,
+            "sign_agreement": null,
+            "signal_strength": 0.84,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-23",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.05,
+            "sign_agreement": null,
+            "signal_strength": 0.84,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 1,
         "revisions": [
@@ -60087,11 +62790,19 @@
               {
                 "date": "2026-09-11",
                 "value": 100.0
+              },
+              {
+                "date": "2026-09-14",
+                "value": 98.90908905954072
               }
             ],
             "availability": [
               {
                 "date": "2026-09-11",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-14",
                 "status": "available"
               }
             ],
@@ -60931,7 +63642,62 @@
             "related_themes": [
               "d4762e19-dcd8-5b57-aad7-fae529d406b9"
             ],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": null,
+                "signal_strength": 0.84,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.012,
+                "sign_agreement": null,
+                "signal_strength": 0.84,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-23",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.05,
+                "sign_agreement": null,
+                "signal_strength": 0.84,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 1,
             "revisions": [
@@ -61094,10 +63860,25 @@
     },
     {
       "latest": {
-        "actual": [],
-        "availability": [],
+        "actual": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
+        "availability": [
+          {
+            "date": "2026-09-14",
+            "status": "pending"
+          }
+        ],
         "basis": "benchmark_excess",
-        "benchmark": [],
+        "benchmark": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "change_reason": [
           "new_target"
         ],
@@ -62047,9 +64828,69 @@
             "value": 103.0
           }
         ],
-        "raw_basket": [],
+        "raw_basket": [
+          {
+            "date": "2026-09-14",
+            "value": null
+          }
+        ],
         "related_themes": [],
-        "results": [],
+        "results": [
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": null,
+            "signal_strength": 0.68,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-16",
+              "end_session": "2026-09-18",
+              "start_session": "2026-09-17"
+            },
+            "item_key": "segments/1",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "down",
+            "predicted_expected_move": -0.005,
+            "sign_agreement": null,
+            "signal_strength": 0.68,
+            "status": "pending"
+          },
+          {
+            "actual_move": null,
+            "actual_return": null,
+            "available_at": "2026-09-14T22:43:46.306018+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-18",
+              "end_session": "2026-10-08",
+              "start_session": "2026-09-24"
+            },
+            "item_key": "segments/2",
+            "magnitude_difference": null,
+            "magnitude_error": null,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.025,
+            "sign_agreement": null,
+            "signal_strength": 0.68,
+            "status": "pending"
+          }
+        ],
         "retained_outlooks": [],
         "revision": 1,
         "revisions": [
@@ -62181,10 +65022,25 @@
           "adopted": true,
           "issued_at": "2026-09-14T06:26:45.660598+00:00",
           "target": {
-            "actual": [],
-            "availability": [],
+            "actual": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
+            "availability": [
+              {
+                "date": "2026-09-14",
+                "status": "pending"
+              }
+            ],
             "basis": "benchmark_excess",
-            "benchmark": [],
+            "benchmark": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "change_reason": [
               "new_target"
             ],
@@ -63134,9 +65990,69 @@
                 "value": 103.0
               }
             ],
-            "raw_basket": [],
+            "raw_basket": [
+              {
+                "date": "2026-09-14",
+                "value": null
+              }
+            ],
             "related_themes": [],
-            "results": [],
+            "results": [
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": null,
+                "signal_strength": 0.68,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-16",
+                  "end_session": "2026-09-18",
+                  "start_session": "2026-09-17"
+                },
+                "item_key": "segments/1",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "down",
+                "predicted_expected_move": -0.005,
+                "sign_agreement": null,
+                "signal_strength": 0.68,
+                "status": "pending"
+              },
+              {
+                "actual_move": null,
+                "actual_return": null,
+                "available_at": "2026-09-14T22:43:46.306018+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-18",
+                  "end_session": "2026-10-08",
+                  "start_session": "2026-09-24"
+                },
+                "item_key": "segments/2",
+                "magnitude_difference": null,
+                "magnitude_error": null,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.025,
+                "sign_agreement": null,
+                "signal_strength": 0.68,
+                "status": "pending"
+              }
+            ],
             "retained_outlooks": [],
             "revision": 1,
             "revisions": [
@@ -64114,6 +67030,167 @@
             "sanmeigaku": 0.1111111111111111,
             "space_weather": 0.1111111111111111,
             "sukuyo": 0.1111111111111111
+          }
+        },
+        "theme:1": {
+          "coverage": {
+            "astrology": 4,
+            "four_pillars": 4,
+            "koyomi": 4,
+            "lunar": 4,
+            "nine_star_ki": 4,
+            "numerology": 4,
+            "sanmeigaku": 4,
+            "space_weather": 0,
+            "sukuyo": 4
+          },
+          "phase": "learned",
+          "sample_count": 4,
+          "weights": {
+            "astrology": 0.10409458693420424,
+            "four_pillars": 0.11655652714188372,
+            "koyomi": 0.10808303145891807,
+            "lunar": 0.11007516870061804,
+            "nine_star_ki": 0.11748502286657446,
+            "numerology": 0.10962176722487368,
+            "sanmeigaku": 0.11525484820864586,
+            "space_weather": 0.11096031524763274,
+            "sukuyo": 0.1078687322166492
+          }
+        },
+        "theme:20": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        },
+        "theme:5": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-09-14T22:43:46.306018+00:00",
+      "pools": {
+        "stock:1": {
+          "coverage": {
+            "astrology": 4,
+            "four_pillars": 4,
+            "koyomi": 4,
+            "lunar": 4,
+            "nine_star_ki": 4,
+            "numerology": 4,
+            "sanmeigaku": 4,
+            "space_weather": 0,
+            "sukuyo": 4
+          },
+          "phase": "learned",
+          "sample_count": 4,
+          "weights": {
+            "astrology": 0.12534941743018924,
+            "four_pillars": 0.10344912363741648,
+            "koyomi": 0.10851129036483766,
+            "lunar": 0.1312408338568782,
+            "nine_star_ki": 0.1023758138494644,
+            "numerology": 0.10916195653069703,
+            "sanmeigaku": 0.0984836061455943,
+            "space_weather": 0.1107910957220192,
+            "sukuyo": 0.11063686246290343
+          }
+        },
+        "stock:20": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        },
+        "stock:5": {
+          "coverage": {
+            "astrology": 1,
+            "four_pillars": 1,
+            "koyomi": 1,
+            "lunar": 1,
+            "nine_star_ki": 1,
+            "numerology": 1,
+            "sanmeigaku": 1,
+            "space_weather": 0,
+            "sukuyo": 1
+          },
+          "phase": "learned",
+          "sample_count": 1,
+          "weights": {
+            "astrology": 0.11064665451951143,
+            "four_pillars": 0.11087458507064997,
+            "koyomi": 0.10945033430171049,
+            "lunar": 0.11200223217747302,
+            "nine_star_ki": 0.10945033430171049,
+            "numerology": 0.11217142363678995,
+            "sanmeigaku": 0.11107251243029688,
+            "space_weather": 0.11110490020907697,
+            "sukuyo": 0.1132270233527807
           }
         },
         "theme:1": {
