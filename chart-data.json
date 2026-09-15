@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-15T22:26:18.276467+00:00",
+  "as_of": "2026-09-15T23:05:13.738762+00:00",
   "current": {
     "exploration": [
       {
@@ -8,60 +8,60 @@
           "d4762e19-dcd8-5b57-aad7-fae529d406b9"
         ],
         "compared": true,
-        "comparison_reason": "自律移動を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "移動最適化・自動運転",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd",
         "target_type": "theme"
@@ -71,60 +71,60 @@
           "26dae351-5717-57ce-bbec-ef7183cdd398"
         ],
         "compared": true,
-        "comparison_reason": "データ基盤を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "メモリ・ストレージ・データ基盤",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d",
         "target_type": "theme"
@@ -134,60 +134,60 @@
           "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
         ],
         "compared": true,
-        "comparison_reason": "遠隔計測を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "地理空間センシング・遠隔インフラ知能",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de",
         "target_type": "theme"
@@ -197,15 +197,61 @@
           "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
         ],
         "compared": true,
-        "comparison_reason": "産業自動化を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
-        "expert_assessments": [],
-        "formal": "prediction",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          }
+        ],
+        "formal": "no_prediction",
         "identity": "resolved",
         "name": "産業自動化・適応型機械制御",
-        "priority": 0.72,
-        "reason": "20営業日側で複数体系が収束。",
-        "status": "signal",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+        "status": "no_signal",
         "target_id": "940f927b-8785-57e8-b518-1390dedcb634",
         "target_type": "theme"
       },
@@ -214,60 +260,60 @@
           "4dd1c66a-b074-5d46-910f-58415e2f38af"
         ],
         "compared": true,
-        "comparison_reason": "サイバー耐性を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "サイバー耐障害性・信頼ネットワーク基盤",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c",
         "target_type": "theme"
@@ -277,60 +323,60 @@
           "11165b9b-986f-598c-9909-f532f7ff2bea"
         ],
         "compared": true,
-        "comparison_reason": "電力網を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "電力網高度化・適応型電力インフラ",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088",
         "target_type": "theme"
@@ -340,60 +386,60 @@
           "JP:XTKS:285A:equity"
         ],
         "compared": true,
-        "comparison_reason": "メモリを期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "Kioxia Holdings Corporation",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "JP:XTKS:285A:equity",
         "target_type": "stock"
@@ -403,62 +449,125 @@
           "JP:XTKS:581A:equity"
         ],
         "compared": true,
-        "comparison_reason": "モビリティを期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "GO Inc.",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "JP:XTKS:581A:equity",
+        "target_type": "stock"
+      },
+      {
+        "canonical_ids": [
+          "JP:XTKS:6506:equity"
+        ],
+        "compared": true,
+        "comparison_reason": "期間別の方向が割れている。",
+        "direction": "mixed",
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          }
+        ],
+        "formal": "no_prediction",
+        "identity": "resolved",
+        "name": "YASKAWA Electric Corporation",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+        "status": "no_signal",
+        "target_id": "JP:XTKS:6506:equity",
         "target_type": "stock"
       },
       {
@@ -466,60 +575,60 @@
           "US:XNAS:AUR:equity"
         ],
         "compared": true,
-        "comparison_reason": "自動運転を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "Aurora Innovation, Inc.",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "US:XNAS:AUR:equity",
         "target_type": "stock"
@@ -529,193 +638,125 @@
           "US:XNAS:MBLY:equity"
         ],
         "compared": true,
-        "comparison_reason": "車載認識を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "Mobileye Global Inc.",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
         "target_id": "US:XNAS:MBLY:equity",
         "target_type": "stock"
       },
       {
         "canonical_ids": [
-          "JP:XTKS:6506:equity"
+          "US:XNYS:GEV:equity"
         ],
         "compared": true,
-        "comparison_reason": "産業ロボットを期間別に比較。",
-        "direction": "mixed",
-        "expert_assessments": [],
-        "formal": "prediction",
-        "identity": "resolved",
-        "name": "YASKAWA Electric Corporation",
-        "priority": 0.72,
-        "reason": "20営業日側で複数体系が収束。",
-        "status": "signal",
-        "target_id": "JP:XTKS:6506:equity",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "JP:XTKS:6645:equity"
-        ],
-        "compared": true,
-        "comparison_reason": "産業制御を期間別に比較。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
         "expert_assessments": [
           {
             "expert": "astrology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "four_pillars",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sanmeigaku",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "nine_star_ki",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "sukuyo",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "koyomi",
-            "reason": "期間別象意が相殺。",
-            "status": "flat"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           },
           {
             "expert": "numerology",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "lunar",
-            "reason": "期間別象意が相殺。",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
             "status": "mixed"
           },
           {
             "expert": "space_weather",
-            "reason": "将来窓を判定不能。",
-            "status": "insufficient_input"
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
           }
         ],
         "formal": "no_prediction",
         "identity": "resolved",
-        "name": "OMRON Corporation",
-        "priority": 0.34,
-        "reason": "方向へ収束しない。",
+        "name": "GE Vernova",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
         "status": "no_signal",
-        "target_id": "JP:XTKS:6645:equity",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "JP:XTKS:290A:equity"
-        ],
-        "compared": true,
-        "comparison_reason": "遠隔計測Themeのmember比較。",
-        "direction": "mixed",
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "Synspective Inc.",
-        "priority": 0.48,
-        "reason": "遠隔計測Themeのmember比較。",
-        "status": "compared",
-        "target_id": "JP:XTKS:290A:equity",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "JP:XTKS:593A:equity"
-        ],
-        "compared": true,
-        "comparison_reason": "自律移動Themeのmember比較。",
-        "direction": "mixed",
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "TIER IV, Inc.",
-        "priority": 0.52,
-        "reason": "自律移動Themeのmember比較。",
-        "status": "compared",
-        "target_id": "JP:XTKS:593A:equity",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "JP:XTKS:6954:equity"
-        ],
-        "compared": true,
-        "comparison_reason": "産業自動化Themeのmember比較。",
-        "direction": "mixed",
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "FANUC CORPORATION",
-        "priority": 0.55,
-        "reason": "産業自動化Themeのmember比較。",
-        "status": "compared",
-        "target_id": "JP:XTKS:6954:equity",
+        "target_id": "US:XNYS:GEV:equity",
         "target_type": "stock"
       },
       {
@@ -723,67 +764,62 @@
           "US:XNYS:NET:equity"
         ],
         "compared": true,
-        "comparison_reason": "サイバー耐性Themeの未解決候補を再確認。",
+        "comparison_reason": "期間別の方向が割れている。",
         "direction": "mixed",
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "unresolved:stock_cloudflare_NET_20260908",
-        "priority": 0.3,
-        "reason": "サイバー耐性Themeの未解決候補を再確認。",
-        "status": "compared",
-        "target_id": "unresolved:stock_cloudflare_NET_20260908",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "US:XNYS:GEV:equity"
+        "expert_assessments": [
+          {
+            "expert": "astrology",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "four_pillars",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sanmeigaku",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "nine_star_ki",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "sukuyo",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "koyomi",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "numerology",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "lunar",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          },
+          {
+            "expert": "space_weather",
+            "reason": "期間別の方向が割れ、単一方向を確定できない。",
+            "status": "mixed"
+          }
         ],
-        "compared": true,
-        "comparison_reason": "電力網Themeの未解決候補を再確認。",
-        "direction": "mixed",
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "unresolved:stock_gevernova_GEV_20260908",
-        "priority": 0.31,
-        "reason": "電力網Themeの未解決候補を再確認。",
-        "status": "compared",
-        "target_id": "unresolved:stock_gevernova_GEV_20260908",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "US:XNYS:NET:equity"
-        ],
-        "compared": false,
-        "comparison_reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "direction": null,
-        "expert_assessments": [],
         "formal": "no_prediction",
         "identity": "resolved",
         "name": "Cloudflare, Inc.",
-        "priority": null,
-        "reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "status": "discovered",
-        "target_id": "disc-cloudflare-net-20260915",
-        "target_type": "stock"
-      },
-      {
-        "canonical_ids": [
-          "US:XNYS:GEV:equity"
-        ],
-        "compared": false,
-        "comparison_reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "direction": null,
-        "expert_assessments": [],
-        "formal": "no_prediction",
-        "identity": "resolved",
-        "name": "GE Vernova",
-        "priority": null,
-        "reason": "出典確認のみ。比較・詳細分析は未記録です。",
-        "status": "discovered",
-        "target_id": "disc-ge-vernova-gev-20260915",
+        "priority": 0.4,
+        "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+        "status": "no_signal",
+        "target_id": "US:XNYS:NET:equity",
         "target_type": "stock"
       }
     ],
@@ -13435,6 +13471,1352 @@
     }
   ],
   "runs": [
+    {
+      "admission_decisions": [],
+      "analysis": [
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:285A:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:581A:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:6506:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNAS:AUR:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNAS:MBLY:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNYS:GEV:equity"
+        },
+        {
+          "formal": "no_prediction",
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNYS:NET:equity"
+        }
+      ],
+      "carried_forecasts": [
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1",
+          "target_type": "theme",
+          "valid_until": "2026-10-16T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+          "target_type": "theme",
+          "valid_until": "2026-10-16T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
+          "target_type": "theme",
+          "valid_until": "2026-10-16T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T23:14:31.427888+00:00",
+          "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
+          "target_type": "theme",
+          "valid_until": "2026-10-16T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-16T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-16T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T23:14:31.427888+00:00",
+          "target_id": "JP:XTKS:6506:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-16T06:30:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "US:XNAS:AUR:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T20:00:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "US:XNAS:MBLY:equity",
+          "target_type": "stock",
+          "valid_until": "2026-10-09T20:00:00+00:00"
+        },
+        {
+          "issued_at": "2026-09-14T06:26:45.660598+00:00",
+          "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
+          "target_type": "theme",
+          "valid_until": "2026-10-09T20:00:00+00:00"
+        }
+      ],
+      "exploration": [
+        {
+          "canonical_ids": [
+            "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
+            "d4762e19-dcd8-5b57-aad7-fae529d406b9"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "移動最適化・自動運転",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "26dae351-5717-57ce-bbec-ef7183cdd398"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "メモリ・ストレージ・データ基盤",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "17b1f48a-6cf8-588e-9f9d-071b85e2ebd1"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "地理空間センシング・遠隔インフラ知能",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "34a3755e-633a-5c59-9c1f-7da2bf3c724d"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "産業自動化・適応型機械制御",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "940f927b-8785-57e8-b518-1390dedcb634",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "4dd1c66a-b074-5d46-910f-58415e2f38af"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "サイバー耐障害性・信頼ネットワーク基盤",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "11165b9b-986f-598c-9909-f532f7ff2bea"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "電力網高度化・適応型電力インフラ",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088",
+          "target_type": "theme"
+        },
+        {
+          "canonical_ids": [
+            "JP:XTKS:285A:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "Kioxia Holdings Corporation",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:285A:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "JP:XTKS:581A:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "GO Inc.",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:581A:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "JP:XTKS:6506:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "YASKAWA Electric Corporation",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "JP:XTKS:6506:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "US:XNAS:AUR:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "Aurora Innovation, Inc.",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNAS:AUR:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "US:XNAS:MBLY:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "Mobileye Global Inc.",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNAS:MBLY:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "US:XNYS:GEV:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "GE Vernova",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNYS:GEV:equity",
+          "target_type": "stock"
+        },
+        {
+          "canonical_ids": [
+            "US:XNYS:NET:equity"
+          ],
+          "compared": true,
+          "comparison_reason": "期間別の方向が割れている。",
+          "direction": "mixed",
+          "expert_assessments": [
+            {
+              "expert": "astrology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "four_pillars",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sanmeigaku",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "nine_star_ki",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "sukuyo",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "koyomi",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "numerology",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "lunar",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            },
+            {
+              "expert": "space_weather",
+              "reason": "期間別の方向が割れ、単一方向を確定できない。",
+              "status": "mixed"
+            }
+          ],
+          "formal": "no_prediction",
+          "identity": "resolved",
+          "name": "Cloudflare, Inc.",
+          "priority": 0.4,
+          "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+          "status": "no_signal",
+          "target_id": "US:XNYS:NET:equity",
+          "target_type": "stock"
+        }
+      ],
+      "exploration_summary": {
+        "compared": 13,
+        "detailed": 13,
+        "formal_targets": 0,
+        "identity_unresolved": 0,
+        "outcomes": {
+          "compared": 0,
+          "insufficient_input": 0,
+          "no_signal": 13,
+          "signal": 0
+        },
+        "sourced_candidates": 0,
+        "tracks": {
+          "stock": 7,
+          "theme": 6,
+          "unknown": 0
+        },
+        "waiting": {
+          "as_of": "2026-09-15T23:04:51.029619+00:00",
+          "by_track": {
+            "stock": {
+              "blocked_count": 0,
+              "candidate_count": 11,
+              "evaluated_count": 11,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            },
+            "theme": {
+              "blocked_count": 0,
+              "candidate_count": 6,
+              "evaluated_count": 6,
+              "oldest_waiting_at": null,
+              "oldest_waiting_days": null,
+              "waiting_count": 0
+            }
+          },
+          "targets": [
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:285A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:290A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:581A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:593A:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6506:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6645:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+              "status": "evaluated",
+              "target_id": "JP:XTKS:6954:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "US:XNAS:AUR:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "US:XNAS:MBLY:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-14T23:14:27.568060+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "US:XNYS:GEV:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-14T23:14:27.568060+00:00",
+              "identity_state": "resolved",
+              "kind": "stock",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "US:XNYS:NET:equity"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+            },
+            {
+              "evaluation_state": "evaluated",
+              "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+              "identity_state": "resolved",
+              "kind": "theme",
+              "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+              "status": "evaluated",
+              "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+            }
+          ]
+        }
+      },
+      "identity_failures": [],
+      "issued_at": "2026-09-15T23:04:51.029619+00:00",
+      "label": "2026-09-16 08:04 daily",
+      "requested_target_results": [],
+      "run_date": "2026-09-16",
+      "run_id": "run-20260915-230451-029619",
+      "run_kind": "daily",
+      "targets": [],
+      "waiting": {
+        "as_of": "2026-09-15T23:04:51.029619+00:00",
+        "by_track": {
+          "stock": {
+            "blocked_count": 0,
+            "candidate_count": 11,
+            "evaluated_count": 11,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          },
+          "theme": {
+            "blocked_count": 0,
+            "candidate_count": 6,
+            "evaluated_count": 6,
+            "oldest_waiting_at": null,
+            "oldest_waiting_days": null,
+            "waiting_count": 0
+          }
+        },
+        "targets": [
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:285A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:290A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:581A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:593A:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6506:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-09T03:26:54.439864+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6645:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-14T23:14:27.568060+00:00",
+            "status": "evaluated",
+            "target_id": "JP:XTKS:6954:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "US:XNAS:AUR:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "US:XNAS:MBLY:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-14T23:14:27.568060+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "US:XNYS:GEV:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-14T23:14:27.568060+00:00",
+            "identity_state": "resolved",
+            "kind": "stock",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "US:XNYS:NET:equity"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "07baa36c-4241-52d6-b909-a3f35bd7a8bd"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "5735e490-2f19-53f2-86e9-8eb4d1891c8d"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-07T14:54:19.495428+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "6c702348-19d1-5e7e-97b1-19abdcdd19de"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "846e81a8-7550-5ce1-a2af-f9a1cde97d1c"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "940f927b-8785-57e8-b518-1390dedcb634"
+          },
+          {
+            "evaluation_state": "evaluated",
+            "first_seen_at": "2026-09-08T10:04:58.393417+00:00",
+            "identity_state": "resolved",
+            "kind": "theme",
+            "last_compared_at": "2026-09-15T23:04:48.579303+00:00",
+            "status": "evaluated",
+            "target_id": "dffe0377-319e-5b60-b93b-fa9fdca26088"
+          }
+        ]
+      },
+      "warnings": []
+    },
     {
       "admission_decisions": [
         {
@@ -45323,6 +46705,19 @@
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
+          "reasons": []
         }
       ]
     },
@@ -50507,6 +51902,19 @@
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
+          "reasons": []
         }
       ]
     },
@@ -53865,6 +55273,19 @@
           ],
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
           "reasons": []
         }
       ]
@@ -57542,6 +58963,19 @@
           ],
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
           "reasons": []
         }
       ]
@@ -61382,6 +62816,19 @@
           ],
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
           "reasons": []
         }
       ]
@@ -67396,6 +68843,19 @@
             "probability:1",
             "confidence"
           ]
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
+          "reasons": []
         }
       ]
     },
@@ -69555,6 +71015,19 @@
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
+          "reasons": []
         }
       ]
     },
@@ -71700,6 +73173,19 @@
           ],
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
+          "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
           "reasons": []
         }
       ]
@@ -74192,6 +75678,19 @@
           "issued_at": "2026-09-14T23:14:31.427888+00:00",
           "label": "2026-09-15 08:14 daily",
           "reasons": []
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
+          "reasons": []
         }
       ]
     },
@@ -76671,6 +78170,19 @@
           "reasons": [
             "new_target"
           ]
+        },
+        {
+          "action": "ANALYSIS",
+          "analysis": [
+            {
+              "identity": "resolved",
+              "reason": "9体系を期間別に評価したが方向の偏りが一貫しない。",
+              "status": "no_signal"
+            }
+          ],
+          "issued_at": "2026-09-15T23:04:51.029619+00:00",
+          "label": "2026-09-16 08:04 daily",
+          "reasons": []
         }
       ]
     }
