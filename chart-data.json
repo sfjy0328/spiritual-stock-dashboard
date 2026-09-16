@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-15T23:05:13.738762+00:00",
+  "as_of": "2026-09-16T22:18:47.998004+00:00",
   "current": {
     "exploration": [
       {
@@ -835,6 +835,10 @@
           {
             "date": "2026-09-15",
             "value": 102.29294326942085
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.37556829412928
           }
         ],
         "availability": [
@@ -844,6 +848,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -1859,6 +1867,24 @@
             "sign_agreement": null,
             "signal_strength": 0.82,
             "status": "pending"
+          },
+          {
+            "actual_move": 0.0037556829412927458,
+            "actual_return": 0.0037556829412927458,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.004244317058707254,
+            "magnitude_error": 0.004244317058707254,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": true,
+            "signal_strength": 0.82,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -2022,6 +2048,10 @@
           {
             "date": "2026-09-15",
             "value": 105.70107858243452
+          },
+          {
+            "date": "2026-09-16",
+            "value": 96.91833590138675
           }
         ],
         "availability": [
@@ -2031,6 +2061,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -3046,6 +3080,24 @@
             "sign_agreement": null,
             "signal_strength": 0.74,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.030816640986132512,
+            "actual_return": -0.030816640986132512,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.03881664098613251,
+            "magnitude_error": 0.03881664098613251,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": false,
+            "signal_strength": 0.74,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -3209,6 +3261,10 @@
           {
             "date": "2026-09-15",
             "value": 99.93021632937894
+          },
+          {
+            "date": "2026-09-16",
+            "value": 101.41893463596186
           }
         ],
         "availability": [
@@ -3218,6 +3274,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -4432,6 +4492,10 @@
           {
             "date": "2026-09-15",
             "value": 100.1555245590795
+          },
+          {
+            "date": "2026-09-16",
+            "value": 98.91135774972011
           }
         ],
         "availability": [
@@ -4445,6 +4509,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -5338,6 +5406,24 @@
             "sign_agreement": null,
             "signal_strength": 0.89,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.015479861306820301,
+            "actual_return": -0.015479861306820301,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.023479861306820303,
+            "magnitude_error": 0.023479861306820303,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": false,
+            "signal_strength": 0.89,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -5478,6 +5564,10 @@
           {
             "date": "2026-09-15",
             "value": 96.00000092477508
+          },
+          {
+            "date": "2026-09-16",
+            "value": 94.78788086862275
           }
         ],
         "availability": [
@@ -5491,6 +5581,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -6384,6 +6478,24 @@
             "sign_agreement": null,
             "signal_strength": 0.84,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.041666627709381836,
+            "actual_return": -0.041666627709381836,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.049666627709381836,
+            "magnitude_error": 0.049666627709381836,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": false,
+            "signal_strength": 0.84,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -6520,6 +6632,10 @@
           {
             "date": "2026-09-15",
             "value": 99.00906352736453
+          },
+          {
+            "date": "2026-09-16",
+            "value": 99.44013664275886
           }
         ],
         "availability": [
@@ -6529,6 +6645,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -6541,6 +6661,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034218
           }
         ],
         "change_reason": [
@@ -7500,6 +7624,10 @@
           {
             "date": "2026-09-15",
             "value": 98.53658536585365
+          },
+          {
+            "date": "2026-09-16",
+            "value": 99.58188153310104
           }
         ],
         "related_themes": [],
@@ -7557,6 +7685,24 @@
             "sign_agreement": null,
             "signal_strength": 0.68,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.005598633572411454,
+            "actual_return": -0.005598633572411454,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.009598633572411454,
+            "magnitude_error": 0.009598633572411454,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": false,
+            "signal_strength": 0.68,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -7693,6 +7839,10 @@
           {
             "date": "2026-09-15",
             "value": 101.14808761175527
+          },
+          {
+            "date": "2026-09-16",
+            "value": 93.6869272698928
           }
         ],
         "availability": [
@@ -7702,6 +7852,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -7714,6 +7868,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034218
           }
         ],
         "change_reason": [
@@ -8675,6 +8833,10 @@
           {
             "date": "2026-09-15",
             "value": 100.67560945024438
+          },
+          {
+            "date": "2026-09-16",
+            "value": 93.828672160235
           }
         ],
         "related_themes": [],
@@ -8732,6 +8894,24 @@
             "sign_agreement": null,
             "signal_strength": 0.86,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.06313072730107189,
+            "actual_return": -0.06313072730107189,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.06713072730107189,
+            "magnitude_error": 0.06713072730107189,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": false,
+            "signal_strength": 0.86,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -8894,6 +9074,10 @@
           {
             "date": "2026-09-15",
             "value": 102.76542143093172
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.23382340378708
           }
         ],
         "availability": [
@@ -8903,6 +9087,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -8915,6 +9103,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034218
           }
         ],
         "change_reason": [
@@ -9876,6 +10068,10 @@
           {
             "date": "2026-09-15",
             "value": 102.29294326942085
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.37556829412928
           }
         ],
         "related_themes": [],
@@ -9933,6 +10129,24 @@
             "sign_agreement": null,
             "signal_strength": 0.79,
             "status": "pending"
+          },
+          {
+            "actual_move": 0.0023382340378708395,
+            "actual_return": 0.0023382340378708395,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.0016617659621291606,
+            "magnitude_error": 0.0016617659621291606,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": true,
+            "signal_strength": 0.79,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -10095,6 +10309,10 @@
           {
             "date": "2026-09-15",
             "value": 99.63026163301953
+          },
+          {
+            "date": "2026-09-16",
+            "value": 101.34524748970665
           }
         ],
         "availability": [
@@ -10104,6 +10322,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -10116,6 +10338,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034221
           }
         ],
         "change_reason": [
@@ -11098,6 +11324,10 @@
           {
             "date": "2026-09-15",
             "value": 99.15778347150864
+          },
+          {
+            "date": "2026-09-16",
+            "value": 101.48699238004886
           }
         ],
         "related_themes": [],
@@ -11385,6 +11615,10 @@
           {
             "date": "2026-09-15",
             "value": 98.98055665225898
+          },
+          {
+            "date": "2026-09-16",
+            "value": 98.18942364113515
           }
         ],
         "availability": [
@@ -11398,6 +11632,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -11414,6 +11652,10 @@
           {
             "date": "2026-09-15",
             "value": 99.09720608966832
+          },
+          {
+            "date": "2026-09-16",
+            "value": 98.66019566803628
           }
         ],
         "change_reason": [
@@ -12260,6 +12502,10 @@
           {
             "date": "2026-09-15",
             "value": 98.0777627419273
+          },
+          {
+            "date": "2026-09-16",
+            "value": 96.84961930917143
           }
         ],
         "related_themes": [],
@@ -12317,6 +12563,24 @@
             "sign_agreement": null,
             "signal_strength": 0.86,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.019445662408269067,
+            "actual_return": -0.019445662408269067,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.023445662408269067,
+            "magnitude_error": 0.023445662408269067,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": false,
+            "signal_strength": 0.86,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -13317,8 +13581,8 @@
             "observed_frequency": 0.5
           },
           {
-            "count": 2,
-            "mean_probability": 0.220625,
+            "count": 3,
+            "mean_probability": 0.21791666666666665,
             "observed_frequency": 1.0
           },
           {
@@ -13374,8 +13638,8 @@
             "observed_frequency": 0.0
           },
           {
-            "count": 2,
-            "mean_probability": 0.305,
+            "count": 3,
+            "mean_probability": 0.30624999999999997,
             "observed_frequency": 0.0
           },
           {
@@ -13431,8 +13695,8 @@
             "observed_frequency": null
           },
           {
-            "count": 2,
-            "mean_probability": 0.474375,
+            "count": 3,
+            "mean_probability": 0.47583333333333333,
             "observed_frequency": 0.0
           },
           {
@@ -13462,12 +13726,12 @@
           }
         ]
       },
-      "equal": 0.5597481619364407,
-      "evaluated": 3,
+      "equal": 0.5443915147573923,
+      "evaluated": 4,
       "issued": 9,
       "pool": "theme:5",
-      "weighted": 0.5597481619364407,
-      "zero": 0.9810153494364408
+      "weighted": 0.5443915147573923,
+      "zero": 0.9301820225698925
     }
   ],
   "runs": [
@@ -15977,6 +16241,10 @@
             {
               "date": "2026-09-15",
               "value": 99.93021632937894
+            },
+            {
+              "date": "2026-09-16",
+              "value": 101.41893463596186
             }
           ],
           "availability": [
@@ -15986,6 +16254,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -17166,6 +17438,10 @@
             {
               "date": "2026-09-15",
               "value": 99.63026163301953
+            },
+            {
+              "date": "2026-09-16",
+              "value": 101.34524748970665
             }
           ],
           "availability": [
@@ -17175,6 +17451,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -17187,6 +17467,10 @@
             {
               "date": "2026-09-15",
               "value": 99.52752183848912
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.14174489034221
             }
           ],
           "change_reason": [],
@@ -18163,6 +18447,10 @@
             {
               "date": "2026-09-15",
               "value": 99.15778347150864
+            },
+            {
+              "date": "2026-09-16",
+              "value": 101.48699238004886
             }
           ],
           "related_themes": [],
@@ -19174,6 +19462,10 @@
             {
               "date": "2026-09-15",
               "value": 102.29294326942085
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.37556829412928
             }
           ],
           "availability": [
@@ -19183,6 +19475,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -20190,6 +20486,24 @@
               "sign_agreement": null,
               "signal_strength": 0.82,
               "status": "pending"
+            },
+            {
+              "actual_move": 0.0037556829412927458,
+              "actual_return": 0.0037556829412927458,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.004244317058707254,
+              "magnitude_error": 0.004244317058707254,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": true,
+              "signal_strength": 0.82,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -20301,6 +20615,10 @@
             {
               "date": "2026-09-15",
               "value": 105.70107858243452
+            },
+            {
+              "date": "2026-09-16",
+              "value": 96.91833590138675
             }
           ],
           "availability": [
@@ -20310,6 +20628,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -21317,6 +21639,24 @@
               "sign_agreement": null,
               "signal_strength": 0.74,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.030816640986132512,
+              "actual_return": -0.030816640986132512,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.03881664098613251,
+              "magnitude_error": 0.03881664098613251,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": false,
+              "signal_strength": 0.74,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -21432,6 +21772,10 @@
             {
               "date": "2026-09-15",
               "value": 100.1555245590795
+            },
+            {
+              "date": "2026-09-16",
+              "value": 98.91135774972011
             }
           ],
           "availability": [
@@ -21445,6 +21789,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -22333,6 +22681,24 @@
               "sign_agreement": null,
               "signal_strength": 0.89,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.015479861306820301,
+              "actual_return": -0.015479861306820301,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.023479861306820303,
+              "magnitude_error": 0.023479861306820303,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": false,
+              "signal_strength": 0.89,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -22448,6 +22814,10 @@
             {
               "date": "2026-09-15",
               "value": 96.00000092477508
+            },
+            {
+              "date": "2026-09-16",
+              "value": 94.78788086862275
             }
           ],
           "availability": [
@@ -22461,6 +22831,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -23349,6 +23723,24 @@
               "sign_agreement": null,
               "signal_strength": 0.84,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.041666627709381836,
+              "actual_return": -0.041666627709381836,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.049666627709381836,
+              "magnitude_error": 0.049666627709381836,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": false,
+              "signal_strength": 0.84,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -23460,6 +23852,10 @@
             {
               "date": "2026-09-15",
               "value": 99.00906352736453
+            },
+            {
+              "date": "2026-09-16",
+              "value": 99.44013664275886
             }
           ],
           "availability": [
@@ -23469,6 +23865,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -23481,6 +23881,10 @@
             {
               "date": "2026-09-15",
               "value": 99.52752183848912
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.14174489034218
             }
           ],
           "change_reason": [],
@@ -24435,6 +24839,10 @@
             {
               "date": "2026-09-15",
               "value": 98.53658536585365
+            },
+            {
+              "date": "2026-09-16",
+              "value": 99.58188153310104
             }
           ],
           "related_themes": [],
@@ -24492,6 +24900,24 @@
               "sign_agreement": null,
               "signal_strength": 0.68,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.005598633572411454,
+              "actual_return": -0.005598633572411454,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.009598633572411454,
+              "magnitude_error": 0.009598633572411454,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": false,
+              "signal_strength": 0.68,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -24603,6 +25029,10 @@
             {
               "date": "2026-09-15",
               "value": 101.14808761175527
+            },
+            {
+              "date": "2026-09-16",
+              "value": 93.6869272698928
             }
           ],
           "availability": [
@@ -24612,6 +25042,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -24624,6 +25058,10 @@
             {
               "date": "2026-09-15",
               "value": 99.52752183848912
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.14174489034218
             }
           ],
           "change_reason": [],
@@ -25578,6 +26016,10 @@
             {
               "date": "2026-09-15",
               "value": 100.67560945024438
+            },
+            {
+              "date": "2026-09-16",
+              "value": 93.828672160235
             }
           ],
           "related_themes": [],
@@ -25635,6 +26077,24 @@
               "sign_agreement": null,
               "signal_strength": 0.86,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.06313072730107189,
+              "actual_return": -0.06313072730107189,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.06713072730107189,
+              "magnitude_error": 0.06713072730107189,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": false,
+              "signal_strength": 0.86,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -25746,6 +26206,10 @@
             {
               "date": "2026-09-15",
               "value": 102.76542143093172
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.23382340378708
             }
           ],
           "availability": [
@@ -25755,6 +26219,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -25767,6 +26235,10 @@
             {
               "date": "2026-09-15",
               "value": 99.52752183848912
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.14174489034218
             }
           ],
           "change_reason": [],
@@ -26721,6 +27193,10 @@
             {
               "date": "2026-09-15",
               "value": 102.29294326942085
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.37556829412928
             }
           ],
           "related_themes": [],
@@ -26778,6 +27254,24 @@
               "sign_agreement": null,
               "signal_strength": 0.79,
               "status": "pending"
+            },
+            {
+              "actual_move": 0.0023382340378708395,
+              "actual_return": 0.0023382340378708395,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.0016617659621291606,
+              "magnitude_error": 0.0016617659621291606,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": true,
+              "signal_strength": 0.79,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -26889,6 +27383,10 @@
             {
               "date": "2026-09-15",
               "value": 99.63026163301953
+            },
+            {
+              "date": "2026-09-16",
+              "value": 101.34524748970665
             }
           ],
           "availability": [
@@ -26898,6 +27396,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -26910,6 +27412,10 @@
             {
               "date": "2026-09-15",
               "value": 99.52752183848912
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.14174489034221
             }
           ],
           "change_reason": [],
@@ -27864,6 +28370,10 @@
             {
               "date": "2026-09-15",
               "value": 99.15778347150864
+            },
+            {
+              "date": "2026-09-16",
+              "value": 101.48699238004886
             }
           ],
           "related_themes": [],
@@ -27921,6 +28431,24 @@
               "sign_agreement": null,
               "signal_strength": 0.91,
               "status": "pending"
+            },
+            {
+              "actual_move": 0.013452474897066604,
+              "actual_return": 0.013452474897066604,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": 0.009452474897066604,
+              "magnitude_error": 0.009452474897066604,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": true,
+              "signal_strength": 0.91,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -28036,6 +28564,10 @@
             {
               "date": "2026-09-15",
               "value": 98.98055665225898
+            },
+            {
+              "date": "2026-09-16",
+              "value": 98.18942364113515
             }
           ],
           "availability": [
@@ -28049,6 +28581,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -28065,6 +28601,10 @@
             {
               "date": "2026-09-15",
               "value": 99.09720608966832
+            },
+            {
+              "date": "2026-09-16",
+              "value": 98.66019566803628
             }
           ],
           "change_reason": [],
@@ -28904,6 +29444,10 @@
             {
               "date": "2026-09-15",
               "value": 98.0777627419273
+            },
+            {
+              "date": "2026-09-16",
+              "value": 96.84961930917143
             }
           ],
           "related_themes": [],
@@ -28961,6 +29505,24 @@
               "sign_agreement": null,
               "signal_strength": 0.86,
               "status": "pending"
+            },
+            {
+              "actual_move": -0.019445662408269067,
+              "actual_return": -0.019445662408269067,
+              "available_at": "2026-09-16T22:18:11.697144+00:00",
+              "effect_window": {
+                "anchor_session": "2026-09-14",
+                "end_session": "2026-09-16",
+                "start_session": "2026-09-15"
+              },
+              "item_key": "segments/0",
+              "magnitude_difference": -0.023445662408269067,
+              "magnitude_error": 0.023445662408269067,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.004,
+              "sign_agreement": false,
+              "signal_strength": 0.86,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -32145,6 +32707,10 @@
             {
               "date": "2026-09-15",
               "value": 97.03227329598414
+            },
+            {
+              "date": "2026-09-16",
+              "value": 98.70529930049588
             }
           ],
           "availability": [
@@ -32166,6 +32732,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -32190,6 +32760,10 @@
             {
               "date": "2026-09-15",
               "value": 99.97626812886469
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.59326056863068
             }
           ],
           "change_reason": [],
@@ -33628,6 +34202,10 @@
             {
               "date": "2026-09-15",
               "value": 97.00854142484884
+            },
+            {
+              "date": "2026-09-16",
+              "value": 99.29855986912656
             }
           ],
           "related_themes": [],
@@ -35099,6 +35677,10 @@
             {
               "date": "2026-09-15",
               "value": 90.14109040236893
+            },
+            {
+              "date": "2026-09-16",
+              "value": 88.45148928758057
             }
           ],
           "availability": [
@@ -35124,6 +35706,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -36296,6 +36882,10 @@
             {
               "date": "2026-09-15",
               "value": 90.35426529295162
+            },
+            {
+              "date": "2026-09-16",
+              "value": 88.04884086496054
             }
           ],
           "availability": [
@@ -36321,6 +36911,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -36349,6 +36943,10 @@
             {
               "date": "2026-09-15",
               "value": 99.78682510941732
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.40264842262002
             }
           ],
           "change_reason": [],
@@ -37343,6 +37941,10 @@
             {
               "date": "2026-09-15",
               "value": 90.14109040236893
+            },
+            {
+              "date": "2026-09-16",
+              "value": 88.45148928758057
             }
           ],
           "related_themes": [],
@@ -37948,6 +38550,10 @@
             {
               "date": "2026-09-15",
               "value": 92.93148756941746
+            },
+            {
+              "date": "2026-09-16",
+              "value": 85.99059028088294
             }
           ],
           "availability": [
@@ -37973,6 +38579,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -38001,6 +38611,10 @@
             {
               "date": "2026-09-15",
               "value": 99.78682510941731
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.40264842262002
             }
           ],
           "change_reason": [],
@@ -39026,6 +39640,10 @@
             {
               "date": "2026-09-15",
               "value": 92.71831267883476
+            },
+            {
+              "date": "2026-09-16",
+              "value": 86.39323870350296
             }
           ],
           "related_themes": [],
@@ -39733,6 +40351,10 @@
             {
               "date": "2026-09-15",
               "value": 97.72079772079772
+            },
+            {
+              "date": "2026-09-16",
+              "value": 89.60113960113961
             }
           ],
           "availability": [
@@ -39762,6 +40384,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -40812,6 +41438,10 @@
             {
               "date": "2026-09-15",
               "value": 93.35143681871688
+            },
+            {
+              "date": "2026-09-16",
+              "value": 86.50776824764579
             }
           ],
           "availability": [
@@ -40841,6 +41471,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -40873,6 +41507,10 @@
             {
               "date": "2026-09-15",
               "value": 97.95395996613195
+            },
+            {
+              "date": "2026-09-16",
+              "value": 98.55847195558071
             }
           ],
           "change_reason": [],
@@ -41839,6 +42477,10 @@
             {
               "date": "2026-09-15",
               "value": 91.30539678484884
+            },
+            {
+              "date": "2026-09-16",
+              "value": 85.0662402032265
             }
           ],
           "related_themes": [],
@@ -41947,6 +42589,10 @@
             {
               "date": "2026-09-15",
               "value": 103.23921151017316
+            },
+            {
+              "date": "2026-09-16",
+              "value": 102.41104580335205
             }
           ],
           "availability": [
@@ -41976,6 +42622,10 @@
             },
             {
               "date": "2026-09-15",
+              "status": "available"
+            },
+            {
+              "date": "2026-09-16",
               "status": "available"
             }
           ],
@@ -42008,6 +42658,10 @@
             {
               "date": "2026-09-15",
               "value": 98.33807401389339
+            },
+            {
+              "date": "2026-09-16",
+              "value": 97.90441130146125
             }
           ],
           "change_reason": [],
@@ -42884,6 +43538,10 @@
             {
               "date": "2026-09-15",
               "value": 101.57728552406657
+            },
+            {
+              "date": "2026-09-16",
+              "value": 100.3154571048133
             }
           ],
           "related_themes": [],
@@ -43133,6 +43791,10 @@
           {
             "date": "2026-09-15",
             "value": 105.70107858243452
+          },
+          {
+            "date": "2026-09-16",
+            "value": 96.91833590138675
           }
         ],
         "availability": [
@@ -43142,6 +43804,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -44157,6 +44823,24 @@
             "sign_agreement": null,
             "signal_strength": 0.74,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.030816640986132512,
+            "actual_return": -0.030816640986132512,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.03881664098613251,
+            "magnitude_error": 0.03881664098613251,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": false,
+            "signal_strength": 0.74,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -44345,6 +45029,10 @@
               {
                 "date": "2026-09-15",
                 "value": 97.72079772079772
+              },
+              {
+                "date": "2026-09-16",
+                "value": 89.60113960113961
               }
             ],
             "availability": [
@@ -44374,6 +45062,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -45438,6 +46130,10 @@
               {
                 "date": "2026-09-15",
                 "value": 105.70107858243452
+              },
+              {
+                "date": "2026-09-16",
+                "value": 96.91833590138675
               }
             ],
             "availability": [
@@ -45447,6 +46143,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -46462,6 +47162,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.74,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.030816640986132512,
+                "actual_return": -0.030816640986132512,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.03881664098613251,
+                "magnitude_error": 0.03881664098613251,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": false,
+                "signal_strength": 0.74,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -46731,6 +47449,10 @@
           {
             "date": "2026-09-15",
             "value": 101.14808761175527
+          },
+          {
+            "date": "2026-09-16",
+            "value": 93.6869272698928
           }
         ],
         "availability": [
@@ -46740,6 +47462,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -46752,6 +47478,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034218
           }
         ],
         "change_reason": [
@@ -47713,6 +48443,10 @@
           {
             "date": "2026-09-15",
             "value": 100.67560945024438
+          },
+          {
+            "date": "2026-09-16",
+            "value": 93.828672160235
           }
         ],
         "related_themes": [],
@@ -47770,6 +48504,24 @@
             "sign_agreement": null,
             "signal_strength": 0.86,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.06313072730107189,
+            "actual_return": -0.06313072730107189,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.06713072730107189,
+            "magnitude_error": 0.06713072730107189,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": false,
+            "signal_strength": 0.86,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -47957,6 +48709,10 @@
               {
                 "date": "2026-09-15",
                 "value": 93.35143681871688
+              },
+              {
+                "date": "2026-09-16",
+                "value": 86.50776824764579
               }
             ],
             "availability": [
@@ -47986,6 +48742,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -48018,6 +48778,10 @@
               {
                 "date": "2026-09-15",
                 "value": 97.95395996613195
+              },
+              {
+                "date": "2026-09-16",
+                "value": 98.55847195558071
               }
             ],
             "change_reason": [
@@ -48989,6 +49753,10 @@
               {
                 "date": "2026-09-15",
                 "value": 91.30539678484884
+              },
+              {
+                "date": "2026-09-16",
+                "value": 85.0662402032265
               }
             ],
             "related_themes": [],
@@ -49122,6 +49890,10 @@
               {
                 "date": "2026-09-15",
                 "value": 92.93148756941746
+              },
+              {
+                "date": "2026-09-16",
+                "value": 85.99059028088294
               }
             ],
             "availability": [
@@ -49147,6 +49919,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -49175,6 +49951,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.78682510941731
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.40264842262002
               }
             ],
             "change_reason": [],
@@ -50200,6 +50980,10 @@
               {
                 "date": "2026-09-15",
                 "value": 92.71831267883476
+              },
+              {
+                "date": "2026-09-16",
+                "value": 86.39323870350296
               }
             ],
             "related_themes": [],
@@ -50570,6 +51354,10 @@
               {
                 "date": "2026-09-15",
                 "value": 101.14808761175527
+              },
+              {
+                "date": "2026-09-16",
+                "value": 93.6869272698928
               }
             ],
             "availability": [
@@ -50579,6 +51367,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -50591,6 +51383,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.52752183848912
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.14174489034218
               }
             ],
             "change_reason": [
@@ -51552,6 +52348,10 @@
               {
                 "date": "2026-09-15",
                 "value": 100.67560945024438
+              },
+              {
+                "date": "2026-09-16",
+                "value": 93.828672160235
               }
             ],
             "related_themes": [],
@@ -51609,6 +52409,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.86,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.06313072730107189,
+                "actual_return": -0.06313072730107189,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.06713072730107189,
+                "magnitude_error": 0.06713072730107189,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": false,
+                "signal_strength": 0.86,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -51932,6 +52750,10 @@
           {
             "date": "2026-09-15",
             "value": 98.98055665225898
+          },
+          {
+            "date": "2026-09-16",
+            "value": 98.18942364113515
           }
         ],
         "availability": [
@@ -51945,6 +52767,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -51961,6 +52787,10 @@
           {
             "date": "2026-09-15",
             "value": 99.09720608966832
+          },
+          {
+            "date": "2026-09-16",
+            "value": 98.66019566803628
           }
         ],
         "change_reason": [
@@ -52807,6 +53637,10 @@
           {
             "date": "2026-09-15",
             "value": 98.0777627419273
+          },
+          {
+            "date": "2026-09-16",
+            "value": 96.84961930917143
           }
         ],
         "related_themes": [],
@@ -52864,6 +53698,24 @@
             "sign_agreement": null,
             "signal_strength": 0.86,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.019445662408269067,
+            "actual_return": -0.019445662408269067,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.023445662408269067,
+            "magnitude_error": 0.023445662408269067,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": false,
+            "signal_strength": 0.86,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -53051,6 +53903,10 @@
               {
                 "date": "2026-09-15",
                 "value": 103.23921151017316
+              },
+              {
+                "date": "2026-09-16",
+                "value": 102.41104580335205
               }
             ],
             "availability": [
@@ -53080,6 +53936,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -53112,6 +53972,10 @@
               {
                 "date": "2026-09-15",
                 "value": 98.33807401389339
+              },
+              {
+                "date": "2026-09-16",
+                "value": 97.90441130146125
               }
             ],
             "change_reason": [
@@ -53993,6 +54857,10 @@
               {
                 "date": "2026-09-15",
                 "value": 101.57728552406657
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.3154571048133
               }
             ],
             "related_themes": [],
@@ -54114,6 +54982,10 @@
               {
                 "date": "2026-09-15",
                 "value": 98.98055665225898
+              },
+              {
+                "date": "2026-09-16",
+                "value": 98.18942364113515
               }
             ],
             "availability": [
@@ -54127,6 +54999,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -54143,6 +55019,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.09720608966832
+              },
+              {
+                "date": "2026-09-16",
+                "value": 98.66019566803628
               }
             ],
             "change_reason": [
@@ -54989,6 +55869,10 @@
               {
                 "date": "2026-09-15",
                 "value": 98.0777627419273
+              },
+              {
+                "date": "2026-09-16",
+                "value": 96.84961930917143
               }
             ],
             "related_themes": [],
@@ -55046,6 +55930,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.86,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.019445662408269067,
+                "actual_return": -0.019445662408269067,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.023445662408269067,
+                "magnitude_error": 0.023445662408269067,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": false,
+                "signal_strength": 0.86,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -55300,6 +56202,10 @@
           {
             "date": "2026-09-15",
             "value": 102.29294326942085
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.37556829412928
           }
         ],
         "availability": [
@@ -55309,6 +56215,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -56324,6 +57234,24 @@
             "sign_agreement": null,
             "signal_strength": 0.82,
             "status": "pending"
+          },
+          {
+            "actual_move": 0.0037556829412927458,
+            "actual_return": 0.0037556829412927458,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.004244317058707254,
+            "magnitude_error": 0.004244317058707254,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": true,
+            "signal_strength": 0.82,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -56508,6 +57436,10 @@
               {
                 "date": "2026-09-15",
                 "value": 90.14109040236893
+              },
+              {
+                "date": "2026-09-16",
+                "value": 88.45148928758057
               }
             ],
             "availability": [
@@ -56533,6 +57465,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -57723,6 +58659,10 @@
               {
                 "date": "2026-09-15",
                 "value": 102.29294326942085
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.37556829412928
               }
             ],
             "availability": [
@@ -57732,6 +58672,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -58747,6 +59691,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.82,
                 "status": "pending"
+              },
+              {
+                "actual_move": 0.0037556829412927458,
+                "actual_return": 0.0037556829412927458,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.004244317058707254,
+                "magnitude_error": 0.004244317058707254,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": true,
+                "signal_strength": 0.82,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -58990,6 +59952,10 @@
           {
             "date": "2026-09-15",
             "value": 102.76542143093172
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.23382340378708
           }
         ],
         "availability": [
@@ -58999,6 +59965,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -59011,6 +59981,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034218
           }
         ],
         "change_reason": [
@@ -59972,6 +60946,10 @@
           {
             "date": "2026-09-15",
             "value": 102.29294326942085
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.37556829412928
           }
         ],
         "related_themes": [],
@@ -60029,6 +61007,24 @@
             "sign_agreement": null,
             "signal_strength": 0.79,
             "status": "pending"
+          },
+          {
+            "actual_move": 0.0023382340378708395,
+            "actual_return": 0.0023382340378708395,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.0016617659621291606,
+            "magnitude_error": 0.0016617659621291606,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": true,
+            "signal_strength": 0.79,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -60212,6 +61208,10 @@
               {
                 "date": "2026-09-15",
                 "value": 90.35426529295162
+              },
+              {
+                "date": "2026-09-16",
+                "value": 88.04884086496054
               }
             ],
             "availability": [
@@ -60237,6 +61237,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -60265,6 +61269,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.78682510941732
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.40264842262002
               }
             ],
             "change_reason": [
@@ -61264,6 +62272,10 @@
               {
                 "date": "2026-09-15",
                 "value": 90.14109040236893
+              },
+              {
+                "date": "2026-09-16",
+                "value": 88.45148928758057
               }
             ],
             "related_themes": [],
@@ -61511,6 +62523,10 @@
               {
                 "date": "2026-09-15",
                 "value": 102.76542143093172
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.23382340378708
               }
             ],
             "availability": [
@@ -61520,6 +62536,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -61532,6 +62552,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.52752183848912
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.14174489034218
               }
             ],
             "change_reason": [
@@ -62493,6 +63517,10 @@
               {
                 "date": "2026-09-15",
                 "value": 102.29294326942085
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.37556829412928
               }
             ],
             "related_themes": [],
@@ -62550,6 +63578,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.79,
                 "status": "pending"
+              },
+              {
+                "actual_move": 0.0023382340378708395,
+                "actual_return": 0.0023382340378708395,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.0016617659621291606,
+                "magnitude_error": 0.0016617659621291606,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": true,
+                "signal_strength": 0.79,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -62843,6 +63889,10 @@
           {
             "date": "2026-09-15",
             "value": 99.63026163301953
+          },
+          {
+            "date": "2026-09-16",
+            "value": 101.34524748970665
           }
         ],
         "availability": [
@@ -62852,6 +63902,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -62864,6 +63918,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034221
           }
         ],
         "change_reason": [
@@ -63846,6 +64904,10 @@
           {
             "date": "2026-09-15",
             "value": 99.15778347150864
+          },
+          {
+            "date": "2026-09-16",
+            "value": 101.48699238004886
           }
         ],
         "related_themes": [],
@@ -64146,6 +65208,10 @@
               {
                 "date": "2026-09-15",
                 "value": 97.03227329598414
+              },
+              {
+                "date": "2026-09-16",
+                "value": 98.70529930049588
               }
             ],
             "availability": [
@@ -64167,6 +65233,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -64191,6 +65261,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.97626812886469
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.59326056863068
               }
             ],
             "change_reason": [
@@ -65634,6 +66708,10 @@
               {
                 "date": "2026-09-15",
                 "value": 97.00854142484884
+              },
+              {
+                "date": "2026-09-16",
+                "value": 99.29855986912656
               }
             ],
             "related_themes": [],
@@ -66247,6 +67325,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.63026163301953
+              },
+              {
+                "date": "2026-09-16",
+                "value": 101.34524748970665
               }
             ],
             "availability": [
@@ -66256,6 +67338,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -66268,6 +67354,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.52752183848912
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.14174489034221
               }
             ],
             "change_reason": [
@@ -67228,6 +68318,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.15778347150864
+              },
+              {
+                "date": "2026-09-16",
+                "value": 101.48699238004886
               }
             ],
             "related_themes": [],
@@ -67285,6 +68379,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.91,
                 "status": "pending"
+              },
+              {
+                "actual_move": 0.013452474897066604,
+                "actual_return": 0.013452474897066604,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": 0.009452474897066604,
+                "magnitude_error": 0.009452474897066604,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": true,
+                "signal_strength": 0.91,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -67450,6 +68562,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.63026163301953
+              },
+              {
+                "date": "2026-09-16",
+                "value": 101.34524748970665
               }
             ],
             "availability": [
@@ -67459,6 +68575,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -67471,6 +68591,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.52752183848912
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.14174489034221
               }
             ],
             "change_reason": [
@@ -68453,6 +69577,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.15778347150864
+              },
+              {
+                "date": "2026-09-16",
+                "value": 101.48699238004886
               }
             ],
             "related_themes": [],
@@ -68873,6 +70001,10 @@
           {
             "date": "2026-09-15",
             "value": 100.1555245590795
+          },
+          {
+            "date": "2026-09-16",
+            "value": 98.91135774972011
           }
         ],
         "availability": [
@@ -68886,6 +70018,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -69779,6 +70915,24 @@
             "sign_agreement": null,
             "signal_strength": 0.89,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.015479861306820301,
+            "actual_return": -0.015479861306820301,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.023479861306820303,
+            "magnitude_error": 0.023479861306820303,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": false,
+            "signal_strength": 0.89,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -69924,6 +71078,10 @@
               {
                 "date": "2026-09-15",
                 "value": 100.1555245590795
+              },
+              {
+                "date": "2026-09-16",
+                "value": 98.91135774972011
               }
             ],
             "availability": [
@@ -69937,6 +71095,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -70830,6 +71992,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.89,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.015479861306820301,
+                "actual_return": -0.015479861306820301,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.023479861306820303,
+                "magnitude_error": 0.023479861306820303,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": false,
+                "signal_strength": 0.89,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -71045,6 +72225,10 @@
           {
             "date": "2026-09-15",
             "value": 96.00000092477508
+          },
+          {
+            "date": "2026-09-16",
+            "value": 94.78788086862275
           }
         ],
         "availability": [
@@ -71058,6 +72242,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -71951,6 +73139,24 @@
             "sign_agreement": null,
             "signal_strength": 0.84,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.041666627709381836,
+            "actual_return": -0.041666627709381836,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.049666627709381836,
+            "magnitude_error": 0.049666627709381836,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.008,
+            "sign_agreement": false,
+            "signal_strength": 0.84,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -72096,6 +73302,10 @@
               {
                 "date": "2026-09-15",
                 "value": 96.00000092477508
+              },
+              {
+                "date": "2026-09-16",
+                "value": 94.78788086862275
               }
             ],
             "availability": [
@@ -72109,6 +73319,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -73002,6 +74216,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.84,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.041666627709381836,
+                "actual_return": -0.041666627709381836,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.049666627709381836,
+                "magnitude_error": 0.049666627709381836,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": false,
+                "signal_strength": 0.84,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -73200,6 +74432,10 @@
           {
             "date": "2026-09-15",
             "value": 99.00906352736453
+          },
+          {
+            "date": "2026-09-16",
+            "value": 99.44013664275886
           }
         ],
         "availability": [
@@ -73209,6 +74445,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -73221,6 +74461,10 @@
           {
             "date": "2026-09-15",
             "value": 99.52752183848912
+          },
+          {
+            "date": "2026-09-16",
+            "value": 100.14174489034218
           }
         ],
         "change_reason": [
@@ -74180,6 +75424,10 @@
           {
             "date": "2026-09-15",
             "value": 98.53658536585365
+          },
+          {
+            "date": "2026-09-16",
+            "value": 99.58188153310104
           }
         ],
         "related_themes": [],
@@ -74237,6 +75485,24 @@
             "sign_agreement": null,
             "signal_strength": 0.68,
             "status": "pending"
+          },
+          {
+            "actual_move": -0.005598633572411454,
+            "actual_return": -0.005598633572411454,
+            "available_at": "2026-09-16T22:18:11.697144+00:00",
+            "effect_window": {
+              "anchor_session": "2026-09-14",
+              "end_session": "2026-09-16",
+              "start_session": "2026-09-15"
+            },
+            "item_key": "segments/0",
+            "magnitude_difference": -0.009598633572411454,
+            "magnitude_error": 0.009598633572411454,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.004,
+            "sign_agreement": false,
+            "signal_strength": 0.68,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -74378,6 +75644,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.00906352736453
+              },
+              {
+                "date": "2026-09-16",
+                "value": 99.44013664275886
               }
             ],
             "availability": [
@@ -74387,6 +75657,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -74399,6 +75673,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.52752183848912
+              },
+              {
+                "date": "2026-09-16",
+                "value": 100.14174489034218
               }
             ],
             "change_reason": [
@@ -75358,6 +76636,10 @@
               {
                 "date": "2026-09-15",
                 "value": 98.53658536585365
+              },
+              {
+                "date": "2026-09-16",
+                "value": 99.58188153310104
               }
             ],
             "related_themes": [],
@@ -75415,6 +76697,24 @@
                 "sign_agreement": null,
                 "signal_strength": 0.68,
                 "status": "pending"
+              },
+              {
+                "actual_move": -0.005598633572411454,
+                "actual_return": -0.005598633572411454,
+                "available_at": "2026-09-16T22:18:11.697144+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-09-14",
+                  "end_session": "2026-09-16",
+                  "start_session": "2026-09-15"
+                },
+                "item_key": "segments/0",
+                "magnitude_difference": -0.009598633572411454,
+                "magnitude_error": 0.009598633572411454,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.004,
+                "sign_agreement": false,
+                "signal_strength": 0.68,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -75704,6 +77004,10 @@
           {
             "date": "2026-09-15",
             "value": 99.93021632937894
+          },
+          {
+            "date": "2026-09-16",
+            "value": 101.41893463596186
           }
         ],
         "availability": [
@@ -75713,6 +77017,10 @@
           },
           {
             "date": "2026-09-15",
+            "status": "available"
+          },
+          {
+            "date": "2026-09-16",
             "status": "available"
           }
         ],
@@ -76928,6 +78236,10 @@
               {
                 "date": "2026-09-15",
                 "value": 99.93021632937894
+              },
+              {
+                "date": "2026-09-16",
+                "value": 101.41893463596186
               }
             ],
             "availability": [
@@ -76937,6 +78249,10 @@
               },
               {
                 "date": "2026-09-15",
+                "status": "available"
+              },
+              {
+                "date": "2026-09-16",
                 "status": "available"
               }
             ],
@@ -79312,6 +80628,167 @@
             "sanmeigaku": 0.11054248133522403,
             "space_weather": 0.11110837062344806,
             "sukuyo": 0.11319673214450669
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-09-16T22:18:11.697144+00:00",
+      "pools": {
+        "stock:1": {
+          "coverage": {
+            "astrology": 7,
+            "four_pillars": 7,
+            "koyomi": 7,
+            "lunar": 7,
+            "nine_star_ki": 7,
+            "numerology": 7,
+            "sanmeigaku": 7,
+            "space_weather": 0,
+            "sukuyo": 7
+          },
+          "phase": "learned",
+          "sample_count": 7,
+          "weights": {
+            "astrology": 0.12694807786012915,
+            "four_pillars": 0.10549238848983844,
+            "koyomi": 0.11047500641583113,
+            "lunar": 0.12992721420002304,
+            "nine_star_ki": 0.10463609834429025,
+            "numerology": 0.1088284727313053,
+            "sanmeigaku": 0.0984072479270074,
+            "space_weather": 0.11077783689583172,
+            "sukuyo": 0.10450765713574353
+          }
+        },
+        "stock:20": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        },
+        "stock:5": {
+          "coverage": {
+            "astrology": 2,
+            "four_pillars": 2,
+            "koyomi": 2,
+            "lunar": 2,
+            "nine_star_ki": 2,
+            "numerology": 2,
+            "sanmeigaku": 2,
+            "space_weather": 0,
+            "sukuyo": 2
+          },
+          "phase": "learned",
+          "sample_count": 2,
+          "weights": {
+            "astrology": 0.1102281538639879,
+            "four_pillars": 0.11044808643938682,
+            "koyomi": 0.1090737263714725,
+            "lunar": 0.1115360887493619,
+            "nine_star_ki": 0.1090737263714725,
+            "numerology": 0.11169932104249808,
+            "sanmeigaku": 0.11063906440809221,
+            "space_weather": 0.11110002137839907,
+            "sukuyo": 0.11620181137532908
+          }
+        },
+        "theme:1": {
+          "coverage": {
+            "astrology": 9,
+            "four_pillars": 9,
+            "koyomi": 9,
+            "lunar": 9,
+            "nine_star_ki": 9,
+            "numerology": 9,
+            "sanmeigaku": 9,
+            "space_weather": 0,
+            "sukuyo": 9
+          },
+          "phase": "learned",
+          "sample_count": 9,
+          "weights": {
+            "astrology": 0.10486136504191737,
+            "four_pillars": 0.11625424038676153,
+            "koyomi": 0.10862969658635103,
+            "lunar": 0.10957404455531956,
+            "nine_star_ki": 0.11708732663992392,
+            "numerology": 0.10925323553532233,
+            "sanmeigaku": 0.11451965232770515,
+            "space_weather": 0.11097474521558409,
+            "sukuyo": 0.10884569371111497
+          }
+        },
+        "theme:20": {
+          "coverage": {
+            "astrology": 0,
+            "four_pillars": 0,
+            "koyomi": 0,
+            "lunar": 0,
+            "nine_star_ki": 0,
+            "numerology": 0,
+            "sanmeigaku": 0,
+            "space_weather": 0,
+            "sukuyo": 0
+          },
+          "phase": "initial",
+          "sample_count": 0,
+          "weights": {
+            "astrology": 0.1111111111111111,
+            "four_pillars": 0.1111111111111111,
+            "koyomi": 0.1111111111111111,
+            "lunar": 0.1111111111111111,
+            "nine_star_ki": 0.1111111111111111,
+            "numerology": 0.1111111111111111,
+            "sanmeigaku": 0.1111111111111111,
+            "space_weather": 0.1111111111111111,
+            "sukuyo": 0.1111111111111111
+          }
+        },
+        "theme:5": {
+          "coverage": {
+            "astrology": 4,
+            "four_pillars": 4,
+            "koyomi": 4,
+            "lunar": 4,
+            "nine_star_ki": 4,
+            "numerology": 4,
+            "sanmeigaku": 4,
+            "space_weather": 0,
+            "sukuyo": 4
+          },
+          "phase": "learned",
+          "sample_count": 4,
+          "weights": {
+            "astrology": 0.10865503767741035,
+            "four_pillars": 0.11052106002730006,
+            "koyomi": 0.10990042218287448,
+            "lunar": 0.10951116175857183,
+            "nine_star_ki": 0.10926293601939263,
+            "numerology": 0.1120145225108154,
+            "sanmeigaku": 0.10889642825054348,
+            "space_weather": 0.11107877606120592,
+            "sukuyo": 0.12015965551188579
           }
         }
       }
