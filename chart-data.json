@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-08T23:56:51.336257+00:00",
+  "as_of": "2026-10-09T23:28:24.350510+00:00",
   "current": {
     "exploration": [
       {
@@ -891,6 +891,10 @@
           {
             "date": "2026-10-08",
             "value": 106.14745587429827
+          },
+          {
+            "date": "2026-10-09",
+            "value": 103.80509581450232
           }
         ],
         "availability": [
@@ -956,6 +960,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -2244,6 +2252,10 @@
           {
             "date": "2026-10-08",
             "value": 113.09707241910631
+          },
+          {
+            "date": "2026-10-09",
+            "value": 112.17257318952234
           }
         ],
         "availability": [
@@ -2309,6 +2321,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -3597,6 +3613,10 @@
           {
             "date": "2026-10-08",
             "value": 111.39799953477554
+          },
+          {
+            "date": "2026-10-09",
+            "value": 111.25843219353338
           }
         ],
         "availability": [
@@ -3662,6 +3682,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -4920,2478 +4944,6 @@
       {
         "actual": [
           {
-            "date": "2026-09-11",
-            "value": 100.0
-          },
-          {
-            "date": "2026-09-14",
-            "value": 100.46656626141935
-          },
-          {
-            "date": "2026-09-15",
-            "value": 100.1555245590795
-          },
-          {
-            "date": "2026-09-16",
-            "value": 98.91135774972011
-          },
-          {
-            "date": "2026-09-17",
-            "value": 100.93312510701955
-          },
-          {
-            "date": "2026-09-18",
-            "value": 98.13374978596092
-          },
-          {
-            "date": "2026-09-21",
-            "value": 101.24417422517853
-          },
-          {
-            "date": "2026-09-22",
-            "value": 100.46656626141935
-          },
-          {
-            "date": "2026-09-23",
-            "value": 98.28927434504041
-          },
-          {
-            "date": "2026-09-24",
-            "value": 94.24572479880327
-          },
-          {
-            "date": "2026-09-25",
-            "value": 93.93468309646342
-          },
-          {
-            "date": "2026-09-28",
-            "value": 82.27060813499045
-          },
-          {
-            "date": "2026-09-29",
-            "value": 83.82581664668969
-          },
-          {
-            "date": "2026-09-30",
-            "value": 86.1586331221481
-          },
-          {
-            "date": "2026-10-01",
-            "value": 85.84759141980827
-          },
-          {
-            "date": "2026-10-02",
-            "value": 88.18040789526668
-          },
-          {
-            "date": "2026-10-05",
-            "value": 89.42457470462607
-          },
-          {
-            "date": "2026-10-06",
-            "value": 89.42457470462607
-          },
-          {
-            "date": "2026-10-07",
-            "value": 88.95800844320672
-          },
-          {
-            "date": "2026-10-08",
-            "value": 89.11353300228622
-          }
-        ],
-        "availability": [
-          {
-            "date": "2026-09-11",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-14",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-15",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-16",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-17",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-18",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-21",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-22",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-23",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-24",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-25",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-28",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-29",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-30",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-01",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-02",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-05",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-06",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-07",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-08",
-            "status": "available"
-          }
-        ],
-        "basis": "price_return",
-        "benchmark": [],
-        "change_reason": [
-          "new_target"
-        ],
-        "decision_dates": {
-          "local_dates": [
-            "2026-09-18",
-            "2026-09-24"
-          ],
-          "missing": [],
-          "sessions": [
-            "2026-09-14",
-            "2026-09-15",
-            "2026-09-16",
-            "2026-09-17",
-            "2026-09-18",
-            "2026-09-23",
-            "2026-09-24",
-            "2026-10-08"
-          ]
-        },
-        "decision_points": [
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "item_key": "decisions/0",
-            "label": "短期逆風の極点",
-            "rationale": "水星―土星の極点。",
-            "session": "2026-09-18",
-            "source": "decision_point"
-          },
-          {
-            "date": "2026-09-24",
-            "direction": "up",
-            "item_key": "decisions/1",
-            "label": "再加速",
-            "rationale": "秋分後の再加速。",
-            "session": "2026-09-24",
-            "source": "decision_point"
-          }
-        ],
-        "display_name": "Aurora Innovation, Inc.",
-        "entry_session": "2026-09-11",
-        "events": [
-          {
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:38.617Z",
-            "expected_move": null,
-            "impact_session": "2026-09-23",
-            "item_key": null,
-            "local_date": "2026-09-23",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-09-23",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T16:49:32.233Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-27",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-08",
-            "event_at": "2026-10-08T06:29:58.055Z",
-            "expected_move": null,
-            "impact_session": "2026-10-08",
-            "item_key": null,
-            "local_date": "2026-10-08",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-10-08",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-14",
-            "event_at": "2026-09-14T19:53:45.771Z",
-            "expected_move": null,
-            "impact_session": "2026-09-14",
-            "item_key": null,
-            "local_date": "2026-09-15",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-14",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-15",
-            "event_at": "2026-09-15T18:41:31.897Z",
-            "expected_move": null,
-            "impact_session": "2026-09-15",
-            "item_key": null,
-            "local_date": "2026-09-16",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-15",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-16",
-            "event_at": "2026-09-16T08:31:12.807Z",
-            "expected_move": null,
-            "impact_session": "2026-09-16",
-            "item_key": null,
-            "local_date": "2026-09-16",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-16",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-18",
-            "event_at": "2026-09-18T09:58:30.012Z",
-            "expected_move": null,
-            "impact_session": "2026-09-18",
-            "item_key": null,
-            "local_date": "2026-09-18",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-18",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-22",
-            "event_at": "2026-09-21T22:51:01.623Z",
-            "expected_move": null,
-            "impact_session": "2026-09-22",
-            "item_key": null,
-            "local_date": "2026-09-22",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-22",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:40.392Z",
-            "expected_move": null,
-            "impact_session": "2026-09-23",
-            "item_key": null,
-            "local_date": "2026-09-23",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-23",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T01:41:39.322Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-26",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T05:34:26.657Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-26",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T02:49:00.996Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-28",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T16:21:52.419Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-29",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-30",
-            "event_at": "2026-09-30T11:44:42.394Z",
-            "expected_move": null,
-            "impact_session": "2026-09-30",
-            "item_key": null,
-            "local_date": "2026-09-30",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-30",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-02",
-            "event_at": "2026-10-02T09:15:17.473Z",
-            "expected_move": null,
-            "impact_session": "2026-10-02",
-            "item_key": null,
-            "local_date": "2026-10-02",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-02",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T20:43:00.296Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T22:25:53.874Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T07:10:06.573Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T10:38:05.406Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-04T12:25:47.677Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-04",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T00:05:52.219Z",
-            "expected_move": null,
-            "impact_session": "2026-10-07",
-            "item_key": null,
-            "local_date": "2026-10-07",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T10:41:14.687Z",
-            "expected_move": null,
-            "impact_session": "2026-10-07",
-            "item_key": null,
-            "local_date": "2026-10-07",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          }
-        ],
-        "forecast_origin": "adopted",
-        "issued_at": "2026-09-14T06:26:45.660598+00:00",
-        "markers": [
-          {
-            "date": "2026-09-16",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-09-16",
-            "source": null,
-            "start_session": null,
-            "strength": 0.89,
-            "timezone": null,
-            "value": 100.8
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-09-18",
-            "source": null,
-            "start_session": null,
-            "strength": 0.89,
-            "timezone": null,
-            "value": 99.5904
-          },
-          {
-            "date": "2026-10-08",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-10-08",
-            "source": null,
-            "start_session": null,
-            "strength": 0.89,
-            "timezone": null,
-            "value": 104.56992000000001
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "end_session": null,
-            "event_at": null,
-            "kind": "decision",
-            "label": "短期逆風の極点",
-            "rationale": "水星―土星の極点。",
-            "session": "2026-09-18",
-            "source": "decision_point",
-            "start_session": null,
-            "strength": null,
-            "timezone": null,
-            "value": null
-          },
-          {
-            "date": "2026-09-24",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "decision",
-            "label": "再加速",
-            "rationale": "秋分後の再加速。",
-            "session": "2026-09-24",
-            "source": "decision_point",
-            "start_session": null,
-            "strength": null,
-            "timezone": null,
-            "value": null
-          },
-          {
-            "date": "2026-09-23",
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:38.617Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-23",
-            "source": "daily.lunar",
-            "start_session": "2026-09-23",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-27",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T16:49:32.233Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "daily.lunar",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-08",
-            "direction": null,
-            "end_session": "2026-10-08",
-            "event_at": "2026-10-08T06:29:58.055Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-08",
-            "source": "daily.lunar",
-            "start_session": "2026-10-08",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-15",
-            "direction": null,
-            "end_session": "2026-09-14",
-            "event_at": "2026-09-14T19:53:45.771Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-14",
-            "source": "future.astrology",
-            "start_session": "2026-09-14",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-16",
-            "direction": null,
-            "end_session": "2026-09-15",
-            "event_at": "2026-09-15T18:41:31.897Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-15",
-            "source": "future.astrology",
-            "start_session": "2026-09-15",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-16",
-            "direction": null,
-            "end_session": "2026-09-16",
-            "event_at": "2026-09-16T08:31:12.807Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-16",
-            "source": "future.astrology",
-            "start_session": "2026-09-16",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-18",
-            "direction": null,
-            "end_session": "2026-09-18",
-            "event_at": "2026-09-18T09:58:30.012Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-18",
-            "source": "future.astrology",
-            "start_session": "2026-09-18",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-22",
-            "direction": null,
-            "end_session": "2026-09-22",
-            "event_at": "2026-09-21T22:51:01.623Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-22",
-            "source": "future.astrology",
-            "start_session": "2026-09-22",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-23",
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:40.392Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-23",
-            "source": "future.astrology",
-            "start_session": "2026-09-23",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-26",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T01:41:39.322Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-26",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T05:34:26.657Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-28",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T02:49:00.996Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-29",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T16:21:52.419Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-30",
-            "direction": null,
-            "end_session": "2026-09-30",
-            "event_at": "2026-09-30T11:44:42.394Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-30",
-            "source": "future.astrology",
-            "start_session": "2026-09-30",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-02",
-            "direction": null,
-            "end_session": "2026-10-02",
-            "event_at": "2026-10-02T09:15:17.473Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-02",
-            "source": "future.astrology",
-            "start_session": "2026-10-02",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T20:43:00.296Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T22:25:53.874Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T07:10:06.573Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T10:38:05.406Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-04",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-04T12:25:47.677Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-07",
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T00:05:52.219Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-07",
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-07",
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T10:41:14.687Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-07",
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          }
-        ],
-        "name": "Aurora Innovation, Inc.",
-        "official": [
-          {
-            "date": "2026-09-11",
-            "kind": "entry",
-            "value": 100
-          },
-          {
-            "date": "2026-09-14",
-            "direction": "up",
-            "direction_probability": {
-              "down": 0.2086048002364794,
-              "flat": 0.27581440070943813,
-              "up": 0.5155807990540826
-            },
-            "expected_move": 0.00978303539512649,
-            "horizon": 1,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 100.97830353951265
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "direction_probability": {
-              "down": 0.40125000000000005,
-              "flat": 0.32875,
-              "up": 0.27
-            },
-            "expected_move": -0.009075,
-            "horizon": 5,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 99.0925
-          },
-          {
-            "date": "2026-10-09",
-            "direction": "up",
-            "direction_probability": {
-              "down": 0.2,
-              "flat": 0.25,
-              "up": 0.55
-            },
-            "expected_move": 0.075,
-            "horizon": 20,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 107.5
-          }
-        ],
-        "raw_basket": [],
-        "related_themes": [
-          "d4762e19-dcd8-5b57-aad7-fae529d406b9"
-        ],
-        "results": [
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-14",
-              "end_session": "2026-09-16",
-              "start_session": "2026-09-15"
-            },
-            "item_key": "segments/0",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.008,
-            "sign_agreement": null,
-            "signal_strength": 0.89,
-            "status": "pending"
-          },
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-16",
-              "end_session": "2026-09-18",
-              "start_session": "2026-09-17"
-            },
-            "item_key": "segments/1",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "down",
-            "predicted_expected_move": -0.012,
-            "sign_agreement": null,
-            "signal_strength": 0.89,
-            "status": "pending"
-          },
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-23",
-              "end_session": "2026-10-08",
-              "start_session": "2026-09-24"
-            },
-            "item_key": "segments/2",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.05,
-            "sign_agreement": null,
-            "signal_strength": 0.89,
-            "status": "pending"
-          },
-          {
-            "actual_move": -0.015479861306820301,
-            "actual_return": -0.015479861306820301,
-            "available_at": "2026-09-16T22:18:11.697144+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-14",
-              "end_session": "2026-09-16",
-              "start_session": "2026-09-15"
-            },
-            "item_key": "segments/0",
-            "magnitude_difference": -0.023479861306820303,
-            "magnitude_error": 0.023479861306820303,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.008,
-            "sign_agreement": false,
-            "signal_strength": 0.89,
-            "status": "scored"
-          },
-          {
-            "actual_move": -0.007861665044845515,
-            "actual_return": -0.007861665044845515,
-            "available_at": "2026-09-18T21:50:10.428484+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-16",
-              "end_session": "2026-09-18",
-              "start_session": "2026-09-17"
-            },
-            "item_key": "segments/1",
-            "magnitude_difference": 0.0041383349551544855,
-            "magnitude_error": 0.0041383349551544855,
-            "predicted_direction": "down",
-            "predicted_expected_move": -0.012,
-            "sign_agreement": true,
-            "signal_strength": 0.89,
-            "status": "scored"
-          },
-          {
-            "actual_move": -0.09335445198774323,
-            "actual_return": -0.09335445198774323,
-            "available_at": "2026-10-08T23:56:15.264326+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-23",
-              "end_session": "2026-10-08",
-              "start_session": "2026-09-24"
-            },
-            "item_key": "segments/2",
-            "magnitude_difference": -0.14335445198774321,
-            "magnitude_error": 0.14335445198774321,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.05,
-            "sign_agreement": false,
-            "signal_strength": 0.89,
-            "status": "scored"
-          }
-        ],
-        "retained_outlooks": [],
-        "revision": 1,
-        "revisions": [
-          {
-            "change_reason": [
-              "new_target"
-            ],
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "outlook": {
-              "1": {
-                "direction": "up",
-                "expected_move": 0.00978303539512649,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              },
-              "20": {
-                "direction": "up",
-                "expected_move": 0.075,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              },
-              "5": {
-                "direction": "down",
-                "expected_move": -0.009075,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              }
-            },
-            "revision": 1
-          }
-        ],
-        "security_id": "US:XNAS:AUR:equity",
-        "segments": [
-          {
-            "anchor_session": "2026-09-14",
-            "direction": "up",
-            "end_index": 3,
-            "end_session": "2026-09-16",
-            "interpolation": "visual_only",
-            "item_key": "segments/0",
-            "points": [
-              {
-                "date": "2026-09-14",
-                "value": 100
-              },
-              {
-                "date": "2026-09-16",
-                "value": 100.8
-              }
-            ],
-            "rationale": "短期は活性化優勢。",
-            "signal_strength": 0.89,
-            "start_index": 2,
-            "start_session": "2026-09-15"
-          },
-          {
-            "anchor_session": "2026-09-16",
-            "direction": "down",
-            "end_index": 5,
-            "end_session": "2026-09-18",
-            "interpolation": "visual_only",
-            "item_key": "segments/1",
-            "points": [
-              {
-                "date": "2026-09-16",
-                "value": 100.8
-              },
-              {
-                "date": "2026-09-18",
-                "value": 99.5904
-              }
-            ],
-            "rationale": "9/18水星土星で逆風。",
-            "signal_strength": 0.89,
-            "start_index": 4,
-            "start_session": "2026-09-17"
-          },
-          {
-            "anchor_session": "2026-09-23",
-            "direction": "up",
-            "end_index": 19,
-            "end_session": "2026-10-08",
-            "interpolation": "visual_only",
-            "item_key": "segments/2",
-            "points": [
-              {
-                "date": "2026-09-23",
-                "value": 99.5904
-              },
-              {
-                "date": "2026-10-08",
-                "value": 104.56992000000001
-              }
-            ],
-            "rationale": "秋分後は再加速。",
-            "signal_strength": 0.89,
-            "start_index": 9,
-            "start_session": "2026-09-24"
-          }
-        ],
-        "sessions": [
-          "2026-09-11",
-          "2026-09-14",
-          "2026-09-15",
-          "2026-09-16",
-          "2026-09-17",
-          "2026-09-18",
-          "2026-09-21",
-          "2026-09-22",
-          "2026-09-23",
-          "2026-09-24",
-          "2026-09-25",
-          "2026-09-28",
-          "2026-09-29",
-          "2026-09-30",
-          "2026-10-01",
-          "2026-10-02",
-          "2026-10-05",
-          "2026-10-06",
-          "2026-10-07",
-          "2026-10-08",
-          "2026-10-09"
-        ],
-        "status": "current",
-        "target_id": "US:XNAS:AUR:equity",
-        "target_type": "stock",
-        "valid_until": "2026-10-09T20:00:00+00:00"
-      },
-      {
-        "actual": [
-          {
-            "date": "2026-09-11",
-            "value": 100.0
-          },
-          {
-            "date": "2026-09-14",
-            "value": 98.90908905954072
-          },
-          {
-            "date": "2026-09-15",
-            "value": 96.00000092477508
-          },
-          {
-            "date": "2026-09-16",
-            "value": 94.78788086862275
-          },
-          {
-            "date": "2026-09-17",
-            "value": 97.45454499215789
-          },
-          {
-            "date": "2026-09-18",
-            "value": 97.21212676077178
-          },
-          {
-            "date": "2026-09-21",
-            "value": 96.84848207415956
-          },
-          {
-            "date": "2026-09-22",
-            "value": 93.09090701016513
-          },
-          {
-            "date": "2026-09-23",
-            "value": 92.24242586078066
-          },
-          {
-            "date": "2026-09-24",
-            "value": 93.21212190570253
-          },
-          {
-            "date": "2026-09-25",
-            "value": 97.3333300966205
-          },
-          {
-            "date": "2026-09-28",
-            "value": 94.54545685739227
-          },
-          {
-            "date": "2026-09-29",
-            "value": 91.75757783831972
-          },
-          {
-            "date": "2026-09-30",
-            "value": 89.57575595740116
-          },
-          {
-            "date": "2026-10-01",
-            "value": 89.09090793494022
-          },
-          {
-            "date": "2026-10-02",
-            "value": 89.93939486416903
-          },
-          {
-            "date": "2026-10-05",
-            "value": 91.8787869540128
-          },
-          {
-            "date": "2026-10-06",
-            "value": 90.54545200232303
-          },
-          {
-            "date": "2026-10-07",
-            "value": 86.66666782263555
-          },
-          {
-            "date": "2026-10-08",
-            "value": 85.57575688217625
-          }
-        ],
-        "availability": [
-          {
-            "date": "2026-09-11",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-14",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-15",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-16",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-17",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-18",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-21",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-22",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-23",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-24",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-25",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-28",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-29",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-30",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-01",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-02",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-05",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-06",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-07",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-08",
-            "status": "available"
-          }
-        ],
-        "basis": "price_return",
-        "benchmark": [],
-        "change_reason": [
-          "new_target"
-        ],
-        "decision_dates": {
-          "local_dates": [
-            "2026-09-18",
-            "2026-09-24"
-          ],
-          "missing": [],
-          "sessions": [
-            "2026-09-14",
-            "2026-09-15",
-            "2026-09-16",
-            "2026-09-17",
-            "2026-09-18",
-            "2026-09-23",
-            "2026-09-24",
-            "2026-10-08"
-          ]
-        },
-        "decision_points": [
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "item_key": "decisions/0",
-            "label": "短期逆風の極点",
-            "rationale": "水星―土星の極点。",
-            "session": "2026-09-18",
-            "source": "decision_point"
-          },
-          {
-            "date": "2026-09-24",
-            "direction": "up",
-            "item_key": "decisions/1",
-            "label": "再加速",
-            "rationale": "秋分後の再加速。",
-            "session": "2026-09-24",
-            "source": "decision_point"
-          }
-        ],
-        "display_name": "Mobileye Global Inc.",
-        "entry_session": "2026-09-11",
-        "events": [
-          {
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:38.617Z",
-            "expected_move": null,
-            "impact_session": "2026-09-23",
-            "item_key": null,
-            "local_date": "2026-09-23",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-09-23",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T16:49:32.233Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-27",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-08",
-            "event_at": "2026-10-08T06:29:58.055Z",
-            "expected_move": null,
-            "impact_session": "2026-10-08",
-            "item_key": null,
-            "local_date": "2026-10-08",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-10-08",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-14",
-            "event_at": "2026-09-14T19:53:45.771Z",
-            "expected_move": null,
-            "impact_session": "2026-09-14",
-            "item_key": null,
-            "local_date": "2026-09-15",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-14",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-15",
-            "event_at": "2026-09-15T18:41:31.897Z",
-            "expected_move": null,
-            "impact_session": "2026-09-15",
-            "item_key": null,
-            "local_date": "2026-09-16",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-15",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-16",
-            "event_at": "2026-09-16T08:31:12.807Z",
-            "expected_move": null,
-            "impact_session": "2026-09-16",
-            "item_key": null,
-            "local_date": "2026-09-16",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-16",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-18",
-            "event_at": "2026-09-18T09:58:30.012Z",
-            "expected_move": null,
-            "impact_session": "2026-09-18",
-            "item_key": null,
-            "local_date": "2026-09-18",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-18",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-22",
-            "event_at": "2026-09-21T22:51:01.623Z",
-            "expected_move": null,
-            "impact_session": "2026-09-22",
-            "item_key": null,
-            "local_date": "2026-09-22",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-22",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:40.392Z",
-            "expected_move": null,
-            "impact_session": "2026-09-23",
-            "item_key": null,
-            "local_date": "2026-09-23",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-23",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T01:41:39.322Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-26",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T05:34:26.657Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-26",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T02:49:00.996Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-28",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T16:21:52.419Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-29",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-30",
-            "event_at": "2026-09-30T11:44:42.394Z",
-            "expected_move": null,
-            "impact_session": "2026-09-30",
-            "item_key": null,
-            "local_date": "2026-09-30",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-30",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-02",
-            "event_at": "2026-10-02T09:15:17.473Z",
-            "expected_move": null,
-            "impact_session": "2026-10-02",
-            "item_key": null,
-            "local_date": "2026-10-02",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-02",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T20:43:00.296Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T22:25:53.874Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T07:10:06.573Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T10:38:05.406Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-04T12:25:47.677Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-04",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T00:05:52.219Z",
-            "expected_move": null,
-            "impact_session": "2026-10-07",
-            "item_key": null,
-            "local_date": "2026-10-07",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T10:41:14.687Z",
-            "expected_move": null,
-            "impact_session": "2026-10-07",
-            "item_key": null,
-            "local_date": "2026-10-07",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          }
-        ],
-        "forecast_origin": "adopted",
-        "issued_at": "2026-09-14T06:26:45.660598+00:00",
-        "markers": [
-          {
-            "date": "2026-09-16",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-09-16",
-            "source": null,
-            "start_session": null,
-            "strength": 0.84,
-            "timezone": null,
-            "value": 100.8
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-09-18",
-            "source": null,
-            "start_session": null,
-            "strength": 0.84,
-            "timezone": null,
-            "value": 99.5904
-          },
-          {
-            "date": "2026-10-08",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-10-08",
-            "source": null,
-            "start_session": null,
-            "strength": 0.84,
-            "timezone": null,
-            "value": 104.56992000000001
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "end_session": null,
-            "event_at": null,
-            "kind": "decision",
-            "label": "短期逆風の極点",
-            "rationale": "水星―土星の極点。",
-            "session": "2026-09-18",
-            "source": "decision_point",
-            "start_session": null,
-            "strength": null,
-            "timezone": null,
-            "value": null
-          },
-          {
-            "date": "2026-09-24",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "decision",
-            "label": "再加速",
-            "rationale": "秋分後の再加速。",
-            "session": "2026-09-24",
-            "source": "decision_point",
-            "start_session": null,
-            "strength": null,
-            "timezone": null,
-            "value": null
-          },
-          {
-            "date": "2026-09-23",
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:38.617Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-23",
-            "source": "daily.lunar",
-            "start_session": "2026-09-23",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-27",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T16:49:32.233Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "daily.lunar",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-08",
-            "direction": null,
-            "end_session": "2026-10-08",
-            "event_at": "2026-10-08T06:29:58.055Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-08",
-            "source": "daily.lunar",
-            "start_session": "2026-10-08",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-15",
-            "direction": null,
-            "end_session": "2026-09-14",
-            "event_at": "2026-09-14T19:53:45.771Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-14",
-            "source": "future.astrology",
-            "start_session": "2026-09-14",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-16",
-            "direction": null,
-            "end_session": "2026-09-15",
-            "event_at": "2026-09-15T18:41:31.897Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-15",
-            "source": "future.astrology",
-            "start_session": "2026-09-15",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-16",
-            "direction": null,
-            "end_session": "2026-09-16",
-            "event_at": "2026-09-16T08:31:12.807Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-16",
-            "source": "future.astrology",
-            "start_session": "2026-09-16",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-18",
-            "direction": null,
-            "end_session": "2026-09-18",
-            "event_at": "2026-09-18T09:58:30.012Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-18",
-            "source": "future.astrology",
-            "start_session": "2026-09-18",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-22",
-            "direction": null,
-            "end_session": "2026-09-22",
-            "event_at": "2026-09-21T22:51:01.623Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-22",
-            "source": "future.astrology",
-            "start_session": "2026-09-22",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-23",
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:40.392Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-23",
-            "source": "future.astrology",
-            "start_session": "2026-09-23",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-26",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T01:41:39.322Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-26",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T05:34:26.657Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-28",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T02:49:00.996Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-29",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T16:21:52.419Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-30",
-            "direction": null,
-            "end_session": "2026-09-30",
-            "event_at": "2026-09-30T11:44:42.394Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-30",
-            "source": "future.astrology",
-            "start_session": "2026-09-30",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-02",
-            "direction": null,
-            "end_session": "2026-10-02",
-            "event_at": "2026-10-02T09:15:17.473Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-02",
-            "source": "future.astrology",
-            "start_session": "2026-10-02",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T20:43:00.296Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T22:25:53.874Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T07:10:06.573Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T10:38:05.406Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-04",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-04T12:25:47.677Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-07",
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T00:05:52.219Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-07",
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-07",
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T10:41:14.687Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-07",
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          }
-        ],
-        "name": "Mobileye Global Inc.",
-        "official": [
-          {
-            "date": "2026-09-11",
-            "kind": "entry",
-            "value": 100
-          },
-          {
-            "date": "2026-09-14",
-            "direction": "up",
-            "direction_probability": {
-              "down": 0.2086048002364794,
-              "flat": 0.27581440070943813,
-              "up": 0.5155807990540826
-            },
-            "expected_move": 0.008893668541024082,
-            "horizon": 1,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 100.88936685410242
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "direction_probability": {
-              "down": 0.40125000000000005,
-              "flat": 0.32875,
-              "up": 0.27
-            },
-            "expected_move": -0.007837499999999999,
-            "horizon": 5,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 99.21624999999999
-          },
-          {
-            "date": "2026-10-09",
-            "direction": "up",
-            "direction_probability": {
-              "down": 0.2,
-              "flat": 0.25,
-              "up": 0.55
-            },
-            "expected_move": 0.068,
-            "horizon": 20,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 106.80000000000001
-          }
-        ],
-        "raw_basket": [],
-        "related_themes": [
-          "d4762e19-dcd8-5b57-aad7-fae529d406b9"
-        ],
-        "results": [
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-14",
-              "end_session": "2026-09-16",
-              "start_session": "2026-09-15"
-            },
-            "item_key": "segments/0",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.008,
-            "sign_agreement": null,
-            "signal_strength": 0.84,
-            "status": "pending"
-          },
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-16",
-              "end_session": "2026-09-18",
-              "start_session": "2026-09-17"
-            },
-            "item_key": "segments/1",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "down",
-            "predicted_expected_move": -0.012,
-            "sign_agreement": null,
-            "signal_strength": 0.84,
-            "status": "pending"
-          },
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-23",
-              "end_session": "2026-10-08",
-              "start_session": "2026-09-24"
-            },
-            "item_key": "segments/2",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.05,
-            "sign_agreement": null,
-            "signal_strength": 0.84,
-            "status": "pending"
-          },
-          {
-            "actual_move": -0.041666627709381836,
-            "actual_return": -0.041666627709381836,
-            "available_at": "2026-09-16T22:18:11.697144+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-14",
-              "end_session": "2026-09-16",
-              "start_session": "2026-09-15"
-            },
-            "item_key": "segments/0",
-            "magnitude_difference": -0.049666627709381836,
-            "magnitude_error": 0.049666627709381836,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.008,
-            "sign_agreement": false,
-            "signal_strength": 0.84,
-            "status": "scored"
-          },
-          {
-            "actual_move": 0.025575483594881366,
-            "actual_return": 0.025575483594881366,
-            "available_at": "2026-09-18T21:50:10.428484+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-16",
-              "end_session": "2026-09-18",
-              "start_session": "2026-09-17"
-            },
-            "item_key": "segments/1",
-            "magnitude_difference": 0.037575483594881366,
-            "magnitude_error": 0.037575483594881366,
-            "predicted_direction": "down",
-            "predicted_expected_move": -0.012,
-            "sign_agreement": false,
-            "signal_strength": 0.84,
-            "status": "scored"
-          },
-          {
-            "actual_move": -0.07227334836863732,
-            "actual_return": -0.07227334836863732,
-            "available_at": "2026-10-08T23:56:15.264326+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-23",
-              "end_session": "2026-10-08",
-              "start_session": "2026-09-24"
-            },
-            "item_key": "segments/2",
-            "magnitude_difference": -0.12227334836863732,
-            "magnitude_error": 0.12227334836863732,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.05,
-            "sign_agreement": false,
-            "signal_strength": 0.84,
-            "status": "scored"
-          }
-        ],
-        "retained_outlooks": [],
-        "revision": 1,
-        "revisions": [
-          {
-            "change_reason": [
-              "new_target"
-            ],
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "outlook": {
-              "1": {
-                "direction": "up",
-                "expected_move": 0.008893668541024082,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              },
-              "20": {
-                "direction": "up",
-                "expected_move": 0.068,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              },
-              "5": {
-                "direction": "down",
-                "expected_move": -0.007837499999999999,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              }
-            },
-            "revision": 1
-          }
-        ],
-        "security_id": "US:XNAS:MBLY:equity",
-        "segments": [
-          {
-            "anchor_session": "2026-09-14",
-            "direction": "up",
-            "end_index": 3,
-            "end_session": "2026-09-16",
-            "interpolation": "visual_only",
-            "item_key": "segments/0",
-            "points": [
-              {
-                "date": "2026-09-14",
-                "value": 100
-              },
-              {
-                "date": "2026-09-16",
-                "value": 100.8
-              }
-            ],
-            "rationale": "短期は活性化優勢。",
-            "signal_strength": 0.84,
-            "start_index": 2,
-            "start_session": "2026-09-15"
-          },
-          {
-            "anchor_session": "2026-09-16",
-            "direction": "down",
-            "end_index": 5,
-            "end_session": "2026-09-18",
-            "interpolation": "visual_only",
-            "item_key": "segments/1",
-            "points": [
-              {
-                "date": "2026-09-16",
-                "value": 100.8
-              },
-              {
-                "date": "2026-09-18",
-                "value": 99.5904
-              }
-            ],
-            "rationale": "9/18水星土星で逆風。",
-            "signal_strength": 0.84,
-            "start_index": 4,
-            "start_session": "2026-09-17"
-          },
-          {
-            "anchor_session": "2026-09-23",
-            "direction": "up",
-            "end_index": 19,
-            "end_session": "2026-10-08",
-            "interpolation": "visual_only",
-            "item_key": "segments/2",
-            "points": [
-              {
-                "date": "2026-09-23",
-                "value": 99.5904
-              },
-              {
-                "date": "2026-10-08",
-                "value": 104.56992000000001
-              }
-            ],
-            "rationale": "秋分後は再加速。",
-            "signal_strength": 0.84,
-            "start_index": 9,
-            "start_session": "2026-09-24"
-          }
-        ],
-        "sessions": [
-          "2026-09-11",
-          "2026-09-14",
-          "2026-09-15",
-          "2026-09-16",
-          "2026-09-17",
-          "2026-09-18",
-          "2026-09-21",
-          "2026-09-22",
-          "2026-09-23",
-          "2026-09-24",
-          "2026-09-25",
-          "2026-09-28",
-          "2026-09-29",
-          "2026-09-30",
-          "2026-10-01",
-          "2026-10-02",
-          "2026-10-05",
-          "2026-10-06",
-          "2026-10-07",
-          "2026-10-08",
-          "2026-10-09"
-        ],
-        "status": "current",
-        "target_id": "US:XNAS:MBLY:equity",
-        "target_type": "stock",
-        "valid_until": "2026-10-09T20:00:00+00:00"
-      },
-      {
-        "actual": [
-          {
             "date": "2026-09-14",
             "value": 100.0
           },
@@ -7454,6 +5006,10 @@
           {
             "date": "2026-10-08",
             "value": 94.28444373539907
+          },
+          {
+            "date": "2026-10-09",
+            "value": 92.04262544783657
           }
         ],
         "availability": [
@@ -7519,6 +5075,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -7587,6 +5147,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446156
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.1734024267279
           }
         ],
         "change_reason": [
@@ -8602,6 +6166,10 @@
           {
             "date": "2026-10-08",
             "value": 95.74912891986062
+          },
+          {
+            "date": "2026-10-09",
+            "value": 94.21602787456446
           }
         ],
         "related_themes": [],
@@ -8923,6 +6491,10 @@
           {
             "date": "2026-10-08",
             "value": 112.98843474819729
+          },
+          {
+            "date": "2026-10-09",
+            "value": 108.0756531109706
           }
         ],
         "availability": [
@@ -8988,6 +6560,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -9056,6 +6632,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446157
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.17340242672789
           }
         ],
         "change_reason": [
@@ -10073,6 +7653,10 @@
           {
             "date": "2026-10-08",
             "value": 114.45311993265888
+          },
+          {
+            "date": "2026-10-09",
+            "value": 110.24905553769851
           }
         ],
         "related_themes": [],
@@ -10420,6 +8004,10 @@
           {
             "date": "2026-10-08",
             "value": 104.68277068983672
+          },
+          {
+            "date": "2026-10-09",
+            "value": 101.63169338777442
           }
         ],
         "availability": [
@@ -10485,6 +8073,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -10553,6 +8145,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446154
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.1734024267279
           }
         ],
         "change_reason": [
@@ -11570,6 +9166,10 @@
           {
             "date": "2026-10-08",
             "value": 106.14745587429827
+          },
+          {
+            "date": "2026-10-09",
+            "value": 103.80509581450232
           }
         ],
         "related_themes": [],
@@ -11917,6 +9517,10 @@
           {
             "date": "2026-10-08",
             "value": 105.65558781635265
+          },
+          {
+            "date": "2026-10-09",
+            "value": 105.69653520358666
           }
         ],
         "availability": [
@@ -11982,6 +9586,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -12050,6 +9658,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446157
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.17340242672789
           }
         ],
         "change_reason": [
@@ -13088,6 +10700,10 @@
           {
             "date": "2026-10-08",
             "value": 107.12027300081421
+          },
+          {
+            "date": "2026-10-09",
+            "value": 107.86993763031454
           }
         ],
         "related_themes": [],
@@ -13433,1430 +11049,6 @@
         "target_id": "34a3755e-633a-5c59-9c1f-7da2bf3c724d",
         "target_type": "theme",
         "valid_until": "2026-10-16T06:30:00+00:00"
-      },
-      {
-        "actual": [
-          {
-            "date": "2026-09-11",
-            "value": 100.0
-          },
-          {
-            "date": "2026-09-14",
-            "value": 100.13398988196207
-          },
-          {
-            "date": "2026-09-15",
-            "value": 98.98055665225898
-          },
-          {
-            "date": "2026-09-16",
-            "value": 98.18942364113515
-          },
-          {
-            "date": "2026-09-17",
-            "value": 99.41495563078072
-          },
-          {
-            "date": "2026-09-18",
-            "value": 98.01312009710925
-          },
-          {
-            "date": "2026-09-21",
-            "value": 97.8412852683758
-          },
-          {
-            "date": "2026-09-22",
-            "value": 95.58939396261859
-          },
-          {
-            "date": "2026-09-23",
-            "value": 94.8052893690991
-          },
-          {
-            "date": "2026-09-24",
-            "value": 93.35079270400122
-          },
-          {
-            "date": "2026-09-25",
-            "value": 94.71027375147499
-          },
-          {
-            "date": "2026-09-28",
-            "value": 88.23532222101208
-          },
-          {
-            "date": "2026-09-29",
-            "value": 87.80346840566254
-          },
-          {
-            "date": "2026-09-30",
-            "value": 88.08438607600488
-          },
-          {
-            "date": "2026-10-01",
-            "value": 87.50850019767323
-          },
-          {
-            "date": "2026-10-02",
-            "value": 88.35990049328699
-          },
-          {
-            "date": "2026-10-05",
-            "value": 89.27261799119297
-          },
-          {
-            "date": "2026-10-06",
-            "value": 88.04856916951124
-          },
-          {
-            "date": "2026-10-07",
-            "value": 86.12057282819295
-          },
-          {
-            "date": "2026-10-08",
-            "value": 86.08334165086549
-          }
-        ],
-        "availability": [
-          {
-            "date": "2026-09-11",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-14",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-15",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-16",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-17",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-18",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-21",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-22",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-23",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-24",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-25",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-28",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-29",
-            "status": "available"
-          },
-          {
-            "date": "2026-09-30",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-01",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-02",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-05",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-06",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-07",
-            "status": "available"
-          },
-          {
-            "date": "2026-10-08",
-            "status": "available"
-          }
-        ],
-        "basis": "benchmark_excess",
-        "benchmark": [
-          {
-            "date": "2026-09-11",
-            "value": 100.0
-          },
-          {
-            "date": "2026-09-14",
-            "value": 99.55383777851796
-          },
-          {
-            "date": "2026-09-15",
-            "value": 99.09720608966832
-          },
-          {
-            "date": "2026-09-16",
-            "value": 98.66019566803628
-          },
-          {
-            "date": "2026-09-17",
-            "value": 99.77887941880797
-          },
-          {
-            "date": "2026-09-18",
-            "value": 99.6598181762571
-          },
-          {
-            "date": "2026-09-21",
-            "value": 101.20504288129325
-          },
-          {
-            "date": "2026-09-22",
-            "value": 101.18934267317367
-          },
-          {
-            "date": "2026-09-23",
-            "value": 100.46056073381142
-          },
-          {
-            "date": "2026-09-24",
-            "value": 100.37813064825168
-          },
-          {
-            "date": "2026-09-25",
-            "value": 100.92373284506697
-          },
-          {
-            "date": "2026-09-28",
-            "value": 100.17271027517928
-          },
-          {
-            "date": "2026-09-29",
-            "value": 99.98822883684217
-          },
-          {
-            "date": "2026-09-30",
-            "value": 99.78280846376975
-          },
-          {
-            "date": "2026-10-01",
-            "value": 99.96074947970102
-          },
-          {
-            "date": "2026-10-02",
-            "value": 100.70000088643089
-          },
-          {
-            "date": "2026-10-05",
-            "value": 101.37906283812647
-          },
-          {
-            "date": "2026-10-06",
-            "value": 101.93644418396332
-          },
-          {
-            "date": "2026-10-07",
-            "value": 101.69176530472818
-          },
-          {
-            "date": "2026-10-08",
-            "value": 101.26130329136575
-          }
-        ],
-        "change_reason": [
-          "probability:1",
-          "probability:5",
-          "confidence"
-        ],
-        "decision_dates": {
-          "local_dates": [
-            "2026-09-18",
-            "2026-09-24"
-          ],
-          "missing": [],
-          "sessions": [
-            "2026-09-14",
-            "2026-09-15",
-            "2026-09-16",
-            "2026-09-17",
-            "2026-09-18",
-            "2026-09-23",
-            "2026-09-24",
-            "2026-10-08"
-          ]
-        },
-        "decision_points": [
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "item_key": "decisions/0",
-            "label": "短期逆風の極点",
-            "rationale": "水星―土星の極点。",
-            "session": "2026-09-18",
-            "source": "decision_point"
-          },
-          {
-            "date": "2026-09-24",
-            "direction": "up",
-            "item_key": "decisions/1",
-            "label": "再加速",
-            "rationale": "秋分後の再加速。",
-            "session": "2026-09-24",
-            "source": "decision_point"
-          }
-        ],
-        "display_name": "移動最適化・自動運転｜米国/NASDAQ/USD",
-        "entry_session": "2026-09-11",
-        "events": [
-          {
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:38.617Z",
-            "expected_move": null,
-            "impact_session": "2026-09-23",
-            "item_key": null,
-            "local_date": "2026-09-23",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-09-23",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T16:49:32.233Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-27",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-08",
-            "event_at": "2026-10-08T06:29:58.055Z",
-            "expected_move": null,
-            "impact_session": "2026-10-08",
-            "item_key": null,
-            "local_date": "2026-10-08",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "daily.lunar",
-            "start_session": "2026-10-08",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-14",
-            "event_at": "2026-09-14T19:53:45.771Z",
-            "expected_move": null,
-            "impact_session": "2026-09-14",
-            "item_key": null,
-            "local_date": "2026-09-15",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-14",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-15",
-            "event_at": "2026-09-15T18:41:31.897Z",
-            "expected_move": null,
-            "impact_session": "2026-09-15",
-            "item_key": null,
-            "local_date": "2026-09-16",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-15",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-16",
-            "event_at": "2026-09-16T08:31:12.807Z",
-            "expected_move": null,
-            "impact_session": "2026-09-16",
-            "item_key": null,
-            "local_date": "2026-09-16",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-16",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-18",
-            "event_at": "2026-09-18T09:58:30.012Z",
-            "expected_move": null,
-            "impact_session": "2026-09-18",
-            "item_key": null,
-            "local_date": "2026-09-18",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-18",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-22",
-            "event_at": "2026-09-21T22:51:01.623Z",
-            "expected_move": null,
-            "impact_session": "2026-09-22",
-            "item_key": null,
-            "local_date": "2026-09-22",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-22",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:40.392Z",
-            "expected_move": null,
-            "impact_session": "2026-09-23",
-            "item_key": null,
-            "local_date": "2026-09-23",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-23",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T01:41:39.322Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-26",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T05:34:26.657Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-26",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T02:49:00.996Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-28",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T16:21:52.419Z",
-            "expected_move": null,
-            "impact_session": "2026-09-28",
-            "item_key": null,
-            "local_date": "2026-09-29",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-09-30",
-            "event_at": "2026-09-30T11:44:42.394Z",
-            "expected_move": null,
-            "impact_session": "2026-09-30",
-            "item_key": null,
-            "local_date": "2026-09-30",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-09-30",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-02",
-            "event_at": "2026-10-02T09:15:17.473Z",
-            "expected_move": null,
-            "impact_session": "2026-10-02",
-            "item_key": null,
-            "local_date": "2026-10-02",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-02",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T20:43:00.296Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T22:25:53.874Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T07:10:06.573Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T10:38:05.406Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-03",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-04T12:25:47.677Z",
-            "expected_move": null,
-            "impact_session": "2026-10-05",
-            "item_key": null,
-            "local_date": "2026-10-04",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T00:05:52.219Z",
-            "expected_move": null,
-            "impact_session": "2026-10-07",
-            "item_key": null,
-            "local_date": "2026-10-07",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          },
-          {
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T10:41:14.687Z",
-            "expected_move": null,
-            "impact_session": "2026-10-07",
-            "item_key": null,
-            "local_date": "2026-10-07",
-            "rationale": "",
-            "relationship": "reference_only",
-            "signal_strength": null,
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength_100": null,
-            "timezone": "Asia/Tokyo"
-          }
-        ],
-        "forecast_origin": "adopted",
-        "issued_at": "2026-09-14T06:26:45.660598+00:00",
-        "markers": [
-          {
-            "date": "2026-09-16",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-09-16",
-            "source": null,
-            "start_session": null,
-            "strength": 0.86,
-            "timezone": null,
-            "value": 100.4
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-09-18",
-            "source": null,
-            "start_session": null,
-            "strength": 0.86,
-            "timezone": null,
-            "value": 99.9
-          },
-          {
-            "date": "2026-10-08",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "segment_end",
-            "rationale": null,
-            "session": "2026-10-08",
-            "source": null,
-            "start_session": null,
-            "strength": 0.86,
-            "timezone": null,
-            "value": 102.4
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "end_session": null,
-            "event_at": null,
-            "kind": "decision",
-            "label": "短期逆風の極点",
-            "rationale": "水星―土星の極点。",
-            "session": "2026-09-18",
-            "source": "decision_point",
-            "start_session": null,
-            "strength": null,
-            "timezone": null,
-            "value": null
-          },
-          {
-            "date": "2026-09-24",
-            "direction": "up",
-            "end_session": null,
-            "event_at": null,
-            "kind": "decision",
-            "label": "再加速",
-            "rationale": "秋分後の再加速。",
-            "session": "2026-09-24",
-            "source": "decision_point",
-            "start_session": null,
-            "strength": null,
-            "timezone": null,
-            "value": null
-          },
-          {
-            "date": "2026-09-23",
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:38.617Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-23",
-            "source": "daily.lunar",
-            "start_session": "2026-09-23",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-27",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T16:49:32.233Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "daily.lunar",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-08",
-            "direction": null,
-            "end_session": "2026-10-08",
-            "event_at": "2026-10-08T06:29:58.055Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-08",
-            "source": "daily.lunar",
-            "start_session": "2026-10-08",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-15",
-            "direction": null,
-            "end_session": "2026-09-14",
-            "event_at": "2026-09-14T19:53:45.771Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-14",
-            "source": "future.astrology",
-            "start_session": "2026-09-14",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-16",
-            "direction": null,
-            "end_session": "2026-09-15",
-            "event_at": "2026-09-15T18:41:31.897Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-15",
-            "source": "future.astrology",
-            "start_session": "2026-09-15",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-16",
-            "direction": null,
-            "end_session": "2026-09-16",
-            "event_at": "2026-09-16T08:31:12.807Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-16",
-            "source": "future.astrology",
-            "start_session": "2026-09-16",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-18",
-            "direction": null,
-            "end_session": "2026-09-18",
-            "event_at": "2026-09-18T09:58:30.012Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-18",
-            "source": "future.astrology",
-            "start_session": "2026-09-18",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-22",
-            "direction": null,
-            "end_session": "2026-09-22",
-            "event_at": "2026-09-21T22:51:01.623Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-22",
-            "source": "future.astrology",
-            "start_session": "2026-09-22",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-23",
-            "direction": null,
-            "end_session": "2026-09-23",
-            "event_at": "2026-09-23T00:05:40.392Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-23",
-            "source": "future.astrology",
-            "start_session": "2026-09-23",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-26",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T01:41:39.322Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-26",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-26T05:34:26.657Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-28",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T02:49:00.996Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-29",
-            "direction": null,
-            "end_session": "2026-09-28",
-            "event_at": "2026-09-28T16:21:52.419Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-28",
-            "source": "future.astrology",
-            "start_session": "2026-09-28",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-09-30",
-            "direction": null,
-            "end_session": "2026-09-30",
-            "event_at": "2026-09-30T11:44:42.394Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-09-30",
-            "source": "future.astrology",
-            "start_session": "2026-09-30",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-02",
-            "direction": null,
-            "end_session": "2026-10-02",
-            "event_at": "2026-10-02T09:15:17.473Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-02",
-            "source": "future.astrology",
-            "start_session": "2026-10-02",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T20:43:00.296Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-02T22:25:53.874Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T07:10:06.573Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-03",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-03T10:38:05.406Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-04",
-            "direction": null,
-            "end_session": "2026-10-05",
-            "event_at": "2026-10-04T12:25:47.677Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-05",
-            "source": "future.astrology",
-            "start_session": "2026-10-05",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-07",
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T00:05:52.219Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-07",
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          },
-          {
-            "date": "2026-10-07",
-            "direction": null,
-            "end_session": "2026-10-07",
-            "event_at": "2026-10-07T10:41:14.687Z",
-            "kind": "spiritual",
-            "rationale": "",
-            "session": "2026-10-07",
-            "source": "future.astrology",
-            "start_session": "2026-10-07",
-            "strength": null,
-            "timezone": "Asia/Tokyo",
-            "value": null
-          }
-        ],
-        "name": "Mobility Orchestration and Autonomous Transport — US/XNAS/USD",
-        "official": [
-          {
-            "date": "2026-09-11",
-            "kind": "entry",
-            "value": 100
-          },
-          {
-            "date": "2026-09-14",
-            "direction": "up",
-            "direction_probability": {
-              "down": 0.2084932218265022,
-              "flat": 0.2754796654795066,
-              "up": 0.5160271126939913
-            },
-            "expected_move": 0.0035632057346370294,
-            "horizon": 1,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 100.3563205734637
-          },
-          {
-            "date": "2026-09-18",
-            "direction": "down",
-            "direction_probability": {
-              "down": 0.40125000000000005,
-              "flat": 0.32875,
-              "up": 0.27
-            },
-            "expected_move": -0.0033,
-            "horizon": 5,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 99.67
-          },
-          {
-            "date": "2026-10-09",
-            "direction": "up",
-            "direction_probability": {
-              "down": 0.2,
-              "flat": 0.25,
-              "up": 0.55
-            },
-            "expected_move": 0.038,
-            "horizon": 20,
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "kind": "official",
-            "value": 103.8
-          }
-        ],
-        "raw_basket": [
-          {
-            "date": "2026-09-11",
-            "value": 100.0
-          },
-          {
-            "date": "2026-09-14",
-            "value": 99.68782766048004
-          },
-          {
-            "date": "2026-09-15",
-            "value": 98.0777627419273
-          },
-          {
-            "date": "2026-09-16",
-            "value": 96.84961930917143
-          },
-          {
-            "date": "2026-09-17",
-            "value": 99.19383504958871
-          },
-          {
-            "date": "2026-09-18",
-            "value": 97.67293827336636
-          },
-          {
-            "date": "2026-09-21",
-            "value": 99.04632814966905
-          },
-          {
-            "date": "2026-09-22",
-            "value": 96.77873663579224
-          },
-          {
-            "date": "2026-09-23",
-            "value": 95.26585010291053
-          },
-          {
-            "date": "2026-09-24",
-            "value": 93.7289233522529
-          },
-          {
-            "date": "2026-09-25",
-            "value": 95.63400659654195
-          },
-          {
-            "date": "2026-09-28",
-            "value": 88.40803249619135
-          },
-          {
-            "date": "2026-09-29",
-            "value": 87.79169724250471
-          },
-          {
-            "date": "2026-09-30",
-            "value": 87.86719453977463
-          },
-          {
-            "date": "2026-10-01",
-            "value": 87.46924967737424
-          },
-          {
-            "date": "2026-10-02",
-            "value": 89.05990137971786
-          },
-          {
-            "date": "2026-10-05",
-            "value": 90.65168082931943
-          },
-          {
-            "date": "2026-10-06",
-            "value": 89.98501335347456
-          },
-          {
-            "date": "2026-10-07",
-            "value": 87.81233813292113
-          },
-          {
-            "date": "2026-10-08",
-            "value": 87.34464494223124
-          }
-        ],
-        "related_themes": [],
-        "results": [
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-14",
-              "end_session": "2026-09-16",
-              "start_session": "2026-09-15"
-            },
-            "item_key": "segments/0",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.004,
-            "sign_agreement": null,
-            "signal_strength": 0.86,
-            "status": "pending"
-          },
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-16",
-              "end_session": "2026-09-18",
-              "start_session": "2026-09-17"
-            },
-            "item_key": "segments/1",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "down",
-            "predicted_expected_move": -0.005,
-            "sign_agreement": null,
-            "signal_strength": 0.86,
-            "status": "pending"
-          },
-          {
-            "actual_move": null,
-            "actual_return": null,
-            "available_at": "2026-09-14T22:43:46.306018+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-23",
-              "end_session": "2026-10-08",
-              "start_session": "2026-09-24"
-            },
-            "item_key": "segments/2",
-            "magnitude_difference": null,
-            "magnitude_error": null,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.025,
-            "sign_agreement": null,
-            "signal_strength": 0.86,
-            "status": "pending"
-          },
-          {
-            "actual_move": -0.019445662408269067,
-            "actual_return": -0.019445662408269067,
-            "available_at": "2026-09-16T22:18:11.697144+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-14",
-              "end_session": "2026-09-16",
-              "start_session": "2026-09-15"
-            },
-            "item_key": "segments/0",
-            "magnitude_difference": -0.023445662408269067,
-            "magnitude_error": 0.023445662408269067,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.004,
-            "sign_agreement": false,
-            "signal_strength": 0.86,
-            "status": "scored"
-          },
-          {
-            "actual_move": -0.0017630354402591135,
-            "actual_return": -0.0017630354402591135,
-            "available_at": "2026-09-18T21:50:10.428484+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-16",
-              "end_session": "2026-09-18",
-              "start_session": "2026-09-17"
-            },
-            "item_key": "segments/1",
-            "magnitude_difference": 0.0032369645597408866,
-            "magnitude_error": 0.0032369645597408866,
-            "predicted_direction": "down",
-            "predicted_expected_move": -0.005,
-            "sign_agreement": true,
-            "signal_strength": 0.86,
-            "status": "scored"
-          },
-          {
-            "actual_move": -0.08721947718233605,
-            "actual_return": -0.08721947718233605,
-            "available_at": "2026-10-08T23:56:15.264326+00:00",
-            "effect_window": {
-              "anchor_session": "2026-09-23",
-              "end_session": "2026-10-08",
-              "start_session": "2026-09-24"
-            },
-            "item_key": "segments/2",
-            "magnitude_difference": -0.11221947718233605,
-            "magnitude_error": 0.11221947718233605,
-            "predicted_direction": "up",
-            "predicted_expected_move": 0.025,
-            "sign_agreement": false,
-            "signal_strength": 0.86,
-            "status": "scored"
-          }
-        ],
-        "retained_outlooks": [],
-        "revision": 2,
-        "revisions": [
-          {
-            "change_reason": [
-              "new_target"
-            ],
-            "issued_at": "2026-09-07T14:54:24.719840+00:00",
-            "outlook": {
-              "1": {
-                "direction": "flat",
-                "expected_move": 0.000375,
-                "issued_at": "2026-09-07T14:54:24.719840+00:00"
-              },
-              "20": {
-                "direction": "up",
-                "expected_move": 0.027750000000000004,
-                "issued_at": "2026-09-07T14:54:24.719840+00:00"
-              },
-              "5": {
-                "direction": "up",
-                "expected_move": 0.016,
-                "issued_at": "2026-09-07T14:54:24.719840+00:00"
-              }
-            },
-            "revision": 1
-          },
-          {
-            "change_reason": [
-              "probability:1",
-              "probability:5",
-              "confidence"
-            ],
-            "issued_at": "2026-09-14T06:26:45.660598+00:00",
-            "outlook": {
-              "1": {
-                "direction": "up",
-                "expected_move": 0.0035632057346370294,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              },
-              "20": {
-                "direction": "up",
-                "expected_move": 0.038,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              },
-              "5": {
-                "direction": "down",
-                "expected_move": -0.0033,
-                "issued_at": "2026-09-14T06:26:45.660598+00:00"
-              }
-            },
-            "revision": 2
-          }
-        ],
-        "security_id": null,
-        "segments": [
-          {
-            "anchor_session": "2026-09-14",
-            "direction": "up",
-            "end_index": 3,
-            "end_session": "2026-09-16",
-            "interpolation": "visual_only",
-            "item_key": "segments/0",
-            "points": [
-              {
-                "date": "2026-09-14",
-                "value": 100
-              },
-              {
-                "date": "2026-09-16",
-                "value": 100.4
-              }
-            ],
-            "rationale": "短期は活性化優勢。",
-            "signal_strength": 0.86,
-            "start_index": 2,
-            "start_session": "2026-09-15"
-          },
-          {
-            "anchor_session": "2026-09-16",
-            "direction": "down",
-            "end_index": 5,
-            "end_session": "2026-09-18",
-            "interpolation": "visual_only",
-            "item_key": "segments/1",
-            "points": [
-              {
-                "date": "2026-09-16",
-                "value": 100.4
-              },
-              {
-                "date": "2026-09-18",
-                "value": 99.9
-              }
-            ],
-            "rationale": "9/18水星土星で逆風。",
-            "signal_strength": 0.86,
-            "start_index": 4,
-            "start_session": "2026-09-17"
-          },
-          {
-            "anchor_session": "2026-09-23",
-            "direction": "up",
-            "end_index": 19,
-            "end_session": "2026-10-08",
-            "interpolation": "visual_only",
-            "item_key": "segments/2",
-            "points": [
-              {
-                "date": "2026-09-23",
-                "value": 99.9
-              },
-              {
-                "date": "2026-10-08",
-                "value": 102.4
-              }
-            ],
-            "rationale": "秋分後は再加速。",
-            "signal_strength": 0.86,
-            "start_index": 9,
-            "start_session": "2026-09-24"
-          }
-        ],
-        "sessions": [
-          "2026-09-11",
-          "2026-09-14",
-          "2026-09-15",
-          "2026-09-16",
-          "2026-09-17",
-          "2026-09-18",
-          "2026-09-21",
-          "2026-09-22",
-          "2026-09-23",
-          "2026-09-24",
-          "2026-09-25",
-          "2026-09-28",
-          "2026-09-29",
-          "2026-09-30",
-          "2026-10-01",
-          "2026-10-02",
-          "2026-10-05",
-          "2026-10-06",
-          "2026-10-07",
-          "2026-10-08",
-          "2026-10-09"
-        ],
-        "status": "current",
-        "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
-        "target_type": "theme",
-        "valid_until": "2026-10-09T20:00:00+00:00"
       }
     ]
   },
@@ -15041,9 +11233,9 @@
             "observed_frequency": null
           },
           {
-            "count": 1,
-            "mean_probability": 0.20875000000000002,
-            "observed_frequency": 0.0
+            "count": 4,
+            "mean_probability": 0.2103125,
+            "observed_frequency": 0.75
           },
           {
             "count": 0,
@@ -15093,13 +11285,13 @@
             "observed_frequency": null
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 2,
+            "mean_probability": 0.25,
+            "observed_frequency": 0.0
           },
           {
-            "count": 1,
-            "mean_probability": 0.3,
+            "count": 2,
+            "mean_probability": 0.315,
             "observed_frequency": 0.0
           },
           {
@@ -15155,14 +11347,14 @@
             "observed_frequency": null
           },
           {
-            "count": 1,
-            "mean_probability": 0.49125,
-            "observed_frequency": 1.0
+            "count": 2,
+            "mean_probability": 0.464375,
+            "observed_frequency": 0.5
           },
           {
-            "count": 0,
-            "mean_probability": null,
-            "observed_frequency": null
+            "count": 2,
+            "mean_probability": 0.55,
+            "observed_frequency": 0.0
           },
           {
             "count": 0,
@@ -15186,12 +11378,12 @@
           }
         ]
       },
-      "equal": 0.15021395699786325,
-      "evaluated": 1,
+      "equal": 0.5162477079994658,
+      "evaluated": 4,
       "issued": 7,
       "pool": "stock:20",
-      "weighted": 0.15021395699786325,
-      "zero": 0.8367521367521367
+      "weighted": 0.5162477079994658,
+      "zero": 0.9431203679743116
     },
     {
       "calibration": {
@@ -15539,8 +11731,8 @@
             "observed_frequency": null
           },
           {
-            "count": 2,
-            "mean_probability": 0.20875000000000002,
+            "count": 4,
+            "mean_probability": 0.22312500000000002,
             "observed_frequency": 0.5
           },
           {
@@ -15596,9 +11788,9 @@
             "observed_frequency": null
           },
           {
-            "count": 2,
-            "mean_probability": 0.3,
-            "observed_frequency": 0.0
+            "count": 4,
+            "mean_probability": 0.3159375,
+            "observed_frequency": 0.25
           },
           {
             "count": 0,
@@ -15653,9 +11845,9 @@
             "observed_frequency": null
           },
           {
-            "count": 2,
-            "mean_probability": 0.49125,
-            "observed_frequency": 0.5
+            "count": 4,
+            "mean_probability": 0.4609375,
+            "observed_frequency": 0.25
           },
           {
             "count": 0,
@@ -15684,12 +11876,12 @@
           }
         ]
       },
-      "equal": 0.4017309635227056,
-      "evaluated": 1,
+      "equal": 0.44599505995315897,
+      "evaluated": 3,
       "issued": 9,
       "pool": "theme:20",
-      "weighted": 0.4017309635227056,
-      "zero": 0.9057665675735689
+      "weighted": 0.445995059953159,
+      "zero": 0.6447343758867802
     },
     {
       "calibration": {
@@ -18421,6 +14613,10 @@
             {
               "date": "2026-10-08",
               "value": 111.39799953477554
+            },
+            {
+              "date": "2026-10-09",
+              "value": 111.25843219353338
             }
           ],
           "availability": [
@@ -18486,6 +14682,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -19776,6 +15976,10 @@
             {
               "date": "2026-10-08",
               "value": 105.65558781635265
+            },
+            {
+              "date": "2026-10-09",
+              "value": 105.69653520358666
             }
           ],
           "availability": [
@@ -19841,6 +16045,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -19909,6 +16117,10 @@
             {
               "date": "2026-10-08",
               "value": 101.46468518446157
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.17340242672789
             }
           ],
           "change_reason": [],
@@ -20941,6 +17153,10 @@
             {
               "date": "2026-10-08",
               "value": 107.12027300081421
+            },
+            {
+              "date": "2026-10-09",
+              "value": 107.86993763031454
             }
           ],
           "related_themes": [],
@@ -22080,6 +18296,10 @@
             {
               "date": "2026-10-08",
               "value": 106.14745587429827
+            },
+            {
+              "date": "2026-10-09",
+              "value": 103.80509581450232
             }
           ],
           "availability": [
@@ -22145,6 +18365,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -23373,6 +19597,10 @@
             {
               "date": "2026-10-08",
               "value": 113.09707241910631
+            },
+            {
+              "date": "2026-10-09",
+              "value": 112.17257318952234
             }
           ],
           "availability": [
@@ -23438,6 +19666,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -24682,6 +20914,10 @@
             {
               "date": "2026-10-08",
               "value": 89.11353300228622
+            },
+            {
+              "date": "2026-10-09",
+              "value": 90.66874151398547
             }
           ],
           "availability": [
@@ -24763,6 +20999,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -25802,7 +22042,7 @@
             "2026-10-08",
             "2026-10-09"
           ],
-          "status": "current",
+          "status": "expired",
           "target_id": "US:XNAS:AUR:equity",
           "target_type": "stock",
           "valid_until": "2026-10-09T20:00:00+00:00"
@@ -25888,6 +22128,10 @@
             {
               "date": "2026-10-08",
               "value": 85.57575688217625
+            },
+            {
+              "date": "2026-10-09",
+              "value": 86.06060490463719
             }
           ],
           "availability": [
@@ -25969,6 +22213,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -27008,7 +23256,7 @@
             "2026-10-08",
             "2026-10-09"
           ],
-          "status": "current",
+          "status": "expired",
           "target_id": "US:XNAS:MBLY:equity",
           "target_type": "stock",
           "valid_until": "2026-10-09T20:00:00+00:00"
@@ -27078,6 +23326,10 @@
             {
               "date": "2026-10-08",
               "value": 94.28444373539907
+            },
+            {
+              "date": "2026-10-09",
+              "value": 92.04262544783657
             }
           ],
           "availability": [
@@ -27143,6 +23395,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -27211,6 +23467,10 @@
             {
               "date": "2026-10-08",
               "value": 101.46468518446156
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.1734024267279
             }
           ],
           "change_reason": [],
@@ -28221,6 +24481,10 @@
             {
               "date": "2026-10-08",
               "value": 95.74912891986062
+            },
+            {
+              "date": "2026-10-09",
+              "value": 94.21602787456446
             }
           ],
           "related_themes": [],
@@ -28517,6 +24781,10 @@
             {
               "date": "2026-10-08",
               "value": 112.98843474819729
+            },
+            {
+              "date": "2026-10-09",
+              "value": 108.0756531109706
             }
           ],
           "availability": [
@@ -28582,6 +24850,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -28650,6 +24922,10 @@
             {
               "date": "2026-10-08",
               "value": 101.46468518446157
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.17340242672789
             }
           ],
           "change_reason": [],
@@ -29660,6 +25936,10 @@
             {
               "date": "2026-10-08",
               "value": 114.45311993265888
+            },
+            {
+              "date": "2026-10-09",
+              "value": 110.24905553769851
             }
           ],
           "related_themes": [],
@@ -29956,6 +26236,10 @@
             {
               "date": "2026-10-08",
               "value": 104.68277068983672
+            },
+            {
+              "date": "2026-10-09",
+              "value": 101.63169338777442
             }
           ],
           "availability": [
@@ -30021,6 +26305,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -30089,6 +26377,10 @@
             {
               "date": "2026-10-08",
               "value": 101.46468518446154
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.1734024267279
             }
           ],
           "change_reason": [],
@@ -31099,6 +27391,10 @@
             {
               "date": "2026-10-08",
               "value": 106.14745587429827
+            },
+            {
+              "date": "2026-10-09",
+              "value": 103.80509581450232
             }
           ],
           "related_themes": [],
@@ -31395,6 +27691,10 @@
             {
               "date": "2026-10-08",
               "value": 105.65558781635265
+            },
+            {
+              "date": "2026-10-09",
+              "value": 105.69653520358666
             }
           ],
           "availability": [
@@ -31460,6 +27760,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -31528,6 +27832,10 @@
             {
               "date": "2026-10-08",
               "value": 101.46468518446157
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.17340242672789
             }
           ],
           "change_reason": [],
@@ -32538,6 +28846,10 @@
             {
               "date": "2026-10-08",
               "value": 107.12027300081421
+            },
+            {
+              "date": "2026-10-09",
+              "value": 107.86993763031454
             }
           ],
           "related_themes": [],
@@ -32850,6 +29162,10 @@
             {
               "date": "2026-10-08",
               "value": 86.08334165086549
+            },
+            {
+              "date": "2026-10-09",
+              "value": 86.49626858444208
             }
           ],
           "availability": [
@@ -32931,6 +29247,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -33015,6 +29335,10 @@
             {
               "date": "2026-10-08",
               "value": 101.26130329136575
+            },
+            {
+              "date": "2026-10-09",
+              "value": 101.86840462486924
             }
           ],
           "change_reason": [],
@@ -33922,6 +30246,10 @@
             {
               "date": "2026-10-08",
               "value": 87.34464494223124
+            },
+            {
+              "date": "2026-10-09",
+              "value": 88.36467320931133
             }
           ],
           "related_themes": [],
@@ -34130,7 +30458,7 @@
             "2026-10-08",
             "2026-10-09"
           ],
-          "status": "current",
+          "status": "expired",
           "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
           "target_type": "theme",
           "valid_until": "2026-10-09T20:00:00+00:00"
@@ -37273,6 +33601,10 @@
             {
               "date": "2026-10-08",
               "value": 102.83712851809157
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.86880152175759
             }
           ],
           "availability": [
@@ -37350,6 +33682,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -37430,6 +33766,10 @@
             {
               "date": "2026-10-08",
               "value": 101.92216569075352
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.63407837311034
             }
           ],
           "change_reason": [],
@@ -38924,6 +35264,10 @@
             {
               "date": "2026-10-08",
               "value": 104.75929420884509
+            },
+            {
+              "date": "2026-10-09",
+              "value": 105.50287989486793
             }
           ],
           "related_themes": [],
@@ -39430,6 +35774,24 @@
               "predicted_expected_move": -0.009,
               "sign_agreement": false,
               "signal_strength": 0.68,
+              "status": "scored"
+            },
+            {
+              "actual_move": -0.01782253232624435,
+              "actual_return": -0.01782253232624435,
+              "available_at": "2026-10-09T23:27:50.919909+00:00",
+              "effect_window": {
+                "anchor_session": "2026-10-05",
+                "end_session": "2026-10-09",
+                "start_session": "2026-10-06"
+              },
+              "item_key": "segments/6",
+              "magnitude_difference": -0.02582253232624435,
+              "magnitude_error": 0.02582253232624435,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.008,
+              "sign_agreement": false,
+              "signal_strength": 0.6,
               "status": "scored"
             }
           ],
@@ -40595,6 +36957,10 @@
             {
               "date": "2026-10-08",
               "value": 93.53771438235235
+            },
+            {
+              "date": "2026-10-09",
+              "value": 91.47361398117754
             }
           ],
           "availability": [
@@ -40676,6 +37042,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -41836,7 +38206,7 @@
             "2026-10-08",
             "2026-10-09"
           ],
-          "status": "current",
+          "status": "expired",
           "target_id": "JP:XTKS:285A:equity",
           "target_type": "stock",
           "valid_until": "2026-10-09T06:30:00+00:00"
@@ -41922,6 +38292,10 @@
             {
               "date": "2026-10-08",
               "value": 91.8086789531944
+            },
+            {
+              "date": "2026-10-09",
+              "value": 89.03401485868437
             }
           ],
           "availability": [
@@ -42003,6 +38377,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -42087,6 +38465,10 @@
             {
               "date": "2026-10-08",
               "value": 101.72903542915796
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.43959912249318
             }
           ],
           "change_reason": [],
@@ -43137,6 +39519,10 @@
             {
               "date": "2026-10-08",
               "value": 93.53771438235235
+            },
+            {
+              "date": "2026-10-09",
+              "value": 91.47361398117754
             }
           ],
           "related_themes": [],
@@ -43377,7 +39763,7 @@
             "2026-10-08",
             "2026-10-09"
           ],
-          "status": "current",
+          "status": "expired",
           "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
           "target_type": "theme",
           "valid_until": "2026-10-09T06:30:00+00:00"
@@ -43834,6 +40220,10 @@
             {
               "date": "2026-10-08",
               "value": 103.59218352805843
+            },
+            {
+              "date": "2026-10-09",
+              "value": 99.05211466377428
             }
           ],
           "availability": [
@@ -43915,6 +40305,10 @@
             },
             {
               "date": "2026-10-08",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-09",
               "status": "available"
             }
           ],
@@ -43999,6 +40393,10 @@
             {
               "date": "2026-10-08",
               "value": 101.72903542915796
+            },
+            {
+              "date": "2026-10-09",
+              "value": 102.43959912249316
             }
           ],
           "change_reason": [],
@@ -45080,6 +41478,10 @@
             {
               "date": "2026-10-08",
               "value": 105.32121895721637
+            },
+            {
+              "date": "2026-10-09",
+              "value": 101.49171378626744
             }
           ],
           "related_themes": [],
@@ -45486,7 +41888,7 @@
             "2026-10-08",
             "2026-10-09"
           ],
-          "status": "current",
+          "status": "expired",
           "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
           "target_type": "theme",
           "valid_until": "2026-10-09T06:30:00+00:00"
@@ -49911,6 +46313,10 @@
           {
             "date": "2026-10-08",
             "value": 113.09707241910631
+          },
+          {
+            "date": "2026-10-09",
+            "value": 112.17257318952234
           }
         ],
         "availability": [
@@ -49976,6 +46382,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -52512,6 +48922,10 @@
               {
                 "date": "2026-10-08",
                 "value": 113.09707241910631
+              },
+              {
+                "date": "2026-10-09",
+                "value": 112.17257318952234
               }
             ],
             "availability": [
@@ -52577,6 +48991,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -53971,6 +50389,10 @@
           {
             "date": "2026-10-08",
             "value": 112.98843474819729
+          },
+          {
+            "date": "2026-10-09",
+            "value": 108.0756531109706
           }
         ],
         "availability": [
@@ -54036,6 +50458,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -54104,6 +50530,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446157
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.17340242672789
           }
         ],
         "change_reason": [
@@ -55121,6 +51551,10 @@
           {
             "date": "2026-10-08",
             "value": 114.45311993265888
+          },
+          {
+            "date": "2026-10-09",
+            "value": 110.24905553769851
           }
         ],
         "related_themes": [],
@@ -56900,6 +53334,10 @@
               {
                 "date": "2026-10-08",
                 "value": 103.59218352805843
+              },
+              {
+                "date": "2026-10-09",
+                "value": 99.05211466377428
               }
             ],
             "availability": [
@@ -56981,6 +53419,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -57065,6 +53507,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.72903542915796
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.43959912249316
               }
             ],
             "change_reason": [],
@@ -58146,6 +54592,10 @@
               {
                 "date": "2026-10-08",
                 "value": 105.32121895721637
+              },
+              {
+                "date": "2026-10-09",
+                "value": 101.49171378626744
               }
             ],
             "related_themes": [],
@@ -58552,7 +55002,7 @@
               "2026-10-08",
               "2026-10-09"
             ],
-            "status": "current",
+            "status": "expired",
             "target_id": "22945348-6b2b-5c20-9e59-f3bcbcb5eda8",
             "target_type": "theme",
             "valid_until": "2026-10-09T06:30:00+00:00"
@@ -58626,6 +55076,10 @@
               {
                 "date": "2026-10-08",
                 "value": 112.98843474819729
+              },
+              {
+                "date": "2026-10-09",
+                "value": 108.0756531109706
               }
             ],
             "availability": [
@@ -58691,6 +55145,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -58759,6 +55217,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.46468518446157
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.17340242672789
               }
             ],
             "change_reason": [
@@ -59776,6 +56238,10 @@
               {
                 "date": "2026-10-08",
                 "value": 114.45311993265888
+              },
+              {
+                "date": "2026-10-09",
+                "value": 110.24905553769851
               }
             ],
             "related_themes": [],
@@ -60296,6 +56762,10 @@
           {
             "date": "2026-10-08",
             "value": 86.08334165086549
+          },
+          {
+            "date": "2026-10-09",
+            "value": 86.49626858444208
           }
         ],
         "availability": [
@@ -60377,6 +56847,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -60461,6 +56935,10 @@
           {
             "date": "2026-10-08",
             "value": 101.26130329136575
+          },
+          {
+            "date": "2026-10-09",
+            "value": 101.86840462486924
           }
         ],
         "change_reason": [
@@ -61375,6 +57853,10 @@
           {
             "date": "2026-10-08",
             "value": 87.34464494223124
+          },
+          {
+            "date": "2026-10-09",
+            "value": 88.36467320931133
           }
         ],
         "related_themes": [],
@@ -61634,7 +58116,7 @@
           "2026-10-08",
           "2026-10-09"
         ],
-        "status": "current",
+        "status": "expired",
         "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
         "target_type": "theme",
         "valid_until": "2026-10-09T20:00:00+00:00"
@@ -63046,6 +59528,10 @@
               {
                 "date": "2026-10-08",
                 "value": 86.08334165086549
+              },
+              {
+                "date": "2026-10-09",
+                "value": 86.49626858444208
               }
             ],
             "availability": [
@@ -63127,6 +59613,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -63211,6 +59701,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.26130329136575
+              },
+              {
+                "date": "2026-10-09",
+                "value": 101.86840462486924
               }
             ],
             "change_reason": [
@@ -64125,6 +60619,10 @@
               {
                 "date": "2026-10-08",
                 "value": 87.34464494223124
+              },
+              {
+                "date": "2026-10-09",
+                "value": 88.36467320931133
               }
             ],
             "related_themes": [],
@@ -64384,7 +60882,7 @@
               "2026-10-08",
               "2026-10-09"
             ],
-            "status": "current",
+            "status": "expired",
             "target_id": "d4762e19-dcd8-5b57-aad7-fae529d406b9",
             "target_type": "theme",
             "valid_until": "2026-10-09T20:00:00+00:00"
@@ -64546,6 +61044,10 @@
           {
             "date": "2026-10-08",
             "value": 106.14745587429827
+          },
+          {
+            "date": "2026-10-09",
+            "value": 103.80509581450232
           }
         ],
         "availability": [
@@ -64611,6 +61113,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -65920,6 +62426,10 @@
               {
                 "date": "2026-10-08",
                 "value": 93.53771438235235
+              },
+              {
+                "date": "2026-10-09",
+                "value": 91.47361398117754
               }
             ],
             "availability": [
@@ -66001,6 +62511,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -67191,7 +63705,7 @@
               "2026-10-08",
               "2026-10-09"
             ],
-            "status": "current",
+            "status": "expired",
             "target_id": "JP:XTKS:285A:equity",
             "target_type": "stock",
             "valid_until": "2026-10-09T06:30:00+00:00"
@@ -67265,6 +63779,10 @@
               {
                 "date": "2026-10-08",
                 "value": 106.14745587429827
+              },
+              {
+                "date": "2026-10-09",
+                "value": 103.80509581450232
               }
             ],
             "availability": [
@@ -67330,6 +63848,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -68698,6 +65220,10 @@
           {
             "date": "2026-10-08",
             "value": 104.68277068983672
+          },
+          {
+            "date": "2026-10-09",
+            "value": 101.63169338777442
           }
         ],
         "availability": [
@@ -68763,6 +65289,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -68831,6 +65361,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446154
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.1734024267279
           }
         ],
         "change_reason": [
@@ -69848,6 +66382,10 @@
           {
             "date": "2026-10-08",
             "value": 106.14745587429827
+          },
+          {
+            "date": "2026-10-09",
+            "value": 103.80509581450232
           }
         ],
         "related_themes": [],
@@ -70216,6 +66754,10 @@
               {
                 "date": "2026-10-08",
                 "value": 91.8086789531944
+              },
+              {
+                "date": "2026-10-09",
+                "value": 89.03401485868437
               }
             ],
             "availability": [
@@ -70297,6 +66839,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -70381,6 +66927,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.72903542915796
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.43959912249318
               }
             ],
             "change_reason": [
@@ -71436,6 +67986,10 @@
               {
                 "date": "2026-10-08",
                 "value": 93.53771438235235
+              },
+              {
+                "date": "2026-10-09",
+                "value": 91.47361398117754
               }
             ],
             "related_themes": [],
@@ -71701,7 +68255,7 @@
               "2026-10-08",
               "2026-10-09"
             ],
-            "status": "current",
+            "status": "expired",
             "target_id": "26dae351-5717-57ce-bbec-ef7183cdd398",
             "target_type": "theme",
             "valid_until": "2026-10-09T06:30:00+00:00"
@@ -71775,6 +68329,10 @@
               {
                 "date": "2026-10-08",
                 "value": 104.68277068983672
+              },
+              {
+                "date": "2026-10-09",
+                "value": 101.63169338777442
               }
             ],
             "availability": [
@@ -71840,6 +68398,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -71908,6 +68470,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.46468518446154
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.1734024267279
               }
             ],
             "change_reason": [
@@ -72925,6 +69491,10 @@
               {
                 "date": "2026-10-08",
                 "value": 106.14745587429827
+              },
+              {
+                "date": "2026-10-09",
+                "value": 103.80509581450232
               }
             ],
             "related_themes": [],
@@ -73403,6 +69973,10 @@
           {
             "date": "2026-10-08",
             "value": 105.65558781635265
+          },
+          {
+            "date": "2026-10-09",
+            "value": 105.69653520358666
           }
         ],
         "availability": [
@@ -73468,6 +70042,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -73536,6 +70114,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446157
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.17340242672789
           }
         ],
         "change_reason": [
@@ -74574,6 +71156,10 @@
           {
             "date": "2026-10-08",
             "value": 107.12027300081421
+          },
+          {
+            "date": "2026-10-09",
+            "value": 107.86993763031454
           }
         ],
         "related_themes": [],
@@ -75002,6 +71588,10 @@
               {
                 "date": "2026-10-08",
                 "value": 102.83712851809157
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.86880152175759
               }
             ],
             "availability": [
@@ -75079,6 +71669,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -75159,6 +71753,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.92216569075352
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.63407837311034
               }
             ],
             "change_reason": [
@@ -76658,6 +73256,10 @@
               {
                 "date": "2026-10-08",
                 "value": 104.75929420884509
+              },
+              {
+                "date": "2026-10-09",
+                "value": 105.50287989486793
               }
             ],
             "related_themes": [],
@@ -77165,6 +73767,24 @@
                 "sign_agreement": false,
                 "signal_strength": 0.68,
                 "status": "scored"
+              },
+              {
+                "actual_move": -0.01782253232624435,
+                "actual_return": -0.01782253232624435,
+                "available_at": "2026-10-09T23:27:50.919909+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-10-05",
+                  "end_session": "2026-10-09",
+                  "start_session": "2026-10-06"
+                },
+                "item_key": "segments/6",
+                "magnitude_difference": -0.02582253232624435,
+                "magnitude_error": 0.02582253232624435,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.008,
+                "sign_agreement": false,
+                "signal_strength": 0.6,
+                "status": "scored"
               }
             ],
             "retained_outlooks": [],
@@ -77471,6 +74091,10 @@
               {
                 "date": "2026-10-08",
                 "value": 105.65558781635265
+              },
+              {
+                "date": "2026-10-09",
+                "value": 105.69653520358666
               }
             ],
             "availability": [
@@ -77536,6 +74160,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -77604,6 +74232,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.46468518446157
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.17340242672789
               }
             ],
             "change_reason": [
@@ -78620,6 +75252,10 @@
               {
                 "date": "2026-10-08",
                 "value": 107.12027300081421
+              },
+              {
+                "date": "2026-10-09",
+                "value": 107.86993763031454
               }
             ],
             "related_themes": [],
@@ -78970,6 +75606,10 @@
               {
                 "date": "2026-10-08",
                 "value": 105.65558781635265
+              },
+              {
+                "date": "2026-10-09",
+                "value": 105.69653520358666
               }
             ],
             "availability": [
@@ -79035,6 +75675,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -79103,6 +75747,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.46468518446157
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.17340242672789
               }
             ],
             "change_reason": [
@@ -80141,6 +76789,10 @@
               {
                 "date": "2026-10-08",
                 "value": 107.12027300081421
+              },
+              {
+                "date": "2026-10-09",
+                "value": 107.86993763031454
               }
             ],
             "related_themes": [],
@@ -80701,6 +77353,10 @@
           {
             "date": "2026-10-08",
             "value": 89.11353300228622
+          },
+          {
+            "date": "2026-10-09",
+            "value": 90.66874151398547
           }
         ],
         "availability": [
@@ -80782,6 +77438,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -81851,7 +78511,7 @@
           "2026-10-08",
           "2026-10-09"
         ],
-        "status": "current",
+        "status": "expired",
         "target_id": "US:XNAS:AUR:equity",
         "target_type": "stock",
         "valid_until": "2026-10-09T20:00:00+00:00"
@@ -81942,6 +78602,10 @@
               {
                 "date": "2026-10-08",
                 "value": 89.11353300228622
+              },
+              {
+                "date": "2026-10-09",
+                "value": 90.66874151398547
               }
             ],
             "availability": [
@@ -82023,6 +78687,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -83092,7 +79760,7 @@
               "2026-10-08",
               "2026-10-09"
             ],
-            "status": "current",
+            "status": "expired",
             "target_id": "US:XNAS:AUR:equity",
             "target_type": "stock",
             "valid_until": "2026-10-09T20:00:00+00:00"
@@ -83253,6 +79921,10 @@
           {
             "date": "2026-10-08",
             "value": 85.57575688217625
+          },
+          {
+            "date": "2026-10-09",
+            "value": 86.06060490463719
           }
         ],
         "availability": [
@@ -83334,6 +80006,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -84403,7 +81079,7 @@
           "2026-10-08",
           "2026-10-09"
         ],
-        "status": "current",
+        "status": "expired",
         "target_id": "US:XNAS:MBLY:equity",
         "target_type": "stock",
         "valid_until": "2026-10-09T20:00:00+00:00"
@@ -84494,6 +81170,10 @@
               {
                 "date": "2026-10-08",
                 "value": 85.57575688217625
+              },
+              {
+                "date": "2026-10-09",
+                "value": 86.06060490463719
               }
             ],
             "availability": [
@@ -84575,6 +81255,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -85644,7 +82328,7 @@
               "2026-10-08",
               "2026-10-09"
             ],
-            "status": "current",
+            "status": "expired",
             "target_id": "US:XNAS:MBLY:equity",
             "target_type": "stock",
             "valid_until": "2026-10-09T20:00:00+00:00"
@@ -85776,6 +82460,10 @@
           {
             "date": "2026-10-08",
             "value": 94.28444373539907
+          },
+          {
+            "date": "2026-10-09",
+            "value": 92.04262544783657
           }
         ],
         "availability": [
@@ -85841,6 +82529,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -85909,6 +82601,10 @@
           {
             "date": "2026-10-08",
             "value": 101.46468518446156
+          },
+          {
+            "date": "2026-10-09",
+            "value": 102.1734024267279
           }
         ],
         "change_reason": [
@@ -86924,6 +83620,10 @@
           {
             "date": "2026-10-08",
             "value": 95.74912891986062
+          },
+          {
+            "date": "2026-10-09",
+            "value": 94.21602787456446
           }
         ],
         "related_themes": [],
@@ -87250,6 +83950,10 @@
               {
                 "date": "2026-10-08",
                 "value": 94.28444373539907
+              },
+              {
+                "date": "2026-10-09",
+                "value": 92.04262544783657
               }
             ],
             "availability": [
@@ -87315,6 +84019,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -87383,6 +84091,10 @@
               {
                 "date": "2026-10-08",
                 "value": 101.46468518446156
+              },
+              {
+                "date": "2026-10-09",
+                "value": 102.1734024267279
               }
             ],
             "change_reason": [
@@ -88398,6 +85110,10 @@
               {
                 "date": "2026-10-08",
                 "value": 95.74912891986062
+              },
+              {
+                "date": "2026-10-09",
+                "value": 94.21602787456446
               }
             ],
             "related_themes": [],
@@ -88872,6 +85588,10 @@
           {
             "date": "2026-10-08",
             "value": 111.39799953477554
+          },
+          {
+            "date": "2026-10-09",
+            "value": 111.25843219353338
           }
         ],
         "availability": [
@@ -88937,6 +85657,10 @@
           },
           {
             "date": "2026-10-08",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-09",
             "status": "available"
           }
         ],
@@ -90262,6 +86986,10 @@
               {
                 "date": "2026-10-08",
                 "value": 111.39799953477554
+              },
+              {
+                "date": "2026-10-09",
+                "value": 111.25843219353338
               }
             ],
             "availability": [
@@ -90327,6 +87055,10 @@
               },
               {
                 "date": "2026-10-08",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-09",
                 "status": "available"
               }
             ],
@@ -93374,6 +90106,167 @@
             "sanmeigaku": 0.10796277969033323,
             "space_weather": 0.1111003483607185,
             "sukuyo": 0.10872046900261156
+          }
+        },
+        "theme:5": {
+          "coverage": {
+            "astrology": 9,
+            "four_pillars": 9,
+            "koyomi": 9,
+            "lunar": 9,
+            "nine_star_ki": 9,
+            "numerology": 9,
+            "sanmeigaku": 9,
+            "space_weather": 0,
+            "sukuyo": 9
+          },
+          "phase": "learned",
+          "sample_count": 9,
+          "weights": {
+            "astrology": 0.10521590821969633,
+            "four_pillars": 0.10863745847868689,
+            "koyomi": 0.1119739177839258,
+            "lunar": 0.11582859711881943,
+            "nine_star_ki": 0.1114713209520362,
+            "numerology": 0.10886435513112583,
+            "sanmeigaku": 0.11054111292188594,
+            "space_weather": 0.11104148385374295,
+            "sukuyo": 0.11642584554008063
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-10-09T23:27:50.919909+00:00",
+      "pools": {
+        "stock:1": {
+          "coverage": {
+            "astrology": 7,
+            "four_pillars": 7,
+            "koyomi": 7,
+            "lunar": 7,
+            "nine_star_ki": 7,
+            "numerology": 7,
+            "sanmeigaku": 7,
+            "space_weather": 0,
+            "sukuyo": 7
+          },
+          "phase": "learned",
+          "sample_count": 7,
+          "weights": {
+            "astrology": 0.12694807786012915,
+            "four_pillars": 0.10549238848983844,
+            "koyomi": 0.11047500641583113,
+            "lunar": 0.12992721420002304,
+            "nine_star_ki": 0.10463609834429025,
+            "numerology": 0.1088284727313053,
+            "sanmeigaku": 0.0984072479270074,
+            "space_weather": 0.11077783689583172,
+            "sukuyo": 0.10450765713574353
+          }
+        },
+        "stock:20": {
+          "coverage": {
+            "astrology": 4,
+            "four_pillars": 4,
+            "koyomi": 4,
+            "lunar": 4,
+            "nine_star_ki": 4,
+            "numerology": 4,
+            "sanmeigaku": 4,
+            "space_weather": 0,
+            "sukuyo": 4
+          },
+          "phase": "learned",
+          "sample_count": 4,
+          "weights": {
+            "astrology": 0.11514637738315218,
+            "four_pillars": 0.11267599686404567,
+            "koyomi": 0.11295733754216744,
+            "lunar": 0.11317164535005932,
+            "nine_star_ki": 0.11397623156366002,
+            "numerology": 0.11182890850013387,
+            "sanmeigaku": 0.10321536776344752,
+            "space_weather": 0.11102603458826232,
+            "sukuyo": 0.10600210044507162
+          }
+        },
+        "stock:5": {
+          "coverage": {
+            "astrology": 7,
+            "four_pillars": 7,
+            "koyomi": 7,
+            "lunar": 7,
+            "nine_star_ki": 7,
+            "numerology": 7,
+            "sanmeigaku": 7,
+            "space_weather": 0,
+            "sukuyo": 7
+          },
+          "phase": "learned",
+          "sample_count": 7,
+          "weights": {
+            "astrology": 0.11450211731637934,
+            "four_pillars": 0.11560316668600426,
+            "koyomi": 0.104499148446881,
+            "lunar": 0.10782564852044305,
+            "nine_star_ki": 0.10462093043499995,
+            "numerology": 0.11673855585220122,
+            "sanmeigaku": 0.10535808772373952,
+            "space_weather": 0.11069829232036076,
+            "sukuyo": 0.12015405269899096
+          }
+        },
+        "theme:1": {
+          "coverage": {
+            "astrology": 9,
+            "four_pillars": 9,
+            "koyomi": 9,
+            "lunar": 9,
+            "nine_star_ki": 9,
+            "numerology": 9,
+            "sanmeigaku": 9,
+            "space_weather": 0,
+            "sukuyo": 9
+          },
+          "phase": "learned",
+          "sample_count": 9,
+          "weights": {
+            "astrology": 0.10486136504191737,
+            "four_pillars": 0.11625424038676153,
+            "koyomi": 0.10862969658635103,
+            "lunar": 0.10957404455531956,
+            "nine_star_ki": 0.11708732663992392,
+            "numerology": 0.10925323553532233,
+            "sanmeigaku": 0.11451965232770515,
+            "space_weather": 0.11097474521558409,
+            "sukuyo": 0.10884569371111497
+          }
+        },
+        "theme:20": {
+          "coverage": {
+            "astrology": 3,
+            "four_pillars": 3,
+            "koyomi": 3,
+            "lunar": 3,
+            "nine_star_ki": 3,
+            "numerology": 3,
+            "sanmeigaku": 3,
+            "space_weather": 0,
+            "sukuyo": 3
+          },
+          "phase": "learned",
+          "sample_count": 3,
+          "weights": {
+            "astrology": 0.11013740634277859,
+            "four_pillars": 0.11132641755241494,
+            "koyomi": 0.11107961027483383,
+            "lunar": 0.11060994988740702,
+            "nine_star_ki": 0.1108873884902985,
+            "numerology": 0.11139019432978661,
+            "sanmeigaku": 0.11158081073742328,
+            "space_weather": 0.11108507105824764,
+            "sukuyo": 0.11190315132680954
           }
         },
         "theme:5": {
