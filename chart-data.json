@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14T22:36:28.057408+00:00",
+  "as_of": "2026-10-15T22:40:28.403424+00:00",
   "current": {
     "exploration": [
       {
@@ -903,6 +903,10 @@
           {
             "date": "2026-10-14",
             "value": 87.11207412253866
+          },
+          {
+            "date": "2026-10-15",
+            "value": 76.37872802575207
           }
         ],
         "availability": [
@@ -980,6 +984,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -2280,6 +2288,10 @@
           {
             "date": "2026-10-14",
             "value": 106.62557781201849
+          },
+          {
+            "date": "2026-10-15",
+            "value": 106.16332819722649
           }
         ],
         "availability": [
@@ -2357,6 +2369,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -3657,6 +3673,10 @@
           {
             "date": "2026-10-14",
             "value": 109.60688532216794
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.41846941149105
           }
         ],
         "availability": [
@@ -3734,6 +3754,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -4840,6 +4864,24 @@
             "sign_agreement": false,
             "signal_strength": 0.73,
             "status": "scored"
+          },
+          {
+            "actual_move": -0.13323869397688096,
+            "actual_return": -0.13323869397688096,
+            "available_at": "2026-10-15T22:39:50.967520+00:00",
+            "effect_window": {
+              "anchor_session": "2026-10-05",
+              "end_session": "2026-10-15",
+              "start_session": "2026-10-06"
+            },
+            "item_key": "segments/3",
+            "magnitude_difference": -0.18273869397688097,
+            "magnitude_error": 0.18273869397688097,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.0495,
+            "sign_agreement": false,
+            "signal_strength": 0.77,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -5066,6 +5108,10 @@
           {
             "date": "2026-10-14",
             "value": 88.56304902643035
+          },
+          {
+            "date": "2026-10-15",
+            "value": 83.53986268140218
           }
         ],
         "availability": [
@@ -5143,6 +5189,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -5223,6 +5273,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604351
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804031
           }
         ],
         "change_reason": [
@@ -6250,6 +6304,10 @@
           {
             "date": "2026-10-14",
             "value": 90.45296167247386
+          },
+          {
+            "date": "2026-10-15",
+            "value": 82.99651567944251
           }
         ],
         "related_themes": [],
@@ -6583,6 +6641,10 @@
           {
             "date": "2026-10-14",
             "value": 103.80828318232307
+          },
+          {
+            "date": "2026-10-15",
+            "value": 102.80648911741108
           }
         ],
         "availability": [
@@ -6660,6 +6722,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -6740,6 +6806,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604351
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804034
           }
         ],
         "change_reason": [
@@ -7769,6 +7839,10 @@
           {
             "date": "2026-10-14",
             "value": 105.6981958283666
+          },
+          {
+            "date": "2026-10-15",
+            "value": 102.26314211545142
           }
         ],
         "related_themes": [],
@@ -8128,6 +8202,10 @@
           {
             "date": "2026-10-14",
             "value": 85.22216147649513
+          },
+          {
+            "date": "2026-10-15",
+            "value": 76.92207502771173
           }
         ],
         "availability": [
@@ -8205,6 +8283,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -8285,6 +8367,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604354
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804035
           }
         ],
         "change_reason": [
@@ -9314,6 +9400,10 @@
           {
             "date": "2026-10-14",
             "value": 87.11207412253866
+          },
+          {
+            "date": "2026-10-15",
+            "value": 76.37872802575207
           }
         ],
         "related_themes": [],
@@ -9673,6 +9763,10 @@
           {
             "date": "2026-10-14",
             "value": 106.33901959401555
+          },
+          {
+            "date": "2026-10-15",
+            "value": 100.46597690187255
           }
         ],
         "availability": [
@@ -9750,6 +9844,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -9830,6 +9928,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604351
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804034
           }
         ],
         "change_reason": [
@@ -10880,6 +10982,10 @@
           {
             "date": "2026-10-14",
             "value": 108.22893224005907
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.92262989991289
           }
         ],
         "related_themes": [],
@@ -11026,6 +11132,24 @@
             "predicted_expected_move": -0.0075,
             "sign_agreement": false,
             "signal_strength": 0.73,
+            "status": "scored"
+          },
+          {
+            "actual_move": -0.07082745477541705,
+            "actual_return": -0.07082745477541705,
+            "available_at": "2026-10-15T22:39:50.967520+00:00",
+            "effect_window": {
+              "anchor_session": "2026-10-05",
+              "end_session": "2026-10-15",
+              "start_session": "2026-10-06"
+            },
+            "item_key": "segments/3",
+            "magnitude_difference": -0.09612745477541705,
+            "magnitude_error": 0.09612745477541705,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.0253,
+            "sign_agreement": false,
+            "signal_strength": 0.77,
             "status": "scored"
           }
         ],
@@ -14801,6 +14925,10 @@
             {
               "date": "2026-10-14",
               "value": 109.60688532216794
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.41846941149105
             }
           ],
           "availability": [
@@ -14878,6 +15006,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -15979,6 +16111,24 @@
               "sign_agreement": false,
               "signal_strength": 0.73,
               "status": "scored"
+            },
+            {
+              "actual_move": -0.13323869397688096,
+              "actual_return": -0.13323869397688096,
+              "available_at": "2026-10-15T22:39:50.967520+00:00",
+              "effect_window": {
+                "anchor_session": "2026-10-05",
+                "end_session": "2026-10-15",
+                "start_session": "2026-10-06"
+              },
+              "item_key": "segments/3",
+              "magnitude_difference": -0.18273869397688097,
+              "magnitude_error": 0.18273869397688097,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.0495,
+              "sign_agreement": false,
+              "signal_strength": 0.77,
+              "status": "scored"
             }
           ],
           "retained_outlooks": [],
@@ -16180,6 +16330,10 @@
             {
               "date": "2026-10-14",
               "value": 106.33901959401555
+            },
+            {
+              "date": "2026-10-15",
+              "value": 100.46597690187255
             }
           ],
           "availability": [
@@ -16257,6 +16411,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -16337,6 +16495,10 @@
             {
               "date": "2026-10-14",
               "value": 101.88991264604351
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.45665299804034
             }
           ],
           "change_reason": [],
@@ -17381,6 +17543,10 @@
             {
               "date": "2026-10-14",
               "value": 108.22893224005907
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.92262989991289
             }
           ],
           "related_themes": [],
@@ -17527,6 +17693,24 @@
               "predicted_expected_move": -0.0075,
               "sign_agreement": false,
               "signal_strength": 0.73,
+              "status": "scored"
+            },
+            {
+              "actual_move": -0.07082745477541705,
+              "actual_return": -0.07082745477541705,
+              "available_at": "2026-10-15T22:39:50.967520+00:00",
+              "effect_window": {
+                "anchor_session": "2026-10-05",
+                "end_session": "2026-10-15",
+                "start_session": "2026-10-06"
+              },
+              "item_key": "segments/3",
+              "magnitude_difference": -0.09612745477541705,
+              "magnitude_error": 0.09612745477541705,
+              "predicted_direction": "up",
+              "predicted_expected_move": 0.0253,
+              "sign_agreement": false,
+              "signal_strength": 0.77,
               "status": "scored"
             }
           ],
@@ -18532,6 +18716,10 @@
             {
               "date": "2026-10-14",
               "value": 87.11207412253866
+            },
+            {
+              "date": "2026-10-15",
+              "value": 76.37872802575207
             }
           ],
           "availability": [
@@ -18609,6 +18797,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -19849,6 +20041,10 @@
             {
               "date": "2026-10-14",
               "value": 106.62557781201849
+            },
+            {
+              "date": "2026-10-15",
+              "value": 106.16332819722649
             }
           ],
           "availability": [
@@ -19926,6 +20122,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -23594,6 +23794,10 @@
             {
               "date": "2026-10-14",
               "value": 88.56304902643035
+            },
+            {
+              "date": "2026-10-15",
+              "value": 83.53986268140218
             }
           ],
           "availability": [
@@ -23671,6 +23875,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -23751,6 +23959,10 @@
             {
               "date": "2026-10-14",
               "value": 101.88991264604351
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.45665299804031
             }
           ],
           "change_reason": [],
@@ -24773,6 +24985,10 @@
             {
               "date": "2026-10-14",
               "value": 90.45296167247386
+            },
+            {
+              "date": "2026-10-15",
+              "value": 82.99651567944251
             }
           ],
           "related_themes": [],
@@ -25081,6 +25297,10 @@
             {
               "date": "2026-10-14",
               "value": 103.80828318232307
+            },
+            {
+              "date": "2026-10-15",
+              "value": 102.80648911741108
             }
           ],
           "availability": [
@@ -25158,6 +25378,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -25238,6 +25462,10 @@
             {
               "date": "2026-10-14",
               "value": 101.88991264604351
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.45665299804034
             }
           ],
           "change_reason": [],
@@ -26260,6 +26488,10 @@
             {
               "date": "2026-10-14",
               "value": 105.6981958283666
+            },
+            {
+              "date": "2026-10-15",
+              "value": 102.26314211545142
             }
           ],
           "related_themes": [],
@@ -26568,6 +26800,10 @@
             {
               "date": "2026-10-14",
               "value": 85.22216147649513
+            },
+            {
+              "date": "2026-10-15",
+              "value": 76.92207502771173
             }
           ],
           "availability": [
@@ -26645,6 +26881,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -26725,6 +26965,10 @@
             {
               "date": "2026-10-14",
               "value": 101.88991264604354
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.45665299804035
             }
           ],
           "change_reason": [],
@@ -27747,6 +27991,10 @@
             {
               "date": "2026-10-14",
               "value": 87.11207412253866
+            },
+            {
+              "date": "2026-10-15",
+              "value": 76.37872802575207
             }
           ],
           "related_themes": [],
@@ -28055,6 +28303,10 @@
             {
               "date": "2026-10-14",
               "value": 106.33901959401555
+            },
+            {
+              "date": "2026-10-15",
+              "value": 100.46597690187255
             }
           ],
           "availability": [
@@ -28132,6 +28384,10 @@
             },
             {
               "date": "2026-10-14",
+              "status": "available"
+            },
+            {
+              "date": "2026-10-15",
               "status": "available"
             }
           ],
@@ -28212,6 +28468,10 @@
             {
               "date": "2026-10-14",
               "value": 101.88991264604351
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.45665299804034
             }
           ],
           "change_reason": [],
@@ -29234,6 +29494,10 @@
             {
               "date": "2026-10-14",
               "value": 108.22893224005907
+            },
+            {
+              "date": "2026-10-15",
+              "value": 99.92262989991289
             }
           ],
           "related_themes": [],
@@ -46743,6 +47007,10 @@
           {
             "date": "2026-10-14",
             "value": 106.62557781201849
+          },
+          {
+            "date": "2026-10-15",
+            "value": 106.16332819722649
           }
         ],
         "availability": [
@@ -46820,6 +47088,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -49368,6 +49640,10 @@
               {
                 "date": "2026-10-14",
                 "value": 106.62557781201849
+              },
+              {
+                "date": "2026-10-15",
+                "value": 106.16332819722649
               }
             ],
             "availability": [
@@ -49445,6 +49721,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -50851,6 +51131,10 @@
           {
             "date": "2026-10-14",
             "value": 103.80828318232307
+          },
+          {
+            "date": "2026-10-15",
+            "value": 102.80648911741108
           }
         ],
         "availability": [
@@ -50928,6 +51212,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -51008,6 +51296,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604351
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804034
           }
         ],
         "change_reason": [
@@ -52037,6 +52329,10 @@
           {
             "date": "2026-10-14",
             "value": 105.6981958283666
+          },
+          {
+            "date": "2026-10-15",
+            "value": 102.26314211545142
           }
         ],
         "related_themes": [],
@@ -55570,6 +55866,10 @@
               {
                 "date": "2026-10-14",
                 "value": 103.80828318232307
+              },
+              {
+                "date": "2026-10-15",
+                "value": 102.80648911741108
               }
             ],
             "availability": [
@@ -55647,6 +55947,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -55727,6 +56031,10 @@
               {
                 "date": "2026-10-14",
                 "value": 101.88991264604351
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.45665299804034
               }
             ],
             "change_reason": [
@@ -56756,6 +57064,10 @@
               {
                 "date": "2026-10-14",
                 "value": 105.6981958283666
+              },
+              {
+                "date": "2026-10-15",
+                "value": 102.26314211545142
               }
             ],
             "related_themes": [],
@@ -61570,6 +61882,10 @@
           {
             "date": "2026-10-14",
             "value": 87.11207412253866
+          },
+          {
+            "date": "2026-10-15",
+            "value": 76.37872802575207
           }
         ],
         "availability": [
@@ -61647,6 +61963,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -64321,6 +64641,10 @@
               {
                 "date": "2026-10-14",
                 "value": 87.11207412253866
+              },
+              {
+                "date": "2026-10-15",
+                "value": 76.37872802575207
               }
             ],
             "availability": [
@@ -64398,6 +64722,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -65778,6 +66106,10 @@
           {
             "date": "2026-10-14",
             "value": 85.22216147649513
+          },
+          {
+            "date": "2026-10-15",
+            "value": 76.92207502771173
           }
         ],
         "availability": [
@@ -65855,6 +66187,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -65935,6 +66271,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604354
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804035
           }
         ],
         "change_reason": [
@@ -66964,6 +67304,10 @@
           {
             "date": "2026-10-14",
             "value": 87.11207412253866
+          },
+          {
+            "date": "2026-10-15",
+            "value": 76.37872802575207
           }
         ],
         "related_themes": [],
@@ -68919,6 +69263,10 @@
               {
                 "date": "2026-10-14",
                 "value": 85.22216147649513
+              },
+              {
+                "date": "2026-10-15",
+                "value": 76.92207502771173
               }
             ],
             "availability": [
@@ -68996,6 +69344,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -69076,6 +69428,10 @@
               {
                 "date": "2026-10-14",
                 "value": 101.88991264604354
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.45665299804035
               }
             ],
             "change_reason": [
@@ -70105,6 +70461,10 @@
               {
                 "date": "2026-10-14",
                 "value": 87.11207412253866
+              },
+              {
+                "date": "2026-10-15",
+                "value": 76.37872802575207
               }
             ],
             "related_themes": [],
@@ -70595,6 +70955,10 @@
           {
             "date": "2026-10-14",
             "value": 106.33901959401555
+          },
+          {
+            "date": "2026-10-15",
+            "value": 100.46597690187255
           }
         ],
         "availability": [
@@ -70672,6 +71036,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -70752,6 +71120,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604351
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804034
           }
         ],
         "change_reason": [
@@ -71802,6 +72174,10 @@
           {
             "date": "2026-10-14",
             "value": 108.22893224005907
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.92262989991289
           }
         ],
         "related_themes": [],
@@ -71948,6 +72324,24 @@
             "predicted_expected_move": -0.0075,
             "sign_agreement": false,
             "signal_strength": 0.73,
+            "status": "scored"
+          },
+          {
+            "actual_move": -0.07082745477541705,
+            "actual_return": -0.07082745477541705,
+            "available_at": "2026-10-15T22:39:50.967520+00:00",
+            "effect_window": {
+              "anchor_session": "2026-10-05",
+              "end_session": "2026-10-15",
+              "start_session": "2026-10-06"
+            },
+            "item_key": "segments/3",
+            "magnitude_difference": -0.09612745477541705,
+            "magnitude_error": 0.09612745477541705,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.0253,
+            "sign_agreement": false,
+            "signal_strength": 0.77,
             "status": "scored"
           }
         ],
@@ -74779,6 +75173,10 @@
               {
                 "date": "2026-10-14",
                 "value": 106.33901959401555
+              },
+              {
+                "date": "2026-10-15",
+                "value": 100.46597690187255
               }
             ],
             "availability": [
@@ -74856,6 +75254,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -74936,6 +75338,10 @@
               {
                 "date": "2026-10-14",
                 "value": 101.88991264604351
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.45665299804034
               }
             ],
             "change_reason": [
@@ -75964,6 +76370,10 @@
               {
                 "date": "2026-10-14",
                 "value": 108.22893224005907
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.92262989991289
               }
             ],
             "related_themes": [],
@@ -76326,6 +76736,10 @@
               {
                 "date": "2026-10-14",
                 "value": 106.33901959401555
+              },
+              {
+                "date": "2026-10-15",
+                "value": 100.46597690187255
               }
             ],
             "availability": [
@@ -76403,6 +76817,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -76483,6 +76901,10 @@
               {
                 "date": "2026-10-14",
                 "value": 101.88991264604351
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.45665299804034
               }
             ],
             "change_reason": [
@@ -77533,6 +77955,10 @@
               {
                 "date": "2026-10-14",
                 "value": 108.22893224005907
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.92262989991289
               }
             ],
             "related_themes": [],
@@ -77679,6 +78105,24 @@
                 "predicted_expected_move": -0.0075,
                 "sign_agreement": false,
                 "signal_strength": 0.73,
+                "status": "scored"
+              },
+              {
+                "actual_move": -0.07082745477541705,
+                "actual_return": -0.07082745477541705,
+                "available_at": "2026-10-15T22:39:50.967520+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-10-05",
+                  "end_session": "2026-10-15",
+                  "start_session": "2026-10-06"
+                },
+                "item_key": "segments/3",
+                "magnitude_difference": -0.09612745477541705,
+                "magnitude_error": 0.09612745477541705,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.0253,
+                "sign_agreement": false,
+                "signal_strength": 0.77,
                 "status": "scored"
               }
             ],
@@ -83212,6 +83656,10 @@
           {
             "date": "2026-10-14",
             "value": 88.56304902643035
+          },
+          {
+            "date": "2026-10-15",
+            "value": 83.53986268140218
           }
         ],
         "availability": [
@@ -83289,6 +83737,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -83369,6 +83821,10 @@
           {
             "date": "2026-10-14",
             "value": 101.88991264604351
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.45665299804031
           }
         ],
         "change_reason": [
@@ -84396,6 +84852,10 @@
           {
             "date": "2026-10-14",
             "value": 90.45296167247386
+          },
+          {
+            "date": "2026-10-15",
+            "value": 82.99651567944251
           }
         ],
         "related_themes": [],
@@ -84734,6 +85194,10 @@
               {
                 "date": "2026-10-14",
                 "value": 88.56304902643035
+              },
+              {
+                "date": "2026-10-15",
+                "value": 83.53986268140218
               }
             ],
             "availability": [
@@ -84811,6 +85275,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -84891,6 +85359,10 @@
               {
                 "date": "2026-10-14",
                 "value": 101.88991264604351
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.45665299804031
               }
             ],
             "change_reason": [
@@ -85918,6 +86390,10 @@
               {
                 "date": "2026-10-14",
                 "value": 90.45296167247386
+              },
+              {
+                "date": "2026-10-15",
+                "value": 82.99651567944251
               }
             ],
             "related_themes": [],
@@ -86404,6 +86880,10 @@
           {
             "date": "2026-10-14",
             "value": 109.60688532216794
+          },
+          {
+            "date": "2026-10-15",
+            "value": 99.41846941149105
           }
         ],
         "availability": [
@@ -86481,6 +86961,10 @@
           },
           {
             "date": "2026-10-14",
+            "status": "available"
+          },
+          {
+            "date": "2026-10-15",
             "status": "available"
           }
         ],
@@ -87587,6 +88071,24 @@
             "sign_agreement": false,
             "signal_strength": 0.73,
             "status": "scored"
+          },
+          {
+            "actual_move": -0.13323869397688096,
+            "actual_return": -0.13323869397688096,
+            "available_at": "2026-10-15T22:39:50.967520+00:00",
+            "effect_window": {
+              "anchor_session": "2026-10-05",
+              "end_session": "2026-10-15",
+              "start_session": "2026-10-06"
+            },
+            "item_key": "segments/3",
+            "magnitude_difference": -0.18273869397688097,
+            "magnitude_error": 0.18273869397688097,
+            "predicted_direction": "up",
+            "predicted_expected_move": 0.0495,
+            "sign_agreement": false,
+            "signal_strength": 0.77,
+            "status": "scored"
           }
         ],
         "retained_outlooks": [],
@@ -87818,6 +88320,10 @@
               {
                 "date": "2026-10-14",
                 "value": 109.60688532216794
+              },
+              {
+                "date": "2026-10-15",
+                "value": 99.41846941149105
               }
             ],
             "availability": [
@@ -87895,6 +88401,10 @@
               },
               {
                 "date": "2026-10-14",
+                "status": "available"
+              },
+              {
+                "date": "2026-10-15",
                 "status": "available"
               }
             ],
@@ -89000,6 +89510,24 @@
                 "predicted_expected_move": -0.0165,
                 "sign_agreement": false,
                 "signal_strength": 0.73,
+                "status": "scored"
+              },
+              {
+                "actual_move": -0.13323869397688096,
+                "actual_return": -0.13323869397688096,
+                "available_at": "2026-10-15T22:39:50.967520+00:00",
+                "effect_window": {
+                  "anchor_session": "2026-10-05",
+                  "end_session": "2026-10-15",
+                  "start_session": "2026-10-06"
+                },
+                "item_key": "segments/3",
+                "magnitude_difference": -0.18273869397688097,
+                "magnitude_error": 0.18273869397688097,
+                "predicted_direction": "up",
+                "predicted_expected_move": 0.0495,
+                "sign_agreement": false,
+                "signal_strength": 0.77,
                 "status": "scored"
               }
             ],
